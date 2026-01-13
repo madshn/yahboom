@@ -3,6 +3,33 @@
 let builds = [];
 let currentFilter = 'all';
 
+// Sensor to Material Symbol icon mapping
+const sensorIcons = {
+    'ultrasonic': 'radar',
+    'PIR': 'motion_sensor_active',
+    'light': 'light_mode',
+    'line tracking': 'route',
+    'servo': 'precision_manufacturing',
+    'motor': 'speed',
+    'speaker': 'volume_up',
+    'LED': 'lightbulb',
+    'button': 'touch_app',
+    'RGB LED': 'palette',
+    'buzzer': 'notifications',
+    'joystick': 'gamepad',
+};
+
+// Get icon for a sensor (fallback to generic sensor icon)
+function getSensorIcon(sensor) {
+    const normalized = sensor.toLowerCase();
+    for (const [key, icon] of Object.entries(sensorIcons)) {
+        if (normalized.includes(key.toLowerCase())) {
+            return icon;
+        }
+    }
+    return 'sensors'; // fallback icon
+}
+
 // Load builds data
 async function loadBuilds() {
     try {
@@ -46,7 +73,7 @@ function renderGallery(buildsToShow) {
                 ${build.nameChinese ? `<p class="card-chinese">${build.nameChinese}</p>` : ''}
                 ${build.sensors && build.sensors.length > 0 ? `
                     <div class="sensor-indicator">
-                        ${build.sensors.map(s => `<span class="sensor-tag">${s}</span>`).join('')}
+                        ${build.sensors.map(s => `<span class="sensor-tag"><span class="material-symbols-outlined text-sm">${getSensorIcon(s)}</span>${s}</span>`).join('')}
                     </div>
                 ` : ''}
             </div>
@@ -169,7 +196,7 @@ function openModal(buildId) {
     if (build.sensors && build.sensors.length > 0) {
         sensorsSection.style.display = 'block';
         sensorTags.innerHTML = build.sensors.map(s =>
-            `<span class="sensor-tag">${s}</span>`
+            `<span class="sensor-tag"><span class="material-symbols-outlined text-sm">${getSensorIcon(s)}</span>${s}</span>`
         ).join('');
     } else {
         sensorsSection.style.display = 'none';
