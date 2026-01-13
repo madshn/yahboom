@@ -1,0 +1,1423 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="fragment" content="!">
+<meta content="Yahboom team is constantly looking for and screening cutting-edge technologies, committing to making it an open source project to help those in need to realize his ideas and dreams through the promotion of open source culture and knowledge. Yahboom has launched a number of smart cars and modules, development kits, and opens corresponding SDK (software development kit) and a large number of routines and rich teaching materials, as well as continuous updates and maintenances of SDK and teaching materials." name="description">
+<meta content="Yahboom Technology, Yahboom, Smart robot, Yahboom study, Yahboom Download, Yahboom video, Yahboom learning file" name="keywords">
+<meta name="twitter:card" content="Yahboom">
+<meta name="twitter:site" content="@Yahboom">
+<meta name="twitter:creator" content="@Yahboom">
+<meta name="twitter:image" content="https://www.yahboom.net/img/logo-1.png">
+<meta property="og:title" content="Yahboom">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.yahboom.net/img/logo-1.png">
+<meta property="og:description" content="Yahboom">
+<title>Building:bit Superkit</title>
+<link rel="stylesheet" href="/public/css/3.3.7-bootstrap.min.css">
+<script src="/public/js/2.1.1-jquery.min.js"></script>
+<script src="/public/js/3.3.7-bootstrap.min.js"></script>
+<!-- ico -->
+<link rel="shortcut icon" type="image/x-icon" href="/public/img/robotico.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/img/robotico.ico">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/public/img/robotico.ico">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/public/img/robotico.ico">
+<link rel="apple-touch-icon-precomposed" href="/public/img/robotico.ico">
+<!--网站核心css-->
+<link rel="stylesheet" type="text/css" href="/public/css/base.css">
+<link rel="stylesheet" type="text/css" href="/public/css/download.css">
+<link rel="stylesheet" type="text/css" href="/public/assets/css/icons.css">
+<style>
+/*圈*/
+#loader:before,#loader:after{
+	border-top-color: #02c8ec !important;
+}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+.md-sidebar::-webkit-scrollbar
+{
+    width: 6px;
+    height: 6px;
+    background-color: #F5F5F5;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+.md-sidebar::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+ 
+/*定义滑块 内阴影+圆角*/
+.md-sidebar::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+/*兼容IE*/
+.md-container{
+	scrollbar-arrow-color: #f4ae21; /**//*三角箭头的颜色*/   
+	scrollbar-face-color: #333; /**//*立体滚动条的颜色*/   
+	scrollbar-3dlight-color: #666; /**//*立体滚动条亮边的颜色*/   
+	scrollbar-highlight-color: #666; /**//*滚动条空白部分的颜色*/   
+	scrollbar-shadow-color: #999; /**//*立体滚动条阴影的颜色*/   
+	scrollbar-darkshadow-color: #666; /**//*立体滚动条强阴影的颜色*/   
+	scrollbar-track-color: #666; /**//*立体滚动条背景颜色*/   
+	scrollbar-base-color:#f8f8f8; /**//*滚动条的基本颜色*/   
+}
+</style><script id="LA_CODELESS" src="https://sdk.51.la/event/js-sdk-event.min.js?u=3LAJqYFkNeYPVrVk" data-la-ev="3LAJqYFkNeYPVrVk" crossorigin="anonymous" charset="UTF-8"></script></head>
+
+<body class="loaded">
+<style>
+.navbar-collapse a{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.row{
+	height:85px;
+}
+li.nav-store a.btn-store {
+    color: #fff;
+    position: relative;
+    max-width: 100px;
+    border-radius: 4px;
+    font-weight: 600;
+    background-image: linear-gradient(-180deg,#42b7ff,#1897f2);
+	display: inline-block;
+    font-size: 14px;
+    vertical-align: middle;
+    height: 30px;
+    line-height: 14px;
+    padding: 8px 16px;
+}
+li.nav-store a.btn-store:hover {
+    background-image: linear-gradient(-180deg,#6bcbff,#42b7ff);
+}
+li.nav-store a.btn-store:active {
+    background-image: linear-gradient(-180deg,#1897f2,#42b7ff);
+}
+.nav-store{
+	padding: 17px 10px 17px 0;
+    margin-right: 24px;
+}
+/*----------*/
+.relative {
+    position: relative;
+}
+.nav-content-wrap>ul li {
+    font-size: 14px;
+}
+.drop-down {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    left: -15%;
+    text-align: center;
+    background: #fff;
+    box-shadow: 1px 1px 6px 0 rgba(100,100,100,0.2);
+    color: #253858;
+    padding: 0;
+    min-width: 165px;
+    border-radius: 8px;
+}
+.nav-support:hover .drop-down {
+	display: block;
+	animation: drop-down 0.3s ease-in-out forwards;
+}
+ul .nav-support:hover .drop-down {
+    display: block;
+    animation: drop-down 0.3s ease-in-out forwards;
+}
+.drop-down:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -3px;
+    transform: translate(-50%, -90%);
+    width: 100%;
+    height: 10px;
+    width: 0px;
+    border: 16px solid;
+    border-color: #fff;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    cursor: pointer;
+}
+.drop-down li:not(:last-child) {
+    border: 0 solid #c2dfff;
+    border-bottom-width: 1px;
+}
+.drop-down li {
+    list-style: none;
+    margin-right: 0;
+}
+.drop-down li:hover{
+    background: #ebeff2;
+}
+.drop-down li a {
+	text-decoration: none;
+    padding: 16px 0;
+    white-space: nowrap;
+    display: inline-block;
+    color: #303233;
+    line-height: 1;
+	font-size: 12px;
+    height: auto;
+    background: 0 0;
+    text-align: center;
+    width: 100%;
+}
+.drop-down li a:hover {
+    color: #1EAAFF;
+}
+#fixed-top{
+	border-bottom: 2px solid rgb(40 167 225);
+	z-index: 9;
+}
+.nav-item .nav-link{
+	padding: 25px 16px;
+    display: inline-block;
+    transition: all .3s;
+    vertical-align: middle;
+    line-height: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 15px;
+    color: #3b3e40;
+}
+#fixed-top.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+</style>
+<nav id="fixed-top" class="protected row clearfix navbar-collapse">
+	<nav class="bg-indigo">
+		<a href="https://www.yahboom.net/home" class="navbar-brand navbar-collapse">
+        	<img src="/public/img/logo-1.png" class="img-responsive" alt="Cinque Terre" width="298">
+        </a>
+        <div class="navbar-collapse" style="width: 100%;">
+        	<ul class="navbar-nav mr-auto">
+            	<li class="nav-item"><a href="https://www.yahboom.net/home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="https://www.yahboom.net/download" class="nav-link">Learn</a></li>
+				<li class="nav-item"><a href="https://www.yahboom.net/programme" class="nav-link">Solution</a></li>
+				<li class="nav-item category-item relative nav-support">
+					<a target="_self" class="ga-data nav-link">
+						Software
+						<span class="l" style="margin: 0;">∨</span>
+					</a>
+					<ul class="drop-down">
+						<li><a href="https://www.yahboom.net/software/app" target="">Controlling software</a></li>
+						<li><a href="https://www.yahboom.net/software/pc" target="">Programming software</a></li>
+					</ul>
+				</li>
+                <li class="nav-item"><a href="https://www.yahboom.net/aboutus" class="nav-link">About us</a></li>
+            </ul>
+			<ul style="padding: 0;margin-bottom:0;width: 25%;text-align: right;">
+				<li class="nav-store">
+					<a href="https://category.yahboom.net/" class="dui-btn-buy btn-store ga-data" target="_blank"><span>Store</span></a>
+				</li>
+			</ul>
+        </div>
+	</nav>
+</nav>
+<!-- <script src="/public/js/bootstrap.min.js"></script> -->
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(           
+        function() {
+            $('.menu_1', this).stop( true, true ).slideDown("fast");
+			$('.menu_1').css('display','block');
+            $(this).toggleClass('open');
+        },
+        function() {
+            $('.menu_1', this).stop( true, true ).slideUp("fast");
+			$('.menu_1').css('display','none');
+            $(this).toggleClass('open'); 
+        }
+    );
+	$(".dropdown2").hover(           
+        function() {
+            $('.menu_2', this).stop( true, true ).slideDown("fast");
+			$('.menu_2').css('display','block');
+            $(this).toggleClass('open');
+        },
+        function() {
+            $('.menu_2', this).stop( true, true ).slideUp("fast");
+			$('.menu_2').css('display','none');
+            $(this).toggleClass('open'); 
+        }
+    );
+	$("#search_for").click(function(){
+		$('#w_form').submit();
+	})
+});
+</script>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"3LAJqYFkNeYPVrVk",ck:"3LAJqYFkNeYPVrVk",autoTrack:true})</script>
+<div class="md-header" data-md-component="header" data-md-state="shadow"></div>
+<div class="md-container">
+	<!-- 身子 -->
+	<main class="md-main">
+		<div class="md-main__inner md-grid" data-md-component="container" style="padding-top: 0;">
+			<!-- 左 lock-->
+			<div class="md-sidebar md-sidebar--primary" data-md-component="navigation" data-md-state="" style="background: #ffffff;z-index: 999;overflow: auto;height: 100%;">
+				<div class="md-sidebar__scrollwrap">
+					<label class="md-nav__title md-nav__title--site" for="drawer">Building:bit Superkit<i class="fa-book"></i></label>
+					<div class="study_2">
+						<!-- 1 -->
+						<div class="jumbotron_bianzhon">
+													<div style="margin-bottom:0px;background: #ffffff;position: relative;">
+								<div style="font-size: 17px;border-bottom: 0px solid #c8c8c8;padding-left: 0px;padding-left: 15px;margin-top: .625em;display: inline-block;" id="1" class="study_2_3_a" title="0.First Trial Video" data-toggle="tooltip">
+									0.First Trial Video<i class="en-arrow-down5"></i>
+																	</div>
+								<samp style="color: #757575;font-weight: 500;font-size: 20px;"></samp>
+								<div class="study_1_2_b study_show subNav">
+                                                                            <ul>
+                                                                                    </ul>
+                                                                        <div class="clear"></div>
+								</div>
+							</div>
+													<div style="margin-bottom:0px;background: #ffffff;position: relative;">
+								<div style="font-size: 17px;border-bottom: 0px solid #c8c8c8;padding-left: 0px;padding-left: 15px;margin-top: .625em;display: inline-block;" id="1" class="study_2_3_a" title="1.Assembly Course" data-toggle="tooltip">
+									1.Assembly Course<i class="en-arrow-down5"></i>
+																	</div>
+								<samp style="color: #757575;font-weight: 500;font-size: 20px;"></samp>
+								<div class="study_1_2_b study_show subNav">
+                                                                            <ul>
+                                                                                                <li>
+                                                        <a href="javascript:void(0)" onclick="build(3875)" title="1.1Mobile shooter" data-toggle="tooltip">                                                            1.1Mobile shooter                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3876)" title="1.2Pretty car" data-toggle="tooltip">                                                            1.2Pretty car                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3877)" title="1.3Clip robot" data-toggle="tooltip">                                                            1.3Clip robot                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3878)" title="1.4Proficient carrier" data-toggle="tooltip">                                                            1.4Proficient carrier                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3879)" title="1.5Skip car" data-toggle="tooltip">                                                            1.5Skip car                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3882)" title="1.6Freestyle" data-toggle="tooltip">                                                            1.6Freestyle                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3880)" title="1.7Spider" data-toggle="tooltip">                                                            1.7Spider                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3881)" title="1.8Lifting platform" data-toggle="tooltip">                                                            1.8Lifting platform                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3883)" title="1.9Biped robot" data-toggle="tooltip">                                                            1.9Biped robot                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3884)" title="1.10Changing Face" data-toggle="tooltip">                                                            1.10Changing Face                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3885)" title="1.11Carousel" data-toggle="tooltip">                                                            1.11Carousel                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3886)" title="1.12Oscillating fan" data-toggle="tooltip">                                                            1.12Oscillating fan                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3887)" title="1.13Airplane" data-toggle="tooltip">                                                            1.13Airplane                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3888)" title="1.14Unicycle" data-toggle="tooltip">                                                            1.14Unicycle                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3889)" title="1.15Auto-door" data-toggle="tooltip">                                                            1.15Auto-door                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3890)" title="1.16Dragon knight" data-toggle="tooltip">                                                            1.16Dragon knight                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(15636)" title="1.17Ultrasonic handheld rangefinder" data-toggle="tooltip">                                                            1.17Ultrasonic handheld rangefinder                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(15637)" title="1.18Small flying car obstacle avoidance" data-toggle="tooltip">                                                            1.18Small flying car obstacle avoidance                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(15638)" title="1.19Changing face" data-toggle="tooltip">                                                            1.19Changing face                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(15639)" title="1.20Adjustable RGB light" data-toggle="tooltip">                                                            1.20Adjustable RGB light                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(15640)" title="1.21Adjustable fan" data-toggle="tooltip">                                                            1.21Adjustable fan                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(15641)" title="1.22Photosensitive emergency light" data-toggle="tooltip">                                                            1.22Photosensitive emergency light                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(15642)" title="1.23Smart alarm clock" data-toggle="tooltip">                                                            1.23Smart alarm clock                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(15643)" title="1.24Light-controlled bipedal robot" data-toggle="tooltip">                                                            1.24Light-controlled bipedal robot                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(15644)" title="1.25Swimming robot avoid objects" data-toggle="tooltip">                                                            1.25Swimming robot avoid objects                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(15645)" title="1.26Fleeing spider" data-toggle="tooltip">                                                            1.26Fleeing spider                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(15648)" title="1.27Temperature humidity reminder" data-toggle="tooltip">                                                            1.27Temperature humidity reminder                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(15650)" title="1.28Temperature-controlled fan" data-toggle="tooltip">                                                            1.28Temperature-controlled fan                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(15651)" title="1.29Color recognition machine" data-toggle="tooltip">                                                            1.29Color recognition machine                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(15653)" title="1.30Color-recognizing automatic door" data-toggle="tooltip">                                                            1.30Color-recognizing automatic door                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(15654)" title="1.31Rokcer color changing light" data-toggle="tooltip">                                                            1.31Rokcer color changing light                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(15655)" title="1.32Rokcer transporter" data-toggle="tooltip">                                                            1.32Rokcer transporter                                                        </a>
+                                                    </li>
+                                                                                        </ul>
+                                                                        <div class="clear"></div>
+								</div>
+							</div>
+													<div style="margin-bottom:0px;background: #ffffff;position: relative;">
+								<div style="font-size: 17px;border-bottom: 0px solid #c8c8c8;padding-left: 0px;padding-left: 15px;margin-top: .625em;display: inline-block;" id="1" class="study_2_3_a" title="2.Preparation before class" data-toggle="tooltip">
+									2.Preparation before class<i class="en-arrow-down5"></i>
+																	</div>
+								<samp style="color: #757575;font-weight: 500;font-size: 20px;"></samp>
+								<div class="study_1_2_b study_show subNav">
+                                                                            <ul>
+                                                                                                <li>
+                                                        <a href="javascript:void(0)" onclick="build(3745)" title="2.1 About BBC microbit" data-toggle="tooltip">                                                            2.1 About BBC microbit                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3746)" title="2.2 Super:bit expansion board" data-toggle="tooltip">                                                            2.2 Super:bit expansion board                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3747)" title="2.3 MakeCode Graphical Programming Guide" data-toggle="tooltip">                                                            2.3 MakeCode Graphical Programming Guide                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(15690)" title="2.4 MakeCode graphical API" data-toggle="tooltip">                                                            2.4 MakeCode graphical API                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3748)" title="2.5 Python Programming Guide" data-toggle="tooltip">                                                            2.5 Python Programming Guide                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(3749)" title="2.6 Superbit MicroPython API" data-toggle="tooltip">                                                            2.6 Superbit MicroPython API                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="javascript:void(0)" onclick="build(15691)" title="2.7 Notes on charging and battery use" data-toggle="tooltip">                                                            2.7 Notes on charging and battery use                                                        </a>
+                                                    </li>
+                                                                                        </ul>
+                                                                        <div class="clear"></div>
+								</div>
+							</div>
+													<div style="margin-bottom:0px;background: #ffffff;position: relative;">
+								<div style="font-size: 17px;border-bottom: 0px solid #c8c8c8;padding-left: 0px;padding-left: 15px;margin-top: .625em;display: inline-block;" id="1" class="study_2_3_a" title="3.Basic modeling MakeCode course" data-toggle="tooltip">
+									3.Basic modeling MakeCode course<i class="en-arrow-down5"></i>
+																	</div>
+								<samp style="color: #757575;font-weight: 500;font-size: 20px;"></samp>
+								<div class="study_1_2_b study_show subNav">
+                                                                            <ul>
+                                                                                                <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">0.Basic course</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3751)" title="1.Buzzer play music" data-toggle="tooltip">                                                                    1.Buzzer play music                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3752)" title="2.Control RGB color" data-toggle="tooltip">                                                                    2.Control RGB color                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3753)" title="3.Control all RGB lights" data-toggle="tooltip">                                                                    3.Control all RGB lights                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3754)" title="4.Drive 270°building block servo" data-toggle="tooltip">                                                                    4.Drive 270°building block servo                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3755)" title="5.Drive 180° servo" data-toggle="tooltip">                                                                    5.Drive 180° servo                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3756)" title="6.Drive motor" data-toggle="tooltip">                                                                    6.Drive motor                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">A.Mobile shooter</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3758)" title="1.Cannonball shooting" data-toggle="tooltip">                                                                    1.Cannonball shooting                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3759)" title="2.Music fortress" data-toggle="tooltip">                                                                    2.Music fortress                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3760)" title="3.APP control" data-toggle="tooltip">                                                                    3.APP control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3761)" title="4.Micro:bit handle control" data-toggle="tooltip">                                                                    4.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(11254)" title="5.WiFi camera control" data-toggle="tooltip">                                                                    5.WiFi camera control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">B.Pretty car</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3762)" title="1.Dancer" data-toggle="tooltip">                                                                    1.Dancer                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3763)" title="2.APP control" data-toggle="tooltip">                                                                    2.APP control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3764)" title="3.Micro:bit handle control" data-toggle="tooltip">                                                                    3.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(11255)" title="4.WiFi camera control" data-toggle="tooltip">                                                                    4.WiFi camera control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">C.Clip robot</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3765)" title="1.Dancing and singing" data-toggle="tooltip">                                                                    1.Dancing and singing                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3766)" title="2.Button control clip" data-toggle="tooltip">                                                                    2.Button control clip                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3767)" title="3.APP control" data-toggle="tooltip">                                                                    3.APP control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3768)" title="4.Micro:bit handle control" data-toggle="tooltip">                                                                    4.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(11257)" title="5.WiFi camera control" data-toggle="tooltip">                                                                    5.WiFi camera control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">D.Proficient carrier</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3769)" title="1.Dancing" data-toggle="tooltip">                                                                    1.Dancing                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3770)" title="2.Button control shovel" data-toggle="tooltip">                                                                    2.Button control shovel                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3771)" title="3.Transportation" data-toggle="tooltip">                                                                    3.Transportation                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3772)" title="4.APP control" data-toggle="tooltip">                                                                    4.APP control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3773)" title="5.Micro:bit handle control" data-toggle="tooltip">                                                                    5.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(11258)" title="6.WiFi camera control" data-toggle="tooltip">                                                                    6.WiFi camera control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">E.Skip car</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3774)" title="1.Dance battle" data-toggle="tooltip">                                                                    1.Dance battle                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3775)" title="2.Button control skip car" data-toggle="tooltip">                                                                    2.Button control skip car                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3776)" title="3.Powerful carrier" data-toggle="tooltip">                                                                    3.Powerful carrier                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3777)" title="4.APP control" data-toggle="tooltip">                                                                    4.APP control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3778)" title="5.Micro:bit handle control" data-toggle="tooltip">                                                                    5.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(11256)" title="6.WiFi camera control" data-toggle="tooltip">                                                                    6.WiFi camera control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">F.Freestyle</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3779)" title="1.Dancing and singing" data-toggle="tooltip">                                                                    1.Dancing and singing                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3780)" title="2.Freestyle advance" data-toggle="tooltip">                                                                    2.Freestyle advance                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3781)" title="3.APP control" data-toggle="tooltip">                                                                    3.APP control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3782)" title="4.Micro:bit handle control" data-toggle="tooltip">                                                                    4.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">G.Spider</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3783)" title="1.Spider advance" data-toggle="tooltip">                                                                    1.Spider advance                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3784)" title="2.The dancing spider" data-toggle="tooltip">                                                                    2.The dancing spider                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3785)" title="3.APP control" data-toggle="tooltip">                                                                    3.APP control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3786)" title="4.Micro:bit handle control" data-toggle="tooltip">                                                                    4.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15693)" title="5.WiFi camera control" data-toggle="tooltip">                                                                    5.WiFi camera control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">H.Lifting platform</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3787)" title="1.Automatic Lift" data-toggle="tooltip">                                                                    1.Automatic Lift                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3788)" title="2.Button control platform" data-toggle="tooltip">                                                                    2.Button control platform                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3789)" title="3.APP control" data-toggle="tooltip">                                                                    3.APP control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3790)" title="4.Micro:bit handle control" data-toggle="tooltip">                                                                    4.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">I.Biped robot</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3791)" title="1.Walking" data-toggle="tooltip">                                                                    1.Walking                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3792)" title="2.Dancing and singing" data-toggle="tooltip">                                                                    2.Dancing and singing                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3793)" title="3.APP control" data-toggle="tooltip">                                                                    3.APP control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3794)" title="4.Micro:bit handle control" data-toggle="tooltip">                                                                    4.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">J.Changing Face</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3795)" title="1.Changing face" data-toggle="tooltip">                                                                    1.Changing face                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3796)" title="2.Bite the hand crocodile" data-toggle="tooltip">                                                                    2.Bite the hand crocodile                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3797)" title="3.APP control" data-toggle="tooltip">                                                                    3.APP control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3798)" title="4.Micro:bit handle control" data-toggle="tooltip">                                                                    4.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">K.Carousel</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3799)" title="1.Music carousel" data-toggle="tooltip">                                                                    1.Music carousel                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3800)" title="2.APP control" data-toggle="tooltip">                                                                    2.APP control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3801)" title="3.Micro:bit handle control" data-toggle="tooltip">                                                                    3.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">L.Oscillating fan</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3802)" title="1.Colorful windmill" data-toggle="tooltip">                                                                    1.Colorful windmill                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3803)" title="2.Summer cooling artifact" data-toggle="tooltip">                                                                    2.Summer cooling artifact                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3804)" title="3.APP control" data-toggle="tooltip">                                                                    3.APP control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3805)" title="4.Micro:bit handle control" data-toggle="tooltip">                                                                    4.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">M.Airplane</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3806)" title="1.Sailing Prelude" data-toggle="tooltip">                                                                    1.Sailing Prelude                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3807)" title="2.APP control" data-toggle="tooltip">                                                                    2.APP control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3808)" title="3.Micro:bit handle control" data-toggle="tooltip">                                                                    3.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">N.Unicycle</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3809)" title="1.Clumsy reptile" data-toggle="tooltip">                                                                    1.Clumsy reptile                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3810)" title="2.APP control" data-toggle="tooltip">                                                                    2.APP control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3811)" title="3.Micro:bit handle control" data-toggle="tooltip">                                                                    3.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">O.Auto-door</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3812)" title="1.Soldiers on duty" data-toggle="tooltip">                                                                    1.Soldiers on duty                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3813)" title="2.Music door" data-toggle="tooltip">                                                                    2.Music door                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3814)" title="3.APP control" data-toggle="tooltip">                                                                    3.APP control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3815)" title="4.Micro:bit handle control" data-toggle="tooltip">                                                                    4.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">P.Dragon knight</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3816)" title="1.Waving wings" data-toggle="tooltip">                                                                    1.Waving wings                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3817)" title="2.APP control" data-toggle="tooltip">                                                                    2.APP control                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3818)" title="3.Microbit handle control" data-toggle="tooltip">                                                                    3.Microbit handle control                                                                </a>
+                                                            </li>
+                                                                                                </ul>
+                                                                        <div class="clear"></div>
+								</div>
+							</div>
+													<div style="margin-bottom:0px;background: #ffffff;position: relative;">
+								<div style="font-size: 17px;border-bottom: 0px solid #c8c8c8;padding-left: 0px;padding-left: 15px;margin-top: .625em;display: inline-block;" id="1" class="study_2_3_a" title="4.Basic modeling Python course" data-toggle="tooltip">
+									4.Basic modeling Python course<i class="en-arrow-down5"></i>
+																	</div>
+								<samp style="color: #757575;font-weight: 500;font-size: 20px;"></samp>
+								<div class="study_1_2_b study_show subNav">
+                                                                            <ul>
+                                                                                                <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">0.Basic course</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3822)" title="1.Buzzer play music" data-toggle="tooltip">                                                                    1.Buzzer play music                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3823)" title="2.Control RGB color" data-toggle="tooltip">                                                                    2.Control RGB color                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3824)" title="3.Control all RGB lights" data-toggle="tooltip">                                                                    3.Control all RGB lights                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3825)" title="4.Drive 270° building block servo" data-toggle="tooltip">                                                                    4.Drive 270° building block servo                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3826)" title="5.Drive 180° servo" data-toggle="tooltip">                                                                    5.Drive 180° servo                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3827)" title="6.Drive motor" data-toggle="tooltip">                                                                    6.Drive motor                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3828)" title="7.Drive stepper motor" data-toggle="tooltip">                                                                    7.Drive stepper motor                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">A.Mobile shooter</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3829)" title="1.Cannonball shooting" data-toggle="tooltip">                                                                    1.Cannonball shooting                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3830)" title="2.Music fortress" data-toggle="tooltip">                                                                    2.Music fortress                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3831)" title="3.Micro:bit handle control" data-toggle="tooltip">                                                                    3.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">B.Pretty car</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3832)" title="1.Dancer" data-toggle="tooltip">                                                                    1.Dancer                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3833)" title="2.Micro:bit handle control" data-toggle="tooltip">                                                                    2.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">C.Clip robot</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3834)" title="1.Dancing and singing" data-toggle="tooltip">                                                                    1.Dancing and singing                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3835)" title="2.Button control clip" data-toggle="tooltip">                                                                    2.Button control clip                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3836)" title="3.Micro:bit handle control" data-toggle="tooltip">                                                                    3.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">D.Proficient carrier</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3837)" title="1.Dancing" data-toggle="tooltip">                                                                    1.Dancing                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3838)" title="2.Button control shovel" data-toggle="tooltip">                                                                    2.Button control shovel                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3839)" title="3.Transportation" data-toggle="tooltip">                                                                    3.Transportation                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3840)" title="4.Micro:bit handle control" data-toggle="tooltip">                                                                    4.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">E.Skip car</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3841)" title="1.Dance battle" data-toggle="tooltip">                                                                    1.Dance battle                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3842)" title="2.Button control skip car" data-toggle="tooltip">                                                                    2.Button control skip car                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3843)" title="3.Powerful carrier" data-toggle="tooltip">                                                                    3.Powerful carrier                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3844)" title="4.Microbit handle control" data-toggle="tooltip">                                                                    4.Microbit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">F.Freestyle</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3845)" title="1.Dancing and singing" data-toggle="tooltip">                                                                    1.Dancing and singing                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3846)" title="2.Freestyle advance" data-toggle="tooltip">                                                                    2.Freestyle advance                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3847)" title="3.Micro:bit handle control" data-toggle="tooltip">                                                                    3.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">G.Spider</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3848)" title="1.Spider advance" data-toggle="tooltip">                                                                    1.Spider advance                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3849)" title="2.The dancing spider" data-toggle="tooltip">                                                                    2.The dancing spider                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3850)" title="3.Micro:bit handle control" data-toggle="tooltip">                                                                    3.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">H.Lifting platform</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3851)" title="1.Automatic Lift" data-toggle="tooltip">                                                                    1.Automatic Lift                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3852)" title="2.Button control platform" data-toggle="tooltip">                                                                    2.Button control platform                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3853)" title="3.Micro:bit handle control" data-toggle="tooltip">                                                                    3.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">I.Biped robot</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3854)" title="1.Walking" data-toggle="tooltip">                                                                    1.Walking                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3855)" title="2.Dancing and singing" data-toggle="tooltip">                                                                    2.Dancing and singing                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3856)" title="3.Micro:bit handle control" data-toggle="tooltip">                                                                    3.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">J.Changing Face</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3857)" title="1.Changing face" data-toggle="tooltip">                                                                    1.Changing face                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3858)" title="2.Bite the hand crocodile" data-toggle="tooltip">                                                                    2.Bite the hand crocodile                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3859)" title="3.Micro:bit handle control" data-toggle="tooltip">                                                                    3.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">K.Carousel</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3860)" title="1.Music carousel" data-toggle="tooltip">                                                                    1.Music carousel                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3861)" title="2.Micro:bit handle control" data-toggle="tooltip">                                                                    2.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">L.Oscillating fan</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3862)" title="1.Colorful windmill" data-toggle="tooltip">                                                                    1.Colorful windmill                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3863)" title="2.Summer cooling artifact" data-toggle="tooltip">                                                                    2.Summer cooling artifact                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3864)" title="3.Micro:bit handle control" data-toggle="tooltip">                                                                    3.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">M.Airplane</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3865)" title="1.Sailing Prelude" data-toggle="tooltip">                                                                    1.Sailing Prelude                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3866)" title="2.Micro:bit handle control" data-toggle="tooltip">                                                                    2.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">N.Unicycle</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3867)" title="1.Clumsy reptile" data-toggle="tooltip">                                                                    1.Clumsy reptile                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3869)" title="2.Micro:bit handle control" data-toggle="tooltip">                                                                    2.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">O.Auto-door</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3870)" title="1.Soldiers on duty" data-toggle="tooltip">                                                                    1.Soldiers on duty                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3871)" title="2.Music door" data-toggle="tooltip">                                                                    2.Music door                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3872)" title="3.Microbit handle control" data-toggle="tooltip">                                                                    3.Microbit handle control                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">P.Dragon knight</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(3873)" title="1.Waving wings" data-toggle="tooltip">                                                                    1.Waving wings                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(3874)" title="2.Micro:bit handle control" data-toggle="tooltip">                                                                    2.Micro:bit handle control                                                                </a>
+                                                            </li>
+                                                                                                </ul>
+                                                                        <div class="clear"></div>
+								</div>
+							</div>
+													<div style="margin-bottom:0px;background: #ffffff;position: relative;">
+								<div style="font-size: 17px;border-bottom: 0px solid #c8c8c8;padding-left: 0px;padding-left: 15px;margin-top: .625em;display: inline-block;" id="1" class="study_2_3_a" title="5.Sensor Advanced MakeCode course" data-toggle="tooltip">
+									5.Sensor Advanced MakeCode course<i class="en-arrow-down5"></i>
+																			<img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+																	</div>
+								<samp style="color: #757575;font-weight: 500;font-size: 20px;"></samp>
+								<div class="study_1_2_b study_show subNav">
+                                                                            <ul>
+                                                                                                <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">1.Sensor principle</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(6303)" title="1.1 About ultrasonic sensors" data-toggle="tooltip">                                                                    1.1 About ultrasonic sensors                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6304)" title="1.2 Ultrasonic ranging" data-toggle="tooltip">                                                                    1.2 Ultrasonic ranging                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6299)" title="1.3 About potentiometers" data-toggle="tooltip">                                                                    1.3 About potentiometers                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6300)" title="1.4 Adjust potentiometer" data-toggle="tooltip">                                                                    1.4 Adjust potentiometer                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6278)" title="1.5 About photosensitive sensors" data-toggle="tooltip">                                                                    1.5 About photosensitive sensors                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6279)" title="1.6 Read the light intensity" data-toggle="tooltip">                                                                    1.6 Read the light intensity                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6295)" title="1.7 About infrared modules" data-toggle="tooltip">                                                                    1.7 About infrared modules                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6296)" title="1.8 Obstacle detection" data-toggle="tooltip">                                                                    1.8 Obstacle detection                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6274)" title="1.9 Introduction of module" data-toggle="tooltip">                                                                    1.9 Introduction of module                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6275)" title="1.10 Human body detection" data-toggle="tooltip">                                                                    1.10 Human body detection                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6287)" title="1.11 About temperature-humidity modules" data-toggle="tooltip">                                                                    1.11 About temperature-humidity modules                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6288)" title="1.12 Read temperature humidity" data-toggle="tooltip">                                                                    1.12 Read temperature humidity                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6291)" title="1.13 About color recognition sensors" data-toggle="tooltip">                                                                    1.13 About color recognition sensors                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6292)" title="1.14 Color recognition" data-toggle="tooltip">                                                                    1.14 Color recognition                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6283)" title="1.15 About rocker module" data-toggle="tooltip">                                                                    1.15 About rocker module                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6284)" title="1.16 Control rocker" data-toggle="tooltip">                                                                    1.16 Control rocker                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">2.Sensor basic course</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(6305)" title="2.1 Hand-held range finder" data-toggle="tooltip">                                                                    2.1 Hand-held range finder                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15694)" title="2.2 Adjustable RGB light" data-toggle="tooltip">                                                                    2.2 Adjustable RGB light                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6280)" title="2.3 Emergency light" data-toggle="tooltip">                                                                    2.3 Emergency light                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6281)" title="2.4 Vibrating alarm clock" data-toggle="tooltip">                                                                    2.4 Vibrating alarm clock                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6297)" title="2.5 Infrared detection broadcast" data-toggle="tooltip">                                                                    2.5 Infrared detection broadcast                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6276)" title="2.6Human body infrared detection broadcast" data-toggle="tooltip">                                                                    2.6Human body infrared detection broadcast                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6289)" title="2.7 Temperature and humidity broadcaster" data-toggle="tooltip">                                                                    2.7 Temperature and humidity broadcaster                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6293)" title="2.8 Color recognition machine" data-toggle="tooltip">                                                                    2.8 Color recognition machine                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6285)" title="2.9 Rocker control light" data-toggle="tooltip">                                                                    2.9 Rocker control light                                                                </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">3.Sensor expansion course</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(6306)" title="3.1 Avoiding car" data-toggle="tooltip">                                                                    3.1 Avoiding car                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6307)" title="3.2 Changing Face" data-toggle="tooltip">                                                                    3.2 Changing Face                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6302)" title="3.3 Adjustable fan" data-toggle="tooltip">                                                                    3.3 Adjustable fan                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6282)" title="3.4 Photosensitive robot" data-toggle="tooltip">                                                                    3.4 Photosensitive robot                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6298)" title="3.5 Swimming robot" data-toggle="tooltip">                                                                    3.5 Swimming robot                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6277)" title="3.6 Spiders sense human body" data-toggle="tooltip">                                                                    3.6 Spiders sense human body                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6290)" title="3.7 Temperature control fan" data-toggle="tooltip">                                                                    3.7 Temperature control fan                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6294)" title="3.8 Automatic safety door" data-toggle="tooltip">                                                                    3.8 Automatic safety door                                                                </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(6286)" title="3.9 Rocker carrier car" data-toggle="tooltip">                                                                    3.9 Rocker carrier car                                                                </a>
+                                                            </li>
+                                                                                                </ul>
+                                                                        <div class="clear"></div>
+								</div>
+							</div>
+													<div style="margin-bottom:0px;background: #ffffff;position: relative;">
+								<div style="font-size: 17px;border-bottom: 0px solid #c8c8c8;padding-left: 0px;padding-left: 15px;margin-top: .625em;display: inline-block;" id="1" class="study_2_3_a" title="6.Sensor Advanced Python course" data-toggle="tooltip">
+									6.Sensor Advanced Python course<i class="en-arrow-down5"></i>
+																			<img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+																	</div>
+								<samp style="color: #757575;font-weight: 500;font-size: 20px;"></samp>
+								<div class="study_1_2_b study_show subNav">
+                                                                            <ul>
+                                                                                                <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">1.Sensor principle</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(15657)" title="1.1 About ultrasonic sensors" data-toggle="tooltip">                                                                    1.1 About ultrasonic sensors                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15656)" title="1.2 Ultrasonic ranging" data-toggle="tooltip">                                                                    1.2 Ultrasonic ranging                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15658)" title="1.3 About potentiometers" data-toggle="tooltip">                                                                    1.3 About potentiometers                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15659)" title="1.4 Adjust potentiometer" data-toggle="tooltip">                                                                    1.4 Adjust potentiometer                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15660)" title="1.5 About photosensitive sensors" data-toggle="tooltip">                                                                    1.5 About photosensitive sensors                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15671)" title="1.6 Read the light intensity" data-toggle="tooltip">                                                                    1.6 Read the light intensity                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15670)" title="1.7 About infrared modules" data-toggle="tooltip">                                                                    1.7 About infrared modules                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15669)" title="1.8 Obstacle detection" data-toggle="tooltip">                                                                    1.8 Obstacle detection                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15668)" title="1.9 About human infrared sensing modules" data-toggle="tooltip">                                                                    1.9 About human infrared sensing modules                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15667)" title="1.10 Human body detection" data-toggle="tooltip">                                                                    1.10 Human body detection                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15666)" title="1.11 About temperature-humidity modules" data-toggle="tooltip">                                                                    1.11 About temperature-humidity modules                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15664)" title="1.12 Read temperature humidity" data-toggle="tooltip">                                                                    1.12 Read temperature humidity                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15663)" title="1.13 About color recognition sensors" data-toggle="tooltip">                                                                    1.13 About color recognition sensors                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15665)" title="1.14 Color recognition" data-toggle="tooltip">                                                                    1.14 Color recognition                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15662)" title="1.15 About rocker module" data-toggle="tooltip">                                                                    1.15 About rocker module                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15661)" title="1.16 Control rocker" data-toggle="tooltip">                                                                    1.16 Control rocker                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">2.Sensor basic course</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(15672)" title="2.1 Hand-held range finder" data-toggle="tooltip">                                                                    2.1 Hand-held range finder                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15675)" title="2.2 Adjustable RGB light" data-toggle="tooltip">                                                                    2.2 Adjustable RGB light                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15673)" title="2.3 Emergency light" data-toggle="tooltip">                                                                    2.3 Emergency light                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15674)" title="2.4 Vibrating alarm clock" data-toggle="tooltip">                                                                    2.4 Vibrating alarm clock                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15676)" title="2.5 Infrared detection broadcast" data-toggle="tooltip">                                                                    2.5 Infrared detection broadcast                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15678)" title="2.6 Human body infrared detection broadcast" data-toggle="tooltip">                                                                    2.6 Human body infrared detection broadcast                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15679)" title="2.7 Temperature and humidity broadcaster" data-toggle="tooltip">                                                                    2.7 Temperature and humidity broadcaster                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15680)" title="2.8 Color recognition machine" data-toggle="tooltip">                                                                    2.8 Color recognition machine                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15681)" title="2.9 Rocker control light" data-toggle="tooltip">                                                                    2.9 Rocker control light                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                            <p style="margin: 5px 0;display: block;font-size: 18px;color: #040404;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;">3.Sensor expansion course</p>
+                                                                                                                <li>
+                                                                <a href="javascript:void(0)" onclick="build(15682)" title="3.1 Avoiding car" data-toggle="tooltip">                                                                    3.1 Avoiding car                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15677)" title="3.2 Changing Face" data-toggle="tooltip">                                                                    3.2 Changing Face                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15683)" title="3.3 Adjustable fan" data-toggle="tooltip">                                                                    3.3 Adjustable fan                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15684)" title="3.4 Photosensitive robot" data-toggle="tooltip">                                                                    3.4 Photosensitive robot                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15685)" title="3.5 Swimming robot" data-toggle="tooltip">                                                                    3.5 Swimming robot                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15686)" title="3.6 Spiders sense human body" data-toggle="tooltip">                                                                    3.6 Spiders sense human body                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15687)" title="3.7 Temperature control fan" data-toggle="tooltip">                                                                    3.7 Temperature control fan                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15688)" title="3.8 Automatic safety door" data-toggle="tooltip">                                                                    3.8 Automatic safety door                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                                    <li>
+                                                                <a href="javascript:void(0)" onclick="build(15689)" title="3.9 Rocker carrier" data-toggle="tooltip">                                                                    3.9 Rocker carrier                                                                        <img width="20" style="margin-left:5px" src="https://www.yahboom.com/public/images/1-140104201U8.gif" alt="new">
+                                                                                                                                    </a>
+                                                            </li>
+                                                                                                </ul>
+                                                                        <div class="clear"></div>
+								</div>
+							</div>
+												</div>
+													<!-- Download -->
+							<div style="margin-top:20px;">
+								<div class="md-nav__title_d" id="5">Download<i class="fa-cloud-download"></i></div>
+								<div class="video_list">
+									<ul style="width:100%;padding-left: 15px;">
+																					<li class="md-nav__link--active">
+																									<a href="https://drive.google.com/drive/folders/11C_Tyx5UQVJX0IlBes4MAvm1GZQDoc8d?usp=drive_link" download="" target="_blank" title="APP(iOS_Android)" data-toggle="tooltip">APP(iOS_Android)<i class="fa-cloud-download"></i></a>
+																							</li>
+																					<li class="md-nav__link--active">
+																									<a href="https://drive.google.com/drive/folders/1s1WlEagGPFVpCzVi3NwmmstdwQ3afR1g" download="" target="_blank" title="Code_PythonLibrary" data-toggle="tooltip">Code_PythonLibrary<i class="fa-cloud-download"></i></a>
+																							</li>
+																					<li class="md-nav__link--active">
+																									<a href="http://www.yahboom.net/xiazai/superkit/Download/Superbit hardware interface manual.pdf" download="" target="_blank" title="Hardware manual" data-toggle="tooltip">Hardware manual<i class="fa-cloud-download"></i></a>
+																							</li>
+																					<li class="md-nav__link--active">
+																									<a href=" http://www.yahboom.net/xiazai/superkit/Download/APP communication protocol.pdf" download="" target="_blank" title="Bluetooth communication protocol" data-toggle="tooltip">Bluetooth communication protocol<i class="fa-cloud-download"></i></a>
+																							</li>
+																					<li class="md-nav__link--active">
+																									<a href="https://drive.google.com/drive/folders/1ZCbHQw4ygVHkBmxpsASubz95LfFVl1ME?usp=share_link" download="" target="_blank" title="Assembly Instructions Manual" data-toggle="tooltip">Assembly Instructions Manual<i class="fa-cloud-download"></i></a>
+																							</li>
+																					<li class="md-nav__link--active">
+																									<a href="https://drive.google.com/open?id=1YoM9D-RfYFkhceJQlpGEzPtS0tat2ahS" download="" target="_blank" title="Makecode offline software" data-toggle="tooltip">Makecode offline software<i class="fa-cloud-download"></i></a>
+																							</li>
+																			</ul>
+									<div class="clear"></div>
+								</div>
+							</div>
+						                            <div class="button_r"><a href="https://github.com/YahboomTechnology/buildingbit-super-kit" class="download" target="_blank">Download ZIP</a></div>
+                        							<!-- 3 -->
+							<div style="margin-top:20px;">
+								<div class="md-nav__title_d" id="2">FAQ<i class="fa-question-sign"></i></div>
+								<div class="video_list">
+																		<div class="clear"></div>
+									<ul><li data-tltle="防止js判断发生加上的空ul"></li></ul>
+								</div>
+							</div>
+											</div>
+				</div>
+			</div>
+			<!-- 中 -->
+			<div class="md-content" style="margin-left: 24.2rem;margin-right: 13.2rem;">
+				<article class="md-content__inner md-typeset">
+					<h1>Welcome to Building:bit Superkit repository</h1>
+										<h2 class="content_title">1.Cannonball shooting</h2>
+					<hr>
+					<div class="video_content"></div>
+					<div class="content"><iframe src="/public/upload/upload-html/1753440693/1.Cannonball shooting.html" frameborder="0" scrolling="no" id="documentation_test" onload="this.height=100" style="width:100%;" height="3621"></iframe></div>
+				</article>
+				<div class="page" style="width: 826px;">
+					<a href="javascript:void(0)" class="md-left md-footer-nav__link" data-toggle="tooltip" onclick="build(3756)" data-original-title="6.Drive motor"><i class="im-arrow-left3"></i><div>6.Drive motor</div></a>
+					<a href="javascript:void(0)" class="md-right md-footer-nav__link" data-toggle="tooltip" onclick="build(3759)" data-original-title="2.Music fortress"><i class="im-arrow-right3"></i><div>2.Music fortress</div></a>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- 脚 -->
+	<footer class="md-footer"></footer>
+</div>
+<!-- loader -->
+<link rel="stylesheet" type="text/css" href="/public/jq/loading/loader.css">
+<div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+    <div class="load_title">Loading...</div>
+</div>
+<!-- footer -->
+<script src="/public/js/facebook_wait.js"></script>
+<style>
+.footer-copyright li a:hover {
+    color: #f2f2f2;
+}
+.footer-change-country:hover .gray {
+    display: none;
+}
+.footer-change-country:hover .white {
+    display: block;
+}
+.footer-change-country .gray{
+    display: block;
+	width: 14px;
+    margin-right: 5px;
+}
+.footer-change-country .white {
+    display: none;
+	width: 14px;
+    margin-right: 5px;
+}
+#current-region-placeholder a{
+	display: inline;
+	text-decoration: blink;
+	color: #757575;
+}
+#current-region-placeholder a:hover{
+	color: rgb(253 253 253);
+}
+</style>
+<div class="footer">
+	<div class="container" style="width: 1300px;">
+		<div class="footer-row">
+			<div class="col-md-3 footer-grids mail">
+				<img src="https://www.yahboom.com/Public/images/logo-2.png" class="img-responsive img-display" width="268">
+				<form action="https://www.yahboom.net/subscription" method="post">
+					<h4>Subscribe:</h4>
+					<input type="Email" placeholder="Email" name="Email" required="">
+					<input type="submit" value="Subscribe">
+				</form>
+				<ul class="social-icons">
+					<li><a href="javascript:void(0)" class="facebook" id="facebook" title="facebook"></a></li>
+					<li><a href="javascript:void(0)" class="p" id="twitter" title="Twitter"></a></li>
+					<li><a href="https://www.youtube.com/channel/UCaishn63yF9Q_jKWEiaacFw" target="_blank" class="y" id="youtube" title="Youtube"></a></li>
+					<li><a href="https://www.instagram.com/yahboom/" target="_blank" class="i" id="instagram" title="Instagram"></a></li>
+				</ul>
+				<ul class="social-icons" style="padding: 0 !important;">
+					<div class="footer-change-country" style="display: flex;-webkit-box-align: center;-moz-align-items: center;align-items: center;height: 24px;margin: 0;padding: 0;border: 0;font-size: 100%;font-weight: 400;vertical-align: baseline;background: 0 0;color: #9fa3a6;float: left;">
+						<img class="icon-locale gray" src="//www2.djicdn.com/assets/images/v3/foot/language-7441fda2976c3a423628f392d6fc2498.svg">
+						<img class="icon-locale white" src="//www2.djicdn.com/assets/images/v3/foot/language-white-4d09967be3fd63008e12859a0d408c04.svg">
+						<div id="change-locale" class="change-locale ga-data">
+							<span id="current-region-placeholder"><a href="https://www.yahboom.com" style="font-size: 12px;">简体中文</a> / <a href="javascript:void(0)" style="font-size: 12px;">English</a></span>
+						</div>
+					</div>
+				</ul>
+			</div>
+			<div class="col-md-1 footer-grids mail"></div>
+			<div class="col-md-2 footer-grids" style="margin: 10px;">
+				<h3>COMPANY</h3>
+				<ul>
+					<li><a href="https://www.yahboom.net/aboutus">About us</a></li>
+					<li><a href="https://www.yahboom.net/aboutus#header7">Team Style</a></li>
+					<li><a href="https://category.yahboom.net/blogs/news" target="_blank">Blog</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 footer-grids" style="margin: 10px;">
+				<h3>WHERE TO BUY</h3>
+				<ul>
+					<li><a href="https://category.yahboom.net/" target="_blank">Yahboom Online Store</a></li>
+					<li><a href="https://www.amazon.com/yahboom" target="_blank">Amazon</a></li>
+					<li><a href="https://yahboom.en.alibaba.com/" target="_blank">Alibaba</a></li>
+					<li><a href="https://www.aliexpress.com/store/912535029" target="_blank">AliExpress</a></li>
+				</ul>
+			</div>
+			<div class="col-md-2 footer-grids" style="margin: 10px;width: auto;">
+				<h3>TECHNOLOGY SUPPORT</h3>
+				<ul>
+					<li>Email: <br>support@yahboom.com</li>
+					<!-- <li>WhatsApp: <br/>+86 18682378128</li> -->
+				</ul>
+			</div>
+			<div class="col-md-2 footer-grids" style="margin: 10px;width: auto;">
+				<h3>BE A DISTRIBUTOR </h3>
+				<ul>
+					<li>Email: <br>sales@yahboom.com</li>
+					<!-- <li>WhatsApp: <br/>+86 13163737198</li> -->
+				</ul>
+			</div>
+			<!-- <div class="clearfix"> </div> -->
+		</div>
+	</div>
+</div>
+<!-- footer end -->
+<script>
+$(function(){
+	/*loader*/
+	//$('.row').css('z-index','999999999');
+	//$('#loader-wrapper .load_title').remove();
+	/*导航标题颜色*/
+	//$(".nav-item:eq(3) a").css('color','#00d8ff');
+	//导航栏收缩
+	//$("#fixed-top").animate({"height":'100px'},500);
+	//title
+	$('.content a').attr('data-toggle','tooltip');
+	//$("[data-toggle='tooltip']").tooltip();//title提示，已取消
+	$(".study_2_3_a").click(function(){
+		var display=$(this).siblings(".study_show").find("ul").css("display");
+		$(".study_show ul").css("display","none");
+		$(".study_show").css("height","0px");
+		var height=$(this).siblings(".study_show").find('ul').height();//$(this).siblings(".study_show").find("ul li").length*(18+8.75)+"px";
+		//还原所有箭头
+		$('.study_2_3_a').find("i").attr("class","en-arrow-down5");
+		if(display=='none'){
+			$(this).siblings(".study_show").find("ul").css("display","block");
+			$(this).siblings(".study_show").css("height",height);
+			$(this).find("i").attr("class","en-arrow-up5");
+		}else{
+			$(this).siblings(".study_show").find("ul").css("display","none");
+			$(this).siblings(".study_show").css("height","0px");
+			$(this).find("i").attr("class","en-arrow-down5");
+		}
+	})
+	//排序宽度
+	$('.page').width($('.md-content').width());
+})
+function build(id){
+	$('body').removeClass('loaded');
+	$.ajax({
+		contentType: "application/x-www-form-urlencoded",
+		url: 'https://www.yahboom.net/build',
+		dataType: "json",
+		data: "id="+id,
+		success: function(msg){
+			/*console.log(msg);*/
+			page(id);
+			if(msg!=null)
+			{
+				$('.video_content,.md-content__inner h2,.content').empty();
+				$('.md-content__inner h2').append(msg[0].name);
+				$.each(msg[1],function(n,vo){
+					var div=null;
+					if(vo[2]!='')
+					{
+						div='<h3>'+vo[0]+'</h3><div style="text-align: left;width:700px; margin:0 auto;"><samp style="font-size:20px;">'+vo[3]+'</samp><a href="'+vo[2]+'" download="" class="download" style="margin-left: 10px;" title="'+vo[3]+'" data-toggle="tooltip">&nbsp;Download<i class="fa-cloud-download"></i></a></div><div style="margin-top:10px;"><div class="close_light_bg" id="close_light_bg"></div><div class="video" id="CuPlayer'+n+'">'+vo[1]+'</div></div>';
+					}else{
+						div='<h3>'+vo[0]+'</h3><div style="margin-top:10px;"><div class="close_light_bg" id="close_light_bg"></div><div class="video" id="CuPlayer'+n+'">'+vo[1]+'</div></div>';
+					}
+					$('.video_content').append(div);
+				})
+				$('.content').append(msg[0].content);
+				$('.content a').attr('data-toggle','tooltip');
+				$(".md-content .md-typeset [data-toggle='tooltip']").attr('download','');
+				//$("[data-toggle='tooltip']").tooltip();
+				/*loaded加载动画*/
+				$('body').addClass('loaded');
+				$('.md-content img').attr('data-action','zoom');
+				$("html,body").animate({ scrollTop: 0 }, 500);
+				window.setInterval("reinitIframe()", 200);
+			}
+		},
+		error: function (XMLHttpRequest, textStatus, errorThrown) {
+			$('body').addClass('loaded');
+			// 状态码
+			console.log(XMLHttpRequest.status);
+			// 状态
+			console.log(XMLHttpRequest.readyState);
+			// 错误信息   
+			console.log(textStatus);
+		}
+	});
+}
+function reinitIframe(){
+	var iframe = document.getElementById("documentation_test");
+	try{
+	var bHeight = iframe.contentWindow.document.body.scrollHeight;
+	var dHeight = iframe.contentWindow.document.documentElement.scrollHeight;
+	var height = Math.max(bHeight, dHeight);
+	iframe.height = height;
+	//console.log(height);
+	}catch (ex){}
+}	
+function page(t){
+	t='build('+t+')';
+	var i=0;
+	$('.jumbotron_bianzhon .study_1_2_b li a').each(function(e){
+		var a=$(this).text().replace(/(^\s*)|(\s*$)/g,"");
+		var b=$(this).attr('onclick');//.replace(/(^\s*)|(\s*$)/g,"");
+		if(t==b){
+			var c=i-1;
+			if(c>=0){
+				var id1=$('.jumbotron_bianzhon .study_1_2_b li a').eq(c).attr('onclick');
+				var name1=$('.jumbotron_bianzhon .study_1_2_b li a').eq(c).text().replace(/(^\s*)|(\s*$)/g,"");
+				$('.md-left').attr('onclick',id1);
+				$('.md-left').attr('data-original-title',name1);
+				$('.md-left div').text(name1);
+			}else{
+				$('.md-left').attr('onclick','');
+				$('.md-left').attr('data-original-title','');
+				$('.md-left div').text('');
+			}
+			var d=i+1;
+			var id2=$('.jumbotron_bianzhon .study_1_2_b li a').eq(d).attr('onclick');
+			var name2=$('.jumbotron_bianzhon .study_1_2_b li a').eq(d).text().replace(/(^\s*)|(\s*$)/g,"");
+			if(name2!=''){
+				$('.md-right').attr('onclick',id2);
+				$('.md-right').attr('data-original-title',name2);
+				$('.md-right div').text(name2);
+			}else{
+				$('.md-right').attr('onclick','');
+				$('.md-right').attr('data-original-title','');
+				$('.md-right div').text('');
+			}
+			//$("[data-toggle='tooltip']").tooltip();
+		}
+		i++;
+	})
+}
+function download_txt(url,name){
+	$.ajax({
+		type: "post",
+		url: 'https://www.yahboom.net/download_txt',
+		dataType: "json",
+		data: "url="+url+"&name="+name,
+		success: function(msg){
+			//console.log(msg);
+		}
+	});
+}
+</script>
+<script src="/public/js/application-c35428f87f.js"></script>
+<script>
+//app.initialize({l:{base:".."}})
+</script>
+
+
+</body></html>

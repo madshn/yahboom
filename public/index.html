@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building:bit Projects</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="step-viewer.css">
+    <link rel="stylesheet" href="lesson-viewer.css">
+</head>
+<body>
+    <header>
+        <h1>Building:bit Projects</h1>
+        <p class="subtitle">Click any project to start building!</p>
+    </header>
+
+    <main>
+        <section class="filter-bar">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="beginner">Beginner</button>
+            <button class="filter-btn" data-filter="intermediate">Intermediate</button>
+            <button class="filter-btn" data-filter="advanced">Advanced</button>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <!-- Gallery items will be loaded dynamically -->
+        </section>
+    </main>
+
+    <!-- Project Detail Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <button class="close-btn" id="closeModal">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="">
+                </div>
+                <div class="modal-info">
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalChinese" class="chinese-name"></p>
+
+                    <div class="action-buttons">
+                        <a id="assemblyLink" href="#" class="btn btn-primary" target="_blank">
+                            <span class="btn-icon">🔧</span>
+                            Build Instructions
+                        </a>
+                    </div>
+
+                    <div class="coding-section" id="codingSection">
+                        <h3>Code It!</h3>
+                        <div class="coding-options" id="codingOptions">
+                            <!-- Coding options loaded dynamically -->
+                        </div>
+                    </div>
+
+                    <div class="sensors-section" id="sensorsSection">
+                        <h3>Sensors Used</h3>
+                        <div class="sensor-tags" id="sensorTags">
+                            <!-- Sensor tags loaded dynamically -->
+                        </div>
+                    </div>
+
+                    <div class="wiring-section" id="wiringSection">
+                        <h3>Wiring Diagram</h3>
+                        <div class="wiring-image-container">
+                            <img id="wiringImage" src="" alt="Wiring diagram">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="step-viewer.js"></script>
+    <script src="lesson-viewer.js"></script>
+</body>
+</html>

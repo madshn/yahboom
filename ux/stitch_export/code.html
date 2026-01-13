@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Building:bit Projects Gallery</title>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Spline Sans -->
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "primary": "#9eff3d",
+                "background-light": "#f7f8f5",
+                "background-dark": "#19230f",
+                "beginner": "#339933",
+                "intermediate": "#FF8C00",
+                "advanced": "#CC3333",
+              },
+              fontFamily: {
+                "display": ["Spline Sans", "sans-serif"]
+              },
+              borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .cosmic-gradient {
+            background: linear-gradient(135deg, #FF69B4 0%, #8A2BE2 50%, #00BFFF 100%);
+        }
+        .card-shadow {
+            box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.15);
+        }
+        .difficulty-badge {
+            transform: rotate(5deg);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display min-h-screen">
+<div class="layout-container flex flex-col min-h-screen cosmic-gradient">
+<!-- Header Section -->
+<header class="w-full px-6 py-8 md:px-20 lg:px-40">
+<div class="flex flex-col md:flex-row items-center justify-between gap-6 bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20">
+<div class="flex items-center gap-4">
+<div class="bg-primary p-3 rounded-xl shadow-lg rotate-[-3deg]">
+<span class="material-symbols-outlined text-background-dark text-3xl">smart_toy</span>
+</div>
+<div>
+<h1 class="text-white text-3xl md:text-4xl font-black tracking-tight leading-tight">Building:bit Projects</h1>
+<p class="text-white/90 text-lg font-medium">Click any project to start building!</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="bg-white hover:bg-primary transition-colors text-background-dark font-bold py-3 px-6 rounded-xl flex items-center gap-2">
+<span class="material-symbols-outlined">person</span>
+                        Sign In
+                    </button>
+<button class="bg-background-dark text-white p-3 rounded-xl">
+<span class="material-symbols-outlined">search</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Filters Section -->
+<div class="px-6 md:px-20 lg:px-40 pb-8">
+<div class="flex flex-wrap items-center gap-4 bg-white/10 backdrop-blur-md p-4 rounded-xl border border-white/20">
+<button class="flex-1 min-w-[120px] bg-primary text-background-dark font-black py-3 px-6 rounded-full shadow-lg text-sm uppercase tracking-wider hover:scale-105 transition-transform">
+                    All Projects
+                </button>
+<button class="flex-1 min-w-[120px] bg-white hover:bg-beginner hover:text-white text-beginner font-black py-3 px-6 rounded-full shadow-md text-sm uppercase tracking-wider transition-all border-2 border-beginner/20">
+                    Beginner
+                </button>
+<button class="flex-1 min-w-[120px] bg-white hover:bg-intermediate hover:text-white text-intermediate font-black py-3 px-6 rounded-full shadow-md text-sm uppercase tracking-wider transition-all border-2 border-intermediate/20">
+                    Intermediate
+                </button>
+<button class="flex-1 min-w-[120px] bg-white hover:bg-advanced hover:text-white text-advanced font-black py-3 px-6 rounded-full shadow-md text-sm uppercase tracking-wider transition-all border-2 border-advanced/20">
+                    Advanced
+                </button>
+</div>
+</div>
+<!-- Project Grid -->
+<main class="flex-grow px-6 md:px-20 lg:px-40 pb-20">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Project Card 1 -->
+<div class="group relative bg-white rounded-xl p-4 card-shadow hover:scale-[1.03] transition-all duration-300">
+<div class="absolute -top-3 -right-3 z-10 bg-beginner text-white font-black px-4 py-1 rounded-full shadow-lg difficulty-badge text-sm uppercase">
+                        Beginner
+                    </div>
+<div class="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-sm text-white font-bold px-3 py-1 rounded-lg text-xs">
+                        #001
+                    </div>
+<div class="aspect-square w-full rounded-lg overflow-hidden bg-background-light mb-4">
+<img alt="Futuristic orange and white robot on a flat background" class="w-full h-full object-cover" data-alt="Mars Rover robot toy with big wheels" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIGE32S5bV8e4VDL5lVqVbG0MNShMd7K5OXgV73iSGTfjAu7yKqgjkSiclaImh6Ow6htReY1gxz1u1VtDqreMe1tUm5aVSnJSllfd18OYhr9q86RdFT6YwY1IX_8b3w12tj5Al2kuz8NlAFli2APGuZZBIAgR21Gs7oJXlMktDuPIeVu2Ikt9o5Rf0X18ZYENZ2ALBNZDT437bOCHl0RuqnexR_vFf3eyDtFlx-8kp7QB3EI4zeuLlkZ4kYW32wZXN-A-enI94s5S2"/>
+</div>
+<h3 class="text-background-dark text-xl font-black mb-1">Mars Rover 2.0</h3>
+<p class="text-gray-600 text-sm mb-4 leading-relaxed">Build a robot that follows you around and explores new worlds!</p>
+<div class="flex flex-wrap gap-2 mt-auto">
+<span class="flex items-center gap-1 bg-primary/20 text-background-dark text-xs font-bold px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-sm">settings_input_antenna</span> ultrasonic
+                        </span>
+<span class="flex items-center gap-1 bg-primary/20 text-background-dark text-xs font-bold px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-sm">speed</span> dc motor
+                        </span>
+</div>
+</div>
+<!-- Project Card 2 -->
+<div class="group relative bg-white rounded-xl p-4 card-shadow hover:scale-[1.03] transition-all duration-300">
+<div class="absolute -top-3 -right-3 z-10 bg-intermediate text-white font-black px-4 py-1 rounded-full shadow-lg difficulty-badge text-sm uppercase">
+                        Intermediate
+                    </div>
+<div class="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-sm text-white font-bold px-3 py-1 rounded-lg text-xs">
+                        #002
+                    </div>
+<div class="aspect-square w-full rounded-lg overflow-hidden bg-background-light mb-4">
+<img alt="Cylindrical friendly robot with glowing blue eyes" class="w-full h-full object-cover" data-alt="Glow-in-the-dark sensor robot friend" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDs3_w-IzywAEiVJijjHAp04w3V8jl63r-m_h3AcorlcTjKY0cqxSAllplMnN1WpENhqL_1iOfywmtThvKQZZzLS-0PvIil7NJnFS04vV_MNInOV-pX-4YEfdZqH5lCSesS6UarKaZG-U4fSxeG-EXBQ9W_zR_FltL3jt4lzODcVaRJ5TkW1lkYU3OGln40wq0hWPlyKNdX2Bvv-m0su0wIIbmf-j9MNZdFCA24Q-Bblu2OluhxVaRqiogNipSRZCFmEG6XzvVwdQpA"/>
+</div>
+<h3 class="text-background-dark text-xl font-black mb-1">Spooky Ghost Sensor</h3>
+<p class="text-gray-600 text-sm mb-4 leading-relaxed">Scare your friends with super secret motion sensors!</p>
+<div class="flex flex-wrap gap-2 mt-auto">
+<span class="flex items-center gap-1 bg-primary/20 text-background-dark text-xs font-bold px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-sm">motion_sensor_active</span> PIR sensor
+                        </span>
+<span class="flex items-center gap-1 bg-primary/20 text-background-dark text-xs font-bold px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-sm">volume_up</span> speaker
+                        </span>
+</div>
+</div>
+<!-- Project Card 3 -->
+<div class="group relative bg-white rounded-xl p-4 card-shadow hover:scale-[1.03] transition-all duration-300">
+<div class="absolute -top-3 -right-3 z-10 bg-advanced text-white font-black px-4 py-1 rounded-full shadow-lg difficulty-badge text-sm uppercase">
+                        Advanced
+                    </div>
+<div class="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-sm text-white font-bold px-3 py-1 rounded-lg text-xs">
+                        #003
+                    </div>
+<div class="aspect-square w-full rounded-lg overflow-hidden bg-background-light mb-4">
+<img alt="Compact high-speed racing robot with carbon fiber elements" class="w-full h-full object-cover" data-alt="Fast racing robot with glowing LEDs" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwOMMEi9-R-m-RzxvZL4p1HjCndTXx-mJu2kP1suaYjiq0ZXXVo5eKXapjYU23DNwSeBc9qEbqibKlcOfazvGS_MYKeTf2dOVd5BatRVzyfMZQL6IWcRfYVTEb1hD2cN95l58PZSUhLgqm3c2qbw3sAo1UgmjF8QfjAggBN7Srhg2Z89Ceq99qzvnCvvfYcls_S8Ye61gsrOpMuTXwzVCnWE7rN04COrOtWwAyzoaWih0ldh1fXHIZLD--Ber4u2gv9FactfV4XTAu"/>
+</div>
+<h3 class="text-background-dark text-xl font-black mb-1">Turbo Racing Bot</h3>
+<p class="text-gray-600 text-sm mb-4 leading-relaxed">The fastest bot in the classroom. Ready, set, GO!</p>
+<div class="flex flex-wrap gap-2 mt-auto">
+<span class="flex items-center gap-1 bg-primary/20 text-background-dark text-xs font-bold px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-sm">bluetooth</span> remote ctrl
+                        </span>
+<span class="flex items-center gap-1 bg-primary/20 text-background-dark text-xs font-bold px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-sm">bolt</span> high power
+                        </span>
+</div>
+</div>
+<!-- Project Card 4 -->
+<div class="group relative bg-white rounded-xl p-4 card-shadow hover:scale-[1.03] transition-all duration-300">
+<div class="absolute -top-3 -right-3 z-10 bg-beginner text-white font-black px-4 py-1 rounded-full shadow-lg difficulty-badge text-sm uppercase">
+                        Beginner
+                    </div>
+<div class="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-sm text-white font-bold px-3 py-1 rounded-lg text-xs">
+                        #004
+                    </div>
+<div class="aspect-square w-full rounded-lg overflow-hidden bg-background-light mb-4">
+<img alt="Light tracking solar-powered mini robot" class="w-full h-full object-cover" data-alt="Robot that seeks light sources" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBa7XQzMcOMjHsC0x3LfgJutyYA-k9HSUqm0hVyL4YCYg41Pfy3EPv2o-p1EMciNfKkIKA_Vq9VfWzgjzIzXsJoalKcINEWxqQGHCawXlhlzKAYR0b_peo_Ae4sHkwyAM76odDjG9EZXu38rPQL845UxhPlnCo89qs7KLv3Cz-Qe_z7Bd3w1Jj2vLMSnPMGLX-VDLzB0p2xf4NYK_TQWWscdprFA7UOLBv3q2fQgZgyOY1Yw-nuJyItEvqq6eeJnb4OEwdIWvah41Ze"/>
+</div>
+<h3 class="text-background-dark text-xl font-black mb-1">Light Seeker</h3>
+<p class="text-gray-600 text-sm mb-4 leading-relaxed">This little guy always finds the brightest spot in the house!</p>
+<div class="flex flex-wrap gap-2 mt-auto">
+<span class="flex items-center gap-1 bg-primary/20 text-background-dark text-xs font-bold px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-sm">light_mode</span> light sensor
+                        </span>
+</div>
+</div>
+<!-- Project Card 5 -->
+<div class="group relative bg-white rounded-xl p-4 card-shadow hover:scale-[1.03] transition-all duration-300">
+<div class="absolute -top-3 -right-3 z-10 bg-intermediate text-white font-black px-4 py-1 rounded-full shadow-lg difficulty-badge text-sm uppercase">
+                        Intermediate
+                    </div>
+<div class="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-sm text-white font-bold px-3 py-1 rounded-lg text-xs">
+                        #005
+                    </div>
+<div class="aspect-square w-full rounded-lg overflow-hidden bg-background-light mb-4">
+<img alt="Two-wheeled balancing robot on a wooden floor" class="w-full h-full object-cover" data-alt="Self-balancing two-wheeled robot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJw93iy_aZoFcRTWyvHbh7Bm6ZPh6TcThZUAyGpDZqjVa8KeyKXsF2U9S9VEqQ3I5dBxF_bM-55qLEj7Xtch68jVCPnUP_PyEkoAwLq4OSJeCANLVP-_OpKnMBzRHsZrJGChXOPUd5gqtmsKI9Uk71NYX6I7qZzQuuhg_nWnoNOPhBrtvMw-ASbEhyTzNXZ9mkqsQToLseUmXrL_fVnL8LfDDsd-ZvG8_JtXZRvufLakp7m2CMaRTB4L-nfOcbsD7wG2DpMkh9MAEE"/>
+</div>
+<h3 class="text-background-dark text-xl font-black mb-1">Balance Bot</h3>
+<p class="text-gray-600 text-sm mb-4 leading-relaxed">A two-wheeled balancing miracle that never falls down.</p>
+<div class="flex flex-wrap gap-2 mt-auto">
+<span class="flex items-center gap-1 bg-primary/20 text-background-dark text-xs font-bold px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-sm">screen_rotation</span> gyro
+                        </span>
+<span class="flex items-center gap-1 bg-primary/20 text-background-dark text-xs font-bold px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-sm">auto_mode</span> tilt
+                        </span>
+</div>
+</div>
+<!-- Project Card 6 -->
+<div class="group relative bg-white rounded-xl p-4 card-shadow hover:scale-[1.03] transition-all duration-300">
+<div class="absolute -top-3 -right-3 z-10 bg-advanced text-white font-black px-4 py-1 rounded-full shadow-lg difficulty-badge text-sm uppercase">
+                        Advanced
+                    </div>
+<div class="absolute top-4 left-4 z-10 bg-black/60 backdrop-blur-sm text-white font-bold px-3 py-1 rounded-lg text-xs">
+                        #006
+                    </div>
+<div class="aspect-square w-full rounded-lg overflow-hidden bg-background-light mb-4">
+<img alt="Complex robotic arm with multiple joints and grippers" class="w-full h-full object-cover" data-alt="Programmable robotic gripper arm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCj35TsZhTnhXnSU8CogzE57JkNGXol4mQvKX9-t4mj__Pi88zAYhtEic47b2qhiewjGchQruYN0x9K7d-YJzxxqnnMF5TTgYw5g_3WAz_yDRA4M1f5qUBMIfOqf5Izxq1Q_WkEksMYLVRIf0nLnLvjxYnOowHKBMPNFT0QV9N5DF3q8v6WYyPzKAtihiRfmBMkUjaQ5fvdXDbDxNciyyKt0mc3eSZ9nkb9wnVtepJQdmjYdUfpyV24TRRaBeFDX3OdfIbDXS1_vxYt"/>
+</div>
+<h3 class="text-background-dark text-xl font-black mb-1">Obstacle Avoider</h3>
+<p class="text-gray-600 text-sm mb-4 leading-relaxed">Smarter than your cat! Never bumps into walls again.</p>
+<div class="flex flex-wrap gap-2 mt-auto">
+<span class="flex items-center gap-1 bg-primary/20 text-background-dark text-xs font-bold px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-sm">radar</span> ultrasonic
+                        </span>
+<span class="flex items-center gap-1 bg-primary/20 text-background-dark text-xs font-bold px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-sm">precision_manufacturing</span> servo
+                        </span>
+</div>
+</div>
+</div>
+</main>
+<!-- Pagination Section -->
+<footer class="w-full py-12 flex justify-center bg-white/10 backdrop-blur-sm border-t border-white/20">
+<nav class="flex items-center gap-2">
+<a class="w-12 h-12 flex items-center justify-center rounded-xl bg-white/20 text-white hover:bg-primary hover:text-background-dark transition-all" href="#">
+<span class="material-symbols-outlined">chevron_left</span>
+</a>
+<a class="w-12 h-12 flex items-center justify-center rounded-xl bg-primary text-background-dark font-black" href="#">1</a>
+<a class="w-12 h-12 flex items-center justify-center rounded-xl bg-white/20 text-white hover:bg-primary/50 transition-all font-bold" href="#">2</a>
+<a class="w-12 h-12 flex items-center justify-center rounded-xl bg-white/20 text-white hover:bg-primary/50 transition-all font-bold" href="#">3</a>
+<span class="text-white px-2">...</span>
+<a class="w-12 h-12 flex items-center justify-center rounded-xl bg-white/20 text-white hover:bg-primary/50 transition-all font-bold" href="#">12</a>
+<a class="w-12 h-12 flex items-center justify-center rounded-xl bg-white/20 text-white hover:bg-primary hover:text-background-dark transition-all" href="#">
+<span class="material-symbols-outlined">chevron_right</span>
+</a>
+</nav>
+</footer>
+</div>
+</body></html>

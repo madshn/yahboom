@@ -1,0 +1,21 @@
+{
+  "name": "yahboom",
+  "version": "1.0.0",
+  "description": "Local documentation for Yahboom Building:bit kit",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "scrape": "node scripts/scraper.js",
+    "process-images": "node scripts/process-images.js",
+    "test": "node scripts/test-gallery.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.57.0",
+    "sharp": "^0.34.5",
+    "vite": "^7.3.1"
+  }
+}
