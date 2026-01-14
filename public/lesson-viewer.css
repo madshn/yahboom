@@ -293,6 +293,204 @@
   border: 1px solid #ffe0a6;
 }
 
+/* Wiring Info */
+.wiring-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.wiring-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.wiring-label {
+  font-weight: bold;
+  color: #555;
+  min-width: 100px;
+}
+
+.wiring-value {
+  color: #333;
+  background: white;
+  padding: 5px 12px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  font-family: 'Monaco', 'Consolas', monospace;
+  font-size: 0.9rem;
+}
+
+/* Blocks Grid */
+.blocks-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.block-category {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.category-name {
+  background: #667eea;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.85rem;
+  min-width: 80px;
+  text-align: center;
+}
+
+.category-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  flex: 1;
+}
+
+.block-item {
+  background: #e8f4f8;
+  color: #2c3e50;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-family: 'Monaco', 'Consolas', monospace;
+  border: 1px solid #cde4ec;
+}
+
+/* Code Structure */
+.code-structure {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.code-block {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 15px 20px;
+  border-left: 4px solid #667eea;
+}
+
+.code-block.on-start {
+  border-left-color: #27ae60;
+}
+
+.code-block.forever {
+  border-left-color: #3498db;
+}
+
+.code-block.controller {
+  border-left-color: #e74c3c;
+}
+
+.code-block.spider {
+  border-left-color: #9b59b6;
+}
+
+.code-label {
+  display: inline-block;
+  background: #667eea;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.code-block.on-start .code-label {
+  background: #27ae60;
+}
+
+.code-block.forever .code-label {
+  background: #3498db;
+}
+
+.code-block.controller .code-label {
+  background: #e74c3c;
+}
+
+.code-block.spider .code-label {
+  background: #9b59b6;
+}
+
+.code-content {
+  color: #333;
+  font-family: 'Monaco', 'Consolas', monospace;
+  font-size: 0.95rem;
+}
+
+.code-line {
+  padding: 4px 0;
+  border-bottom: 1px dashed #e0e0e0;
+}
+
+.code-line:last-child {
+  border-bottom: none;
+}
+
+/* Python code block */
+.python-code pre {
+  background: #2d3436;
+  color: #dfe6e9;
+  border-radius: 10px;
+  padding: 20px;
+  overflow-x: auto;
+  font-family: 'Monaco', 'Consolas', monospace;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.python-code pre code {
+  white-space: pre-wrap;
+}
+
+/* Phenomenon section */
+.lesson-section-block.phenomenon {
+  background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
+  border: 1px solid #c8e6c9;
+}
+
+.lesson-section-block.phenomenon h3 {
+  color: #2e7d32;
+}
+
+/* Objective section */
+.lesson-section-block.objective {
+  background: linear-gradient(135deg, #e3f2fd 0%, #e8eaf6 100%);
+  border: 1px solid #bbdefb;
+}
+
+.lesson-section-block.objective h3 {
+  color: #1565c0;
+}
+
+/* Resources section */
+.lesson-section-block.original-link {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.lesson-section-block.original-link .lesson-link-btn {
+  align-self: flex-start;
+}
+
+.lesson-section-block.original-link .lesson-link-btn + .lesson-link-btn {
+  margin-top: 0;
+}
+
 /* Mobile adjustments */
 @media (max-width: 768px) {
   .lesson-viewer.active {
@@ -309,5 +507,18 @@
 
   .lesson-main {
     padding: 20px;
+  }
+
+  .block-category {
+    flex-direction: column;
+  }
+
+  .wiring-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .wiring-label {
+    min-width: auto;
   }
 }

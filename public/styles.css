@@ -46,11 +46,11 @@
     }
 
     .gallery-card .card-image {
-        @apply aspect-square w-full rounded-lg overflow-hidden bg-background-light mb-4;
+        @apply aspect-square w-full rounded-lg overflow-hidden bg-white mb-4;
     }
 
     .gallery-card .card-image img {
-        @apply w-full h-full object-cover;
+        @apply w-full h-full object-contain;
     }
 
     .gallery-card .card-content {
@@ -103,11 +103,15 @@
 
     /* Filter bar */
     .filter-bar {
-        @apply flex flex-wrap items-center gap-4 glass-card p-4;
+        @apply flex flex-wrap items-center gap-3 glass-card p-4;
+    }
+
+    .filter-label {
+        @apply text-white font-bold text-sm uppercase tracking-wide mr-2;
     }
 
     .filter-btn {
-        @apply flex-1 min-w-[120px] font-black py-3 px-6 rounded-full shadow-md text-sm uppercase tracking-wider transition-all border-none cursor-pointer;
+        @apply flex items-center gap-1 font-bold py-2 px-4 rounded-full shadow-md text-sm transition-all border-none cursor-pointer;
     }
 
     .filter-btn.active {
@@ -118,20 +122,28 @@
         @apply bg-white border-2 hover:scale-105;
     }
 
-    .filter-btn[data-filter="beginner"]:not(.active) {
+    .filter-btn[data-value="beginner"]:not(.active) {
         @apply text-beginner border-beginner/20 hover:bg-beginner hover:text-white;
     }
 
-    .filter-btn[data-filter="intermediate"]:not(.active) {
+    .filter-btn[data-value="intermediate"]:not(.active) {
         @apply text-intermediate border-intermediate/20 hover:bg-intermediate hover:text-white;
     }
 
-    .filter-btn[data-filter="advanced"]:not(.active) {
+    .filter-btn[data-value="advanced"]:not(.active) {
         @apply text-advanced border-advanced/20 hover:bg-advanced hover:text-white;
     }
 
-    .filter-btn[data-filter="all"]:not(.active) {
+    .filter-btn[data-value="all"]:not(.active) {
         @apply text-gray-600 border-gray-200 hover:bg-gray-100;
+    }
+
+    .filter-btn.sensor-btn:not(.active):not([data-value="all"]) {
+        @apply text-purple-600 border-purple-200 hover:bg-purple-500 hover:text-white;
+    }
+
+    .filter-btn .material-symbols-outlined {
+        @apply text-base;
     }
 
     /* Modal */

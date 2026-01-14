@@ -25,11 +25,35 @@
     </header>
 
     <main class="px-4 pb-8">
+        <section class="filter-bar mb-4">
+            <span class="filter-label">Difficulty:</span>
+            <button class="filter-btn active" data-filter="difficulty" data-value="all">All</button>
+            <button class="filter-btn" data-filter="difficulty" data-value="beginner">Beginner</button>
+            <button class="filter-btn" data-filter="difficulty" data-value="intermediate">Intermediate</button>
+            <button class="filter-btn" data-filter="difficulty" data-value="advanced">Advanced</button>
+        </section>
+
         <section class="filter-bar mb-8">
-            <button class="filter-btn active" data-filter="all">All Projects</button>
-            <button class="filter-btn" data-filter="beginner">Beginner</button>
-            <button class="filter-btn" data-filter="intermediate">Intermediate</button>
-            <button class="filter-btn" data-filter="advanced">Advanced</button>
+            <span class="filter-label">Sensors:</span>
+            <button class="filter-btn sensor-btn active" data-filter="sensor" data-value="all">All</button>
+            <button class="filter-btn sensor-btn" data-filter="sensor" data-value="ultrasonic">
+                <span class="material-symbols-outlined">radar</span> Ultrasonic
+            </button>
+            <button class="filter-btn sensor-btn" data-filter="sensor" data-value="PIR">
+                <span class="material-symbols-outlined">motion_sensors_active</span> PIR
+            </button>
+            <button class="filter-btn sensor-btn" data-filter="sensor" data-value="light">
+                <span class="material-symbols-outlined">light_mode</span> Light
+            </button>
+            <button class="filter-btn sensor-btn" data-filter="sensor" data-value="color">
+                <span class="material-symbols-outlined">palette</span> Color
+            </button>
+            <button class="filter-btn sensor-btn" data-filter="sensor" data-value="temperature">
+                <span class="material-symbols-outlined">thermostat</span> Temp
+            </button>
+            <button class="filter-btn sensor-btn" data-filter="sensor" data-value="joystick">
+                <span class="material-symbols-outlined">gamepad</span> Joystick
+            </button>
         </section>
 
         <section class="gallery" id="gallery">

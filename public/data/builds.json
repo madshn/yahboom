@@ -8,6 +8,10 @@
       "description": "A wheeled vehicle that launches projectiles using a catapult mechanism",
       "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753425790805114.jpg",
       "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753425145283782.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753425210784149.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753425299124389.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753425531670562.jpg",
         "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753425470868225.jpg",
         "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753425606671875.jpg",
         "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753425731482635.jpg",
@@ -128,6 +132,394 @@
       }
     },
     {
+      "id": "1.2",
+      "name": "Pretty car",
+      "nameChinese": "",
+      "difficulty": "beginner",
+      "description": "A decorative car build with colorful design elements",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426146524139.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753425958637695.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753425998545227.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426099389648.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426146524139.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753425839576812.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.2-step-0.webp",
+          "localPreview": "/images/builds/1.2-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753425958637695.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.2-step-1.webp",
+          "localPreview": "/images/builds/1.2-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753425998545227.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.2-step-2.webp",
+          "localPreview": "/images/builds/1.2-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426099389648.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.2-step-3.webp",
+          "localPreview": "/images/builds/1.2-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426146524139.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.2-step-4.webp",
+          "localPreview": "/images/builds/1.2-step-4-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.2-thumb.webp",
+        "medium": "/images/builds/1.2-medium.webp",
+        "full": "/images/builds/1.2-full.webp"
+      }
+    },
+    {
+      "id": "1.3",
+      "name": "Clip robot",
+      "nameChinese": "",
+      "difficulty": "intermediate",
+      "description": "A robot with gripping mechanism for picking up objects",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426256749664.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426231291534.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426256749664.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426199367370.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.3-step-0.webp",
+          "localPreview": "/images/builds/1.3-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426231291534.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.3-step-1.webp",
+          "localPreview": "/images/builds/1.3-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426256749664.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.3-step-2.webp",
+          "localPreview": "/images/builds/1.3-step-2-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.3-thumb.webp",
+        "medium": "/images/builds/1.3-medium.webp",
+        "full": "/images/builds/1.3-full.webp"
+      }
+    },
+    {
+      "id": "1.4",
+      "name": "Proficient carrier",
+      "nameChinese": "",
+      "difficulty": "beginner",
+      "description": "A transport vehicle designed to carry loads",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426980707580.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426532961212.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426565780853.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426689637603.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426736796508.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426869839935.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426895237304.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426980707580.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426303201568.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.4-step-0.webp",
+          "localPreview": "/images/builds/1.4-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426532961212.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.4-step-1.webp",
+          "localPreview": "/images/builds/1.4-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426565780853.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.4-step-2.webp",
+          "localPreview": "/images/builds/1.4-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426689637603.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.4-step-3.webp",
+          "localPreview": "/images/builds/1.4-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426736796508.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.4-step-4.webp",
+          "localPreview": "/images/builds/1.4-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426869839935.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.4-step-5.webp",
+          "localPreview": "/images/builds/1.4-step-5-preview.webp"
+        },
+        {
+          "stepNumber": 6,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426895237304.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.4-step-6.webp",
+          "localPreview": "/images/builds/1.4-step-6-preview.webp"
+        },
+        {
+          "stepNumber": 7,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753426980707580.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.4-step-7.webp",
+          "localPreview": "/images/builds/1.4-step-7-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.4-thumb.webp",
+        "medium": "/images/builds/1.4-medium.webp",
+        "full": "/images/builds/1.4-full.webp"
+      }
+    },
+    {
+      "id": "1.5",
+      "name": "Skip car",
+      "nameChinese": "",
+      "difficulty": "beginner",
+      "description": "A hopping vehicle with unique movement mechanics",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753429996491485.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753427087216369.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753427121461425.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753427325830230.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753428806592041.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753429727830993.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753429803254913.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753429834485992.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753429969623107.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753429996491485.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753427055285400.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.5-step-0.webp",
+          "localPreview": "/images/builds/1.5-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753427087216369.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.5-step-1.webp",
+          "localPreview": "/images/builds/1.5-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753427121461425.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.5-step-2.webp",
+          "localPreview": "/images/builds/1.5-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753427325830230.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.5-step-3.webp",
+          "localPreview": "/images/builds/1.5-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753428806592041.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.5-step-4.webp",
+          "localPreview": "/images/builds/1.5-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753429727830993.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.5-step-5.webp",
+          "localPreview": "/images/builds/1.5-step-5-preview.webp"
+        },
+        {
+          "stepNumber": 6,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753429803254913.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.5-step-6.webp",
+          "localPreview": "/images/builds/1.5-step-6-preview.webp"
+        },
+        {
+          "stepNumber": 7,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753429834485992.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.5-step-7.webp",
+          "localPreview": "/images/builds/1.5-step-7-preview.webp"
+        },
+        {
+          "stepNumber": 8,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753429969623107.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.5-step-8.webp",
+          "localPreview": "/images/builds/1.5-step-8-preview.webp"
+        },
+        {
+          "stepNumber": 9,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753429996491485.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.5-step-9.webp",
+          "localPreview": "/images/builds/1.5-step-9-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.5-thumb.webp",
+        "medium": "/images/builds/1.5-medium.webp",
+        "full": "/images/builds/1.5-full.webp"
+      }
+    },
+    {
+      "id": "1.6",
+      "name": "Freestyle",
+      "nameChinese": "",
+      "difficulty": "beginner",
+      "description": "An open-ended creative build with multiple configurations",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430381780029.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430070756652.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430093456237.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430142751586.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430317215881.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430381780029.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430048712890.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.6-step-0.webp",
+          "localPreview": "/images/builds/1.6-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430070756652.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.6-step-1.webp",
+          "localPreview": "/images/builds/1.6-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430093456237.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.6-step-2.webp",
+          "localPreview": "/images/builds/1.6-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430142751586.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.6-step-3.webp",
+          "localPreview": "/images/builds/1.6-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430317215881.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.6-step-4.webp",
+          "localPreview": "/images/builds/1.6-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430381780029.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.6-step-5.webp",
+          "localPreview": "/images/builds/1.6-step-5-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.6-thumb.webp",
+        "medium": "/images/builds/1.6-medium.webp",
+        "full": "/images/builds/1.6-full.webp"
+      }
+    },
+    {
       "id": "1.7",
       "name": "Spider",
       "nameChinese": "",
@@ -135,6 +527,11 @@
       "description": "A walking robot with 4 legs that moves like a spider",
       "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753431061151092.jpg",
       "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430732369384.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430785711822.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430881889709.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430916654510.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430944938110.jpg",
         "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430970427398.jpg",
         "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430991312591.jpg",
         "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753431013719909.jpg",
@@ -236,21 +633,134 @@
         "makecode": {
           "section": "3.G",
           "name": "Spider",
+          "extensionUrl": "https://github.com/YahboomTechnology/SuperBitLibV2",
           "lessons": [
-            "Spider advance",
-            "The dancing spider",
-            "APP control",
-            "Micro:bit handle control",
-            "WiFi camera control"
+            {
+              "title": "Spider advance",
+              "objective": "Learn how to use MakeCode graphical programming to make the building block Spider keep moving forward.",
+              "motorWiring": {
+                "description": "Connect the motors to the Super:bit expansion board",
+                "left": "M1 interface (black line close to battery side)",
+                "right": "M3 interface (black line close to battery side)"
+              },
+              "blocksUsed": [
+                {"category": "Basic", "blocks": ["show icon", "show string", "clear screen"]},
+                {"category": "Loops", "blocks": ["forever", "on start", "pause (ms)"]},
+                {"category": "SuperBitV2", "blocks": ["Motor M1 speed(-255~255)", "Motor M3 speed(-255~255)"]}
+              ],
+              "code": {
+                "description": "The program makes the Spider walk forward continuously",
+                "onStart": "show icon (heart)",
+                "forever": ["Motor M1 speed(-255~255) = -255", "Motor M3 speed(-255~255) = -255"]
+              },
+              "hexFile": "microbit-Spider-advance.hex",
+              "phenomenon": "After the program is downloaded, the micro:bit dot matrix will display a heart. Turn on the power switch, and the Spider will keep moving forward."
+            },
+            {
+              "title": "The dancing spider",
+              "objective": "Program the Spider to perform a dance routine by alternating motor movements.",
+              "motorWiring": {
+                "description": "Same as Spider advance",
+                "left": "M1 interface",
+                "right": "M3 interface"
+              },
+              "blocksUsed": [
+                {"category": "Basic", "blocks": ["show icon", "pause"]},
+                {"category": "Loops", "blocks": ["forever", "on start"]},
+                {"category": "SuperBitV2", "blocks": ["Motor M1 speed", "Motor M3 speed"]}
+              ],
+              "code": {
+                "description": "Alternating motor patterns create a dancing motion",
+                "onStart": "show icon (heart)",
+                "forever": ["Motor M1 speed = 200, pause 500ms", "Motor M1 speed = -200, pause 500ms"]
+              },
+              "hexFile": "microbit-dancing-spider.hex",
+              "phenomenon": "The Spider will dance by moving its legs in alternating patterns."
+            },
+            {
+              "title": "APP control",
+              "objective": "Control the Spider using the Yahboom mobile app via Bluetooth.",
+              "motorWiring": {
+                "description": "Same motor wiring as previous lessons",
+                "left": "M1 interface",
+                "right": "M3 interface"
+              },
+              "blocksUsed": [
+                {"category": "Basic", "blocks": ["show icon"]},
+                {"category": "Bluetooth", "blocks": ["on bluetooth connected", "on bluetooth data received"]},
+                {"category": "SuperBitV2", "blocks": ["Motor M1 speed", "Motor M3 speed"]}
+              ],
+              "code": {
+                "description": "Bluetooth commands control motor speeds",
+                "onStart": "show icon (bluetooth)",
+                "onData": "Parse commands and set motor speeds accordingly"
+              },
+              "hexFile": "microbit-Spider-app.hex",
+              "phenomenon": "Use the Yahboom app to control Spider movement via Bluetooth."
+            },
+            {
+              "title": "Micro:bit handle control",
+              "objective": "Use a second micro:bit as a wireless controller for the Spider.",
+              "motorWiring": {
+                "description": "Same motor wiring, plus second micro:bit as controller",
+                "left": "M1 interface",
+                "right": "M3 interface"
+              },
+              "blocksUsed": [
+                {"category": "Radio", "blocks": ["radio set group", "on radio received"]},
+                {"category": "Input", "blocks": ["on button pressed", "acceleration"]},
+                {"category": "SuperBitV2", "blocks": ["Motor M1 speed", "Motor M3 speed"]}
+              ],
+              "code": {
+                "description": "Radio signals from controller micro:bit control the Spider",
+                "controller": "Send acceleration/button data via radio",
+                "spider": "Receive radio data and control motors"
+              },
+              "hexFile": "microbit-Spider-handle.hex",
+              "phenomenon": "Tilt or press buttons on the controller micro:bit to move the Spider."
+            },
+            {
+              "title": "WiFi camera control",
+              "objective": "Add a WiFi camera module for remote viewing and control.",
+              "motorWiring": {
+                "description": "Motors plus WiFi camera module connection",
+                "left": "M1 interface",
+                "right": "M3 interface",
+                "camera": "Connect WiFi camera to designated port"
+              },
+              "blocksUsed": [
+                {"category": "WiFi", "blocks": ["on WiFi connected", "on WiFi data"]},
+                {"category": "SuperBitV2", "blocks": ["Motor M1 speed", "Motor M3 speed"]}
+              ],
+              "code": {
+                "description": "WiFi commands from camera app control the Spider",
+                "onStart": "Initialize WiFi connection",
+                "onCommand": "Parse WiFi commands and control motors"
+              },
+              "hexFile": "microbit-Spider-wifi.hex",
+              "phenomenon": "View live camera feed and control Spider movement remotely."
+            }
           ]
         },
         "python": {
           "section": "4.G",
           "name": "Spider",
           "lessons": [
-            "Spider advance",
-            "The dancing spider",
-            "Micro:bit handle control"
+            {
+              "title": "Spider advance",
+              "objective": "Program the Spider to move forward using Python.",
+              "code": "from microbit import *\nimport superbit\n\nwhile True:\n    superbit.motor_M1(-255)\n    superbit.motor_M3(-255)"
+            },
+            {
+              "title": "The dancing spider",
+              "objective": "Create a dancing routine with Python.",
+              "code": "from microbit import *\nimport superbit\nimport time\n\nwhile True:\n    superbit.motor_M1(200)\n    time.sleep(0.5)\n    superbit.motor_M1(-200)\n    time.sleep(0.5)"
+            },
+            {
+              "title": "Micro:bit handle control",
+              "objective": "Use radio to control Spider with Python.",
+              "code": "from microbit import *\nimport radio\nimport superbit\n\nradio.on()\nwhile True:\n    msg = radio.receive()\n    if msg:\n        # Parse and control motors"
+            }
           ]
         },
         "sensorAdvanced": {
@@ -273,24 +783,1090 @@
       }
     },
     {
-      "id": "1.18",
-      "name": "Small flying car obstacle avoidance",
+      "id": "1.8",
+      "name": "Lifting platform",
       "nameChinese": "",
-      "difficulty": "advanced",
-      "description": "A smart car that detects and avoids obstacles using ultrasonic sensor",
-      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753431040843963.jpg",
+      "difficulty": "intermediate",
+      "description": "A platform with raising and lowering mechanism",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432310562377.jpg",
       "allImages": [
-        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430970427398.jpg",
-        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430991312591.jpg",
-        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753431013719909.jpg",
-        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753431040843963.jpg",
-        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753431061151092.jpg"
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753431866902709.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753431895197113.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753431928273620.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432009805053.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432050210571.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432056292510.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432082270996.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432106755065.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432124849456.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432214941772.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432284477142.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432310562377.jpg"
       ],
       "assemblySteps": [
         {
           "stepNumber": 0,
           "type": "parts",
-          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430704458129.jpg",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753431819211181.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.8-step-0.webp",
+          "localPreview": "/images/builds/1.8-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753431866902709.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.8-step-1.webp",
+          "localPreview": "/images/builds/1.8-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753431895197113.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.8-step-2.webp",
+          "localPreview": "/images/builds/1.8-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753431928273620.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.8-step-3.webp",
+          "localPreview": "/images/builds/1.8-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432009805053.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.8-step-4.webp",
+          "localPreview": "/images/builds/1.8-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432050210571.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.8-step-5.webp",
+          "localPreview": "/images/builds/1.8-step-5-preview.webp"
+        },
+        {
+          "stepNumber": 6,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432056292510.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.8-step-6.webp",
+          "localPreview": "/images/builds/1.8-step-6-preview.webp"
+        },
+        {
+          "stepNumber": 7,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432082270996.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.8-step-7.webp",
+          "localPreview": "/images/builds/1.8-step-7-preview.webp"
+        },
+        {
+          "stepNumber": 8,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432106755065.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.8-step-8.webp",
+          "localPreview": "/images/builds/1.8-step-8-preview.webp"
+        },
+        {
+          "stepNumber": 9,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432124849456.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.8-step-9.webp",
+          "localPreview": "/images/builds/1.8-step-9-preview.webp"
+        },
+        {
+          "stepNumber": 10,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432214941772.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.8-step-10.webp",
+          "localPreview": "/images/builds/1.8-step-10-preview.webp"
+        },
+        {
+          "stepNumber": 11,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432284477142.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.8-step-11.webp",
+          "localPreview": "/images/builds/1.8-step-11-preview.webp"
+        },
+        {
+          "stepNumber": 12,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432310562377.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.8-step-12.webp",
+          "localPreview": "/images/builds/1.8-step-12-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.8-thumb.webp",
+        "medium": "/images/builds/1.8-medium.webp",
+        "full": "/images/builds/1.8-full.webp"
+      }
+    },
+    {
+      "id": "1.9",
+      "name": "Biped robot",
+      "nameChinese": "",
+      "difficulty": "intermediate",
+      "description": "A two-legged walking robot",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432844620025.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432415133361.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432489515167.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432512112213.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432545829406.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432574260650.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432605636352.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432627189605.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432655676757.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432679657196.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432701917480.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432724673339.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432754445373.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432783907287.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432807844146.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432844620025.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432350456756.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.9-step-0.webp",
+          "localPreview": "/images/builds/1.9-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432415133361.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.9-step-1.webp",
+          "localPreview": "/images/builds/1.9-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432489515167.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.9-step-2.webp",
+          "localPreview": "/images/builds/1.9-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432512112213.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.9-step-3.webp",
+          "localPreview": "/images/builds/1.9-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432545829406.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.9-step-4.webp",
+          "localPreview": "/images/builds/1.9-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432574260650.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.9-step-5.webp",
+          "localPreview": "/images/builds/1.9-step-5-preview.webp"
+        },
+        {
+          "stepNumber": 6,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432605636352.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.9-step-6.webp",
+          "localPreview": "/images/builds/1.9-step-6-preview.webp"
+        },
+        {
+          "stepNumber": 7,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432627189605.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.9-step-7.webp",
+          "localPreview": "/images/builds/1.9-step-7-preview.webp"
+        },
+        {
+          "stepNumber": 8,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432655676757.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.9-step-8.webp",
+          "localPreview": "/images/builds/1.9-step-8-preview.webp"
+        },
+        {
+          "stepNumber": 9,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432679657196.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.9-step-9.webp",
+          "localPreview": "/images/builds/1.9-step-9-preview.webp"
+        },
+        {
+          "stepNumber": 10,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432701917480.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.9-step-10.webp",
+          "localPreview": "/images/builds/1.9-step-10-preview.webp"
+        },
+        {
+          "stepNumber": 11,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432724673339.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.9-step-11.webp",
+          "localPreview": "/images/builds/1.9-step-11-preview.webp"
+        },
+        {
+          "stepNumber": 12,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432754445373.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.9-step-12.webp",
+          "localPreview": "/images/builds/1.9-step-12-preview.webp"
+        },
+        {
+          "stepNumber": 13,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432783907287.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.9-step-13.webp",
+          "localPreview": "/images/builds/1.9-step-13-preview.webp"
+        },
+        {
+          "stepNumber": 14,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432807844146.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.9-step-14.webp",
+          "localPreview": "/images/builds/1.9-step-14-preview.webp"
+        },
+        {
+          "stepNumber": 15,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432844620025.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.9-step-15.webp",
+          "localPreview": "/images/builds/1.9-step-15-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.9-thumb.webp",
+        "medium": "/images/builds/1.9-medium.webp",
+        "full": "/images/builds/1.9-full.webp"
+      }
+    },
+    {
+      "id": "1.10",
+      "name": "Changing Face",
+      "nameChinese": "",
+      "difficulty": "beginner",
+      "description": "An interactive display that changes expressions",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433015416137.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432913912780.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432960665954.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432979704406.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433015416137.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432890464904.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.10-step-0.webp",
+          "localPreview": "/images/builds/1.10-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432913912780.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.10-step-1.webp",
+          "localPreview": "/images/builds/1.10-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432960665954.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.10-step-2.webp",
+          "localPreview": "/images/builds/1.10-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753432979704406.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.10-step-3.webp",
+          "localPreview": "/images/builds/1.10-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433015416137.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.10-step-4.webp",
+          "localPreview": "/images/builds/1.10-step-4-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.10-thumb.webp",
+        "medium": "/images/builds/1.10-medium.webp",
+        "full": "/images/builds/1.10-full.webp"
+      }
+    },
+    {
+      "id": "1.11",
+      "name": "Carousel",
+      "nameChinese": "",
+      "difficulty": "beginner",
+      "description": "A rotating platform like a merry-go-round",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433191217987.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433093860412.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433120669555.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433147171936.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433171634674.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433191217987.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433073388732.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.11-step-0.webp",
+          "localPreview": "/images/builds/1.11-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433093860412.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.11-step-1.webp",
+          "localPreview": "/images/builds/1.11-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433120669555.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.11-step-2.webp",
+          "localPreview": "/images/builds/1.11-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433147171936.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.11-step-3.webp",
+          "localPreview": "/images/builds/1.11-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433171634674.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.11-step-4.webp",
+          "localPreview": "/images/builds/1.11-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433191217987.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.11-step-5.webp",
+          "localPreview": "/images/builds/1.11-step-5-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.11-thumb.webp",
+        "medium": "/images/builds/1.11-medium.webp",
+        "full": "/images/builds/1.11-full.webp"
+      }
+    },
+    {
+      "id": "1.12",
+      "name": "Oscillating fan",
+      "nameChinese": "",
+      "difficulty": "beginner",
+      "description": "A fan that swings back and forth",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433622659515.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433502863677.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433531873901.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433571311889.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433597597320.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433622659515.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433313599456.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.12-step-0.webp",
+          "localPreview": "/images/builds/1.12-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433502863677.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.12-step-1.webp",
+          "localPreview": "/images/builds/1.12-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433531873901.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.12-step-2.webp",
+          "localPreview": "/images/builds/1.12-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433571311889.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.12-step-3.webp",
+          "localPreview": "/images/builds/1.12-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433597597320.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.12-step-4.webp",
+          "localPreview": "/images/builds/1.12-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433622659515.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.12-step-5.webp",
+          "localPreview": "/images/builds/1.12-step-5-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.12-thumb.webp",
+        "medium": "/images/builds/1.12-medium.webp",
+        "full": "/images/builds/1.12-full.webp"
+      }
+    },
+    {
+      "id": "1.13",
+      "name": "Airplane",
+      "nameChinese": "",
+      "difficulty": "intermediate",
+      "description": "An aircraft build with propeller mechanism",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433672409301.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433668397491.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433669598632.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433669921051.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433669780395.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433669260467.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433669456298.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433670448211.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433670537384.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433670462188.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433671625610.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433672921752.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433672409301.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433668828186.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.13-step-0.webp",
+          "localPreview": "/images/builds/1.13-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433668397491.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.13-step-1.webp",
+          "localPreview": "/images/builds/1.13-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433669598632.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.13-step-2.webp",
+          "localPreview": "/images/builds/1.13-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433669921051.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.13-step-3.webp",
+          "localPreview": "/images/builds/1.13-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433669780395.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.13-step-4.webp",
+          "localPreview": "/images/builds/1.13-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433669260467.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.13-step-5.webp",
+          "localPreview": "/images/builds/1.13-step-5-preview.webp"
+        },
+        {
+          "stepNumber": 6,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433669456298.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.13-step-6.webp",
+          "localPreview": "/images/builds/1.13-step-6-preview.webp"
+        },
+        {
+          "stepNumber": 7,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433670448211.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.13-step-7.webp",
+          "localPreview": "/images/builds/1.13-step-7-preview.webp"
+        },
+        {
+          "stepNumber": 8,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433670537384.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.13-step-8.webp",
+          "localPreview": "/images/builds/1.13-step-8-preview.webp"
+        },
+        {
+          "stepNumber": 9,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433670462188.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.13-step-9.webp",
+          "localPreview": "/images/builds/1.13-step-9-preview.webp"
+        },
+        {
+          "stepNumber": 10,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433671625610.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.13-step-10.webp",
+          "localPreview": "/images/builds/1.13-step-10-preview.webp"
+        },
+        {
+          "stepNumber": 11,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433672921752.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.13-step-11.webp",
+          "localPreview": "/images/builds/1.13-step-11-preview.webp"
+        },
+        {
+          "stepNumber": 12,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433672409301.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.13-step-12.webp",
+          "localPreview": "/images/builds/1.13-step-12-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.13-thumb.webp",
+        "medium": "/images/builds/1.13-medium.webp",
+        "full": "/images/builds/1.13-full.webp"
+      }
+    },
+    {
+      "id": "1.14",
+      "name": "Unicycle",
+      "nameChinese": "",
+      "difficulty": "beginner",
+      "description": "A single-wheeled balancing vehicle",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433978596221.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433976704193.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433976770385.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433976423309.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433976193298.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433977720489.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433977315002.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433977120147.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433977538177.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433977585357.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433978218597.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433978596221.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433976517333.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.14-step-0.webp",
+          "localPreview": "/images/builds/1.14-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433976704193.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.14-step-1.webp",
+          "localPreview": "/images/builds/1.14-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433976770385.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.14-step-2.webp",
+          "localPreview": "/images/builds/1.14-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433976423309.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.14-step-3.webp",
+          "localPreview": "/images/builds/1.14-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433976193298.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.14-step-4.webp",
+          "localPreview": "/images/builds/1.14-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433977720489.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.14-step-5.webp",
+          "localPreview": "/images/builds/1.14-step-5-preview.webp"
+        },
+        {
+          "stepNumber": 6,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433977315002.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.14-step-6.webp",
+          "localPreview": "/images/builds/1.14-step-6-preview.webp"
+        },
+        {
+          "stepNumber": 7,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433977120147.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.14-step-7.webp",
+          "localPreview": "/images/builds/1.14-step-7-preview.webp"
+        },
+        {
+          "stepNumber": 8,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433977538177.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.14-step-8.webp",
+          "localPreview": "/images/builds/1.14-step-8-preview.webp"
+        },
+        {
+          "stepNumber": 9,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433977585357.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.14-step-9.webp",
+          "localPreview": "/images/builds/1.14-step-9-preview.webp"
+        },
+        {
+          "stepNumber": 10,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433978218597.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.14-step-10.webp",
+          "localPreview": "/images/builds/1.14-step-10-preview.webp"
+        },
+        {
+          "stepNumber": 11,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753433978596221.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.14-step-11.webp",
+          "localPreview": "/images/builds/1.14-step-11-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.14-thumb.webp",
+        "medium": "/images/builds/1.14-medium.webp",
+        "full": "/images/builds/1.14-full.webp"
+      }
+    },
+    {
+      "id": "1.15",
+      "name": "Auto-door",
+      "nameChinese": "",
+      "difficulty": "beginner",
+      "description": "An automatic door that opens and closes",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434162333557.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434160799133.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434160978149.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434160180816.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434161554687.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434161363647.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434161327453.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434161790466.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434161368164.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434162333557.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434160576629.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.15-step-0.webp",
+          "localPreview": "/images/builds/1.15-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434160799133.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.15-step-1.webp",
+          "localPreview": "/images/builds/1.15-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434160978149.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.15-step-2.webp",
+          "localPreview": "/images/builds/1.15-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434160180816.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.15-step-3.webp",
+          "localPreview": "/images/builds/1.15-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434161554687.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.15-step-4.webp",
+          "localPreview": "/images/builds/1.15-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434161363647.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.15-step-5.webp",
+          "localPreview": "/images/builds/1.15-step-5-preview.webp"
+        },
+        {
+          "stepNumber": 6,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434161327453.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.15-step-6.webp",
+          "localPreview": "/images/builds/1.15-step-6-preview.webp"
+        },
+        {
+          "stepNumber": 7,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434161790466.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.15-step-7.webp",
+          "localPreview": "/images/builds/1.15-step-7-preview.webp"
+        },
+        {
+          "stepNumber": 8,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434161368164.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.15-step-8.webp",
+          "localPreview": "/images/builds/1.15-step-8-preview.webp"
+        },
+        {
+          "stepNumber": 9,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434162333557.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.15-step-9.webp",
+          "localPreview": "/images/builds/1.15-step-9-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.15-thumb.webp",
+        "medium": "/images/builds/1.15-medium.webp",
+        "full": "/images/builds/1.15-full.webp"
+      }
+    },
+    {
+      "id": "1.16",
+      "name": "Dragon knight",
+      "nameChinese": "",
+      "difficulty": "intermediate",
+      "description": "A fantasy-themed robot with dragon motif",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434312777343.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434310426666.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434310987976.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434310515075.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434310372344.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434311118835.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434311824768.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434311427337.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434311363891.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434311838989.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434312361755.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434312777343.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434310388122.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.16-step-0.webp",
+          "localPreview": "/images/builds/1.16-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434310426666.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.16-step-1.webp",
+          "localPreview": "/images/builds/1.16-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434310987976.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.16-step-2.webp",
+          "localPreview": "/images/builds/1.16-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434310515075.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.16-step-3.webp",
+          "localPreview": "/images/builds/1.16-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434310372344.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.16-step-4.webp",
+          "localPreview": "/images/builds/1.16-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434311118835.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.16-step-5.webp",
+          "localPreview": "/images/builds/1.16-step-5-preview.webp"
+        },
+        {
+          "stepNumber": 6,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434311824768.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.16-step-6.webp",
+          "localPreview": "/images/builds/1.16-step-6-preview.webp"
+        },
+        {
+          "stepNumber": 7,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434311427337.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.16-step-7.webp",
+          "localPreview": "/images/builds/1.16-step-7-preview.webp"
+        },
+        {
+          "stepNumber": 8,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434311363891.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.16-step-8.webp",
+          "localPreview": "/images/builds/1.16-step-8-preview.webp"
+        },
+        {
+          "stepNumber": 9,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434311838989.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.16-step-9.webp",
+          "localPreview": "/images/builds/1.16-step-9-preview.webp"
+        },
+        {
+          "stepNumber": 10,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434312361755.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.16-step-10.webp",
+          "localPreview": "/images/builds/1.16-step-10-preview.webp"
+        },
+        {
+          "stepNumber": 11,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753434312777343.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.16-step-11.webp",
+          "localPreview": "/images/builds/1.16-step-11-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.16-thumb.webp",
+        "medium": "/images/builds/1.16-medium.webp",
+        "full": "/images/builds/1.16-full.webp"
+      }
+    },
+    {
+      "id": "1.17",
+      "name": "Ultrasonic handheld rangefinder",
+      "nameChinese": "",
+      "difficulty": "advanced",
+      "description": "A distance measuring device using ultrasonic sensor",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435600991851.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435600686401.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435600991851.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435600777282.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.17-step-0.webp",
+          "localPreview": "/images/builds/1.17-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435600686401.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.17-step-1.webp",
+          "localPreview": "/images/builds/1.17-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435600991851.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.17-step-2.webp",
+          "localPreview": "/images/builds/1.17-step-2-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [
+        "ultrasonic"
+      ],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.17-thumb.webp",
+        "medium": "/images/builds/1.17-medium.webp",
+        "full": "/images/builds/1.17-full.webp"
+      }
+    },
+    {
+      "id": "1.18",
+      "name": "Small flying car obstacle avoidance",
+      "nameChinese": "",
+      "difficulty": "advanced",
+      "description": "A smart car that detects and avoids obstacles using ultrasonic sensor",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435507235717.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435506714141.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435506239379.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435506571899.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435506484741.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435507235717.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435505528167.jpg",
           "partsNeeded": false,
           "localImage": "/images/builds/1.18-step-0.webp",
           "localPreview": "/images/builds/1.18-step-0-preview.webp"
@@ -298,7 +1874,7 @@
         {
           "stepNumber": 1,
           "type": "step",
-          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430732369384.jpg",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435506714141.jpg",
           "partsNeeded": true,
           "localImage": "/images/builds/1.18-step-1.webp",
           "localPreview": "/images/builds/1.18-step-1-preview.webp"
@@ -306,7 +1882,7 @@
         {
           "stepNumber": 2,
           "type": "step",
-          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430785711822.jpg",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435506239379.jpg",
           "partsNeeded": false,
           "localImage": "/images/builds/1.18-step-2.webp",
           "localPreview": "/images/builds/1.18-step-2-preview.webp"
@@ -314,7 +1890,7 @@
         {
           "stepNumber": 3,
           "type": "step",
-          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430881889709.jpg",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435506571899.jpg",
           "partsNeeded": false,
           "localImage": "/images/builds/1.18-step-3.webp",
           "localPreview": "/images/builds/1.18-step-3-preview.webp"
@@ -322,7 +1898,7 @@
         {
           "stepNumber": 4,
           "type": "step",
-          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430916654510.jpg",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435506484741.jpg",
           "partsNeeded": false,
           "localImage": "/images/builds/1.18-step-4.webp",
           "localPreview": "/images/builds/1.18-step-4-preview.webp"
@@ -330,50 +1906,10 @@
         {
           "stepNumber": 5,
           "type": "step",
-          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430944938110.jpg",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435507235717.jpg",
           "partsNeeded": false,
           "localImage": "/images/builds/1.18-step-5.webp",
           "localPreview": "/images/builds/1.18-step-5-preview.webp"
-        },
-        {
-          "stepNumber": 6,
-          "type": "step",
-          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430970427398.jpg",
-          "partsNeeded": false,
-          "localImage": "/images/builds/1.18-step-6.webp",
-          "localPreview": "/images/builds/1.18-step-6-preview.webp"
-        },
-        {
-          "stepNumber": 7,
-          "type": "step",
-          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753430991312591.jpg",
-          "partsNeeded": false,
-          "localImage": "/images/builds/1.18-step-7.webp",
-          "localPreview": "/images/builds/1.18-step-7-preview.webp"
-        },
-        {
-          "stepNumber": 8,
-          "type": "step",
-          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753431013719909.jpg",
-          "partsNeeded": false,
-          "localImage": "/images/builds/1.18-step-8.webp",
-          "localPreview": "/images/builds/1.18-step-8-preview.webp"
-        },
-        {
-          "stepNumber": 9,
-          "type": "step",
-          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753431040843963.jpg",
-          "partsNeeded": false,
-          "localImage": "/images/builds/1.18-step-9.webp",
-          "localPreview": "/images/builds/1.18-step-9-preview.webp"
-        },
-        {
-          "stepNumber": 10,
-          "type": "step",
-          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753431040843963.jpg",
-          "partsNeeded": false,
-          "localImage": "/images/builds/1.18-step-10.webp",
-          "localPreview": "/images/builds/1.18-step-10-preview.webp"
         }
       ],
       "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
@@ -394,8 +1930,1059 @@
       "localImages": {
         "thumbnail": "/images/builds/1.18-thumb.webp",
         "medium": "/images/builds/1.18-medium.webp",
-        "full": "/images/builds/1.18-full.webp",
-        "wiring": "/images/builds/1.18-wiring.webp"
+        "full": "/images/builds/1.18-full.webp"
+      }
+    },
+    {
+      "id": "1.19",
+      "name": "Changing face",
+      "nameChinese": "",
+      "difficulty": "beginner",
+      "description": "An interactive display that changes expressions",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435653454101.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435652542144.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435652882843.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435653994964.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435653171112.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435653454101.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435652603973.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.19-step-0.webp",
+          "localPreview": "/images/builds/1.19-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435652542144.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.19-step-1.webp",
+          "localPreview": "/images/builds/1.19-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435652882843.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.19-step-2.webp",
+          "localPreview": "/images/builds/1.19-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435653994964.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.19-step-3.webp",
+          "localPreview": "/images/builds/1.19-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435653171112.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.19-step-4.webp",
+          "localPreview": "/images/builds/1.19-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435653454101.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.19-step-5.webp",
+          "localPreview": "/images/builds/1.19-step-5-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.19-thumb.webp",
+        "medium": "/images/builds/1.19-medium.webp",
+        "full": "/images/builds/1.19-full.webp"
+      }
+    },
+    {
+      "id": "1.20",
+      "name": "Adjustable RGB light",
+      "nameChinese": "",
+      "difficulty": "beginner",
+      "description": "A color-changing LED light with adjustable settings",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435745172546.jpg",
+      "allImages": [],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435745172546.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.20-step-0.webp",
+          "localPreview": "/images/builds/1.20-step-0-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.20-thumb.webp",
+        "medium": "/images/builds/1.20-medium.webp",
+        "full": "/images/builds/1.20-full.webp"
+      }
+    },
+    {
+      "id": "1.21",
+      "name": "Adjustable fan",
+      "nameChinese": "",
+      "difficulty": "beginner",
+      "description": "A fan with variable speed control",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435829711059.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435829338409.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435829365203.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435829863830.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435829891632.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435829711059.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435828984405.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.21-step-0.webp",
+          "localPreview": "/images/builds/1.21-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435829338409.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.21-step-1.webp",
+          "localPreview": "/images/builds/1.21-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435829365203.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.21-step-2.webp",
+          "localPreview": "/images/builds/1.21-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435829863830.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.21-step-3.webp",
+          "localPreview": "/images/builds/1.21-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435829891632.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.21-step-4.webp",
+          "localPreview": "/images/builds/1.21-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753435829711059.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.21-step-5.webp",
+          "localPreview": "/images/builds/1.21-step-5-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.21-thumb.webp",
+        "medium": "/images/builds/1.21-medium.webp",
+        "full": "/images/builds/1.21-full.webp"
+      }
+    },
+    {
+      "id": "1.22",
+      "name": "Photosensitive emergency light",
+      "nameChinese": "",
+      "difficulty": "advanced",
+      "description": "A light that activates based on ambient brightness",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753436992834259.jpg",
+      "allImages": [],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753436992834259.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.22-step-0.webp",
+          "localPreview": "/images/builds/1.22-step-0-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [
+        "light"
+      ],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.22-thumb.webp",
+        "medium": "/images/builds/1.22-medium.webp",
+        "full": "/images/builds/1.22-full.webp"
+      }
+    },
+    {
+      "id": "1.23",
+      "name": "Smart alarm clock",
+      "nameChinese": "",
+      "difficulty": "beginner",
+      "description": "An alarm clock with programmable features",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437082257080.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437082257080.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437082885986.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.23-step-0.webp",
+          "localPreview": "/images/builds/1.23-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437082257080.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.23-step-1.webp",
+          "localPreview": "/images/builds/1.23-step-1-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.23-thumb.webp",
+        "medium": "/images/builds/1.23-medium.webp",
+        "full": "/images/builds/1.23-full.webp"
+      }
+    },
+    {
+      "id": "1.24",
+      "name": "Light-controlled bipedal robot",
+      "nameChinese": "",
+      "difficulty": "advanced",
+      "description": "A walking robot that responds to light levels",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437163377197.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437161688659.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437161701873.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437161207336.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437161676055.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437161142578.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437161327545.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437162655212.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437162636444.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437162356262.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437162212219.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437162724487.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437163302276.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437163432220.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437163973999.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437163235565.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437163377197.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437160813446.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.24-step-0.webp",
+          "localPreview": "/images/builds/1.24-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437161688659.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.24-step-1.webp",
+          "localPreview": "/images/builds/1.24-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437161701873.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.24-step-2.webp",
+          "localPreview": "/images/builds/1.24-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437161207336.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.24-step-3.webp",
+          "localPreview": "/images/builds/1.24-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437161676055.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.24-step-4.webp",
+          "localPreview": "/images/builds/1.24-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437161142578.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.24-step-5.webp",
+          "localPreview": "/images/builds/1.24-step-5-preview.webp"
+        },
+        {
+          "stepNumber": 6,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437161327545.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.24-step-6.webp",
+          "localPreview": "/images/builds/1.24-step-6-preview.webp"
+        },
+        {
+          "stepNumber": 7,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437162655212.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.24-step-7.webp",
+          "localPreview": "/images/builds/1.24-step-7-preview.webp"
+        },
+        {
+          "stepNumber": 8,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437162636444.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.24-step-8.webp",
+          "localPreview": "/images/builds/1.24-step-8-preview.webp"
+        },
+        {
+          "stepNumber": 9,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437162356262.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.24-step-9.webp",
+          "localPreview": "/images/builds/1.24-step-9-preview.webp"
+        },
+        {
+          "stepNumber": 10,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437162212219.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.24-step-10.webp",
+          "localPreview": "/images/builds/1.24-step-10-preview.webp"
+        },
+        {
+          "stepNumber": 11,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437162724487.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.24-step-11.webp",
+          "localPreview": "/images/builds/1.24-step-11-preview.webp"
+        },
+        {
+          "stepNumber": 12,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437163302276.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.24-step-12.webp",
+          "localPreview": "/images/builds/1.24-step-12-preview.webp"
+        },
+        {
+          "stepNumber": 13,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437163432220.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.24-step-13.webp",
+          "localPreview": "/images/builds/1.24-step-13-preview.webp"
+        },
+        {
+          "stepNumber": 14,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437163973999.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.24-step-14.webp",
+          "localPreview": "/images/builds/1.24-step-14-preview.webp"
+        },
+        {
+          "stepNumber": 15,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437163235565.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.24-step-15.webp",
+          "localPreview": "/images/builds/1.24-step-15-preview.webp"
+        },
+        {
+          "stepNumber": 16,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437163377197.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.24-step-16.webp",
+          "localPreview": "/images/builds/1.24-step-16-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [
+        "light"
+      ],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.24-thumb.webp",
+        "medium": "/images/builds/1.24-medium.webp",
+        "full": "/images/builds/1.24-full.webp"
+      }
+    },
+    {
+      "id": "1.25",
+      "name": "Swimming robot avoid objects",
+      "nameChinese": "",
+      "difficulty": "intermediate",
+      "description": "A robot that navigates around obstacles in water-like motion",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753436023534210.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753436022274139.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753436023634277.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753436023379882.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753436023135742.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753436023586914.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753436023534210.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753436022236816.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.25-step-0.webp",
+          "localPreview": "/images/builds/1.25-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753436022274139.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.25-step-1.webp",
+          "localPreview": "/images/builds/1.25-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753436023634277.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.25-step-2.webp",
+          "localPreview": "/images/builds/1.25-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753436023379882.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.25-step-3.webp",
+          "localPreview": "/images/builds/1.25-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753436023135742.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.25-step-4.webp",
+          "localPreview": "/images/builds/1.25-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753436023586914.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.25-step-5.webp",
+          "localPreview": "/images/builds/1.25-step-5-preview.webp"
+        },
+        {
+          "stepNumber": 6,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753436023534210.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.25-step-6.webp",
+          "localPreview": "/images/builds/1.25-step-6-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.25-thumb.webp",
+        "medium": "/images/builds/1.25-medium.webp",
+        "full": "/images/builds/1.25-full.webp"
+      }
+    },
+    {
+      "id": "1.26",
+      "name": "Fleeing spider",
+      "nameChinese": "",
+      "difficulty": "intermediate",
+      "description": "A walking robot with 4 legs that moves like a spider",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437335216156.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437333802581.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437333559387.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437333297729.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437333131866.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437333595520.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437334692993.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437334738769.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437334297424.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437334306427.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437334157287.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437335216156.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437333388488.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.26-step-0.webp",
+          "localPreview": "/images/builds/1.26-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437333802581.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.26-step-1.webp",
+          "localPreview": "/images/builds/1.26-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437333559387.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.26-step-2.webp",
+          "localPreview": "/images/builds/1.26-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437333297729.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.26-step-3.webp",
+          "localPreview": "/images/builds/1.26-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437333131866.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.26-step-4.webp",
+          "localPreview": "/images/builds/1.26-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437333595520.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.26-step-5.webp",
+          "localPreview": "/images/builds/1.26-step-5-preview.webp"
+        },
+        {
+          "stepNumber": 6,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437334692993.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.26-step-6.webp",
+          "localPreview": "/images/builds/1.26-step-6-preview.webp"
+        },
+        {
+          "stepNumber": 7,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437334738769.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.26-step-7.webp",
+          "localPreview": "/images/builds/1.26-step-7-preview.webp"
+        },
+        {
+          "stepNumber": 8,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437334297424.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.26-step-8.webp",
+          "localPreview": "/images/builds/1.26-step-8-preview.webp"
+        },
+        {
+          "stepNumber": 9,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437334306427.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.26-step-9.webp",
+          "localPreview": "/images/builds/1.26-step-9-preview.webp"
+        },
+        {
+          "stepNumber": 10,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437334157287.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.26-step-10.webp",
+          "localPreview": "/images/builds/1.26-step-10-preview.webp"
+        },
+        {
+          "stepNumber": 11,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437335216156.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.26-step-11.webp",
+          "localPreview": "/images/builds/1.26-step-11-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [
+        "PIR"
+      ],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.26-thumb.webp",
+        "medium": "/images/builds/1.26-medium.webp",
+        "full": "/images/builds/1.26-full.webp"
+      }
+    },
+    {
+      "id": "1.27",
+      "name": "Temperature humidity reminder",
+      "nameChinese": "",
+      "difficulty": "advanced",
+      "description": "A device that monitors and displays temperature and humidity",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437494274902.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437494274902.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437494687042.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.27-step-0.webp",
+          "localPreview": "/images/builds/1.27-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437494274902.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.27-step-1.webp",
+          "localPreview": "/images/builds/1.27-step-1-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [
+        "temperature",
+        "humidity"
+      ],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.27-thumb.webp",
+        "medium": "/images/builds/1.27-medium.webp",
+        "full": "/images/builds/1.27-full.webp"
+      }
+    },
+    {
+      "id": "1.28",
+      "name": "Temperature-controlled fan",
+      "nameChinese": "",
+      "difficulty": "advanced",
+      "description": "A fan that adjusts speed based on temperature",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437621365631.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437619521240.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437620705871.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437620249755.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437620184722.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437621365631.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437619166259.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.28-step-0.webp",
+          "localPreview": "/images/builds/1.28-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437619521240.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.28-step-1.webp",
+          "localPreview": "/images/builds/1.28-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437620705871.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.28-step-2.webp",
+          "localPreview": "/images/builds/1.28-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437620249755.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.28-step-3.webp",
+          "localPreview": "/images/builds/1.28-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437620184722.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.28-step-4.webp",
+          "localPreview": "/images/builds/1.28-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437621365631.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.28-step-5.webp",
+          "localPreview": "/images/builds/1.28-step-5-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [
+        "temperature"
+      ],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.28-thumb.webp",
+        "medium": "/images/builds/1.28-medium.webp",
+        "full": "/images/builds/1.28-full.webp"
+      }
+    },
+    {
+      "id": "1.29",
+      "name": "Color recognition machine",
+      "nameChinese": "",
+      "difficulty": "advanced",
+      "description": "A device that identifies different colors",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437769525878.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437769688079.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437769525878.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437769407714.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.29-step-0.webp",
+          "localPreview": "/images/builds/1.29-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437769688079.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.29-step-1.webp",
+          "localPreview": "/images/builds/1.29-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437769525878.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.29-step-2.webp",
+          "localPreview": "/images/builds/1.29-step-2-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [
+        "color"
+      ],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.29-thumb.webp",
+        "medium": "/images/builds/1.29-medium.webp",
+        "full": "/images/builds/1.29-full.webp"
+      }
+    },
+    {
+      "id": "1.30",
+      "name": "Color-recognizing automatic door",
+      "nameChinese": "",
+      "difficulty": "advanced",
+      "description": "A door that opens based on color detection",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437835787750.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437834203338.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437834613555.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437834492736.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437834615386.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437834273834.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437834662811.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437835585968.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437835979461.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437835852264.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437835787750.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437833846954.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.30-step-0.webp",
+          "localPreview": "/images/builds/1.30-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437834203338.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.30-step-1.webp",
+          "localPreview": "/images/builds/1.30-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437834613555.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.30-step-2.webp",
+          "localPreview": "/images/builds/1.30-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437834492736.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.30-step-3.webp",
+          "localPreview": "/images/builds/1.30-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437834615386.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.30-step-4.webp",
+          "localPreview": "/images/builds/1.30-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437834273834.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.30-step-5.webp",
+          "localPreview": "/images/builds/1.30-step-5-preview.webp"
+        },
+        {
+          "stepNumber": 6,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437834662811.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.30-step-6.webp",
+          "localPreview": "/images/builds/1.30-step-6-preview.webp"
+        },
+        {
+          "stepNumber": 7,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437835585968.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.30-step-7.webp",
+          "localPreview": "/images/builds/1.30-step-7-preview.webp"
+        },
+        {
+          "stepNumber": 8,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437835979461.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.30-step-8.webp",
+          "localPreview": "/images/builds/1.30-step-8-preview.webp"
+        },
+        {
+          "stepNumber": 9,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437835852264.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.30-step-9.webp",
+          "localPreview": "/images/builds/1.30-step-9-preview.webp"
+        },
+        {
+          "stepNumber": 10,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753437835787750.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.30-step-10.webp",
+          "localPreview": "/images/builds/1.30-step-10-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [
+        "color"
+      ],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.30-thumb.webp",
+        "medium": "/images/builds/1.30-medium.webp",
+        "full": "/images/builds/1.30-full.webp"
+      }
+    },
+    {
+      "id": "1.31",
+      "name": "Rocker color changing light",
+      "nameChinese": "",
+      "difficulty": "beginner",
+      "description": "A light controlled by joystick input",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438152211883.jpg",
+      "allImages": [],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438152211883.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.31-step-0.webp",
+          "localPreview": "/images/builds/1.31-step-0-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [
+        "joystick"
+      ],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.31-thumb.webp",
+        "medium": "/images/builds/1.31-medium.webp",
+        "full": "/images/builds/1.31-full.webp"
+      }
+    },
+    {
+      "id": "1.32",
+      "name": "Rocker transporter",
+      "nameChinese": "",
+      "difficulty": "beginner",
+      "description": "A vehicle controlled by joystick input",
+      "finalImageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438350363311.jpg",
+      "allImages": [
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438320377197.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438321342285.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438332764770.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438336724151.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438341824554.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438344427978.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438348690887.jpg",
+        "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438350363311.jpg"
+      ],
+      "assemblySteps": [
+        {
+          "stepNumber": 0,
+          "type": "parts",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438266895904.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.32-step-0.webp",
+          "localPreview": "/images/builds/1.32-step-0-preview.webp"
+        },
+        {
+          "stepNumber": 1,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438320377197.jpg",
+          "partsNeeded": true,
+          "localImage": "/images/builds/1.32-step-1.webp",
+          "localPreview": "/images/builds/1.32-step-1-preview.webp"
+        },
+        {
+          "stepNumber": 2,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438321342285.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.32-step-2.webp",
+          "localPreview": "/images/builds/1.32-step-2-preview.webp"
+        },
+        {
+          "stepNumber": 3,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438332764770.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.32-step-3.webp",
+          "localPreview": "/images/builds/1.32-step-3-preview.webp"
+        },
+        {
+          "stepNumber": 4,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438336724151.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.32-step-4.webp",
+          "localPreview": "/images/builds/1.32-step-4-preview.webp"
+        },
+        {
+          "stepNumber": 5,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438341824554.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.32-step-5.webp",
+          "localPreview": "/images/builds/1.32-step-5-preview.webp"
+        },
+        {
+          "stepNumber": 6,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438344427978.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.32-step-6.webp",
+          "localPreview": "/images/builds/1.32-step-6-preview.webp"
+        },
+        {
+          "stepNumber": 7,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438348690887.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.32-step-7.webp",
+          "localPreview": "/images/builds/1.32-step-7-preview.webp"
+        },
+        {
+          "stepNumber": 8,
+          "type": "step",
+          "imageUrl": "https://www.yahboom.net/Public/ueditor/php/upload/image/20250725/1753438350363311.jpg",
+          "partsNeeded": false,
+          "localImage": "/images/builds/1.32-step-8.webp",
+          "localPreview": "/images/builds/1.32-step-8-preview.webp"
+        }
+      ],
+      "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+      "codingCourses": {},
+      "sensors": [
+        "joystick"
+      ],
+      "wiringImageUrl": null,
+      "localImages": {
+        "thumbnail": "/images/builds/1.32-thumb.webp",
+        "medium": "/images/builds/1.32-medium.webp",
+        "full": "/images/builds/1.32-full.webp"
       }
     }
   ]

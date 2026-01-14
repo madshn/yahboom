@@ -1,7 +1,8 @@
 // Building:bit Projects Gallery App
 
 let builds = [];
-let currentFilter = 'all';
+let currentDifficultyFilter = 'all';
+let currentSensorFilter = 'all';
 
 // Sensor to Material Symbol icon mapping
 const sensorIcons = {
@@ -93,24 +94,38 @@ function showEmptyState(message) {
 }
 
 // Filter builds
-function filterBuilds(filter) {
-    currentFilter = filter;
+function filterBuilds(filterType, value) {
+    // Update the appropriate filter
+    if (filterType === 'difficulty') {
+        currentDifficultyFilter = value;
+    } else if (filterType === 'sensor') {
+        currentSensorFilter = value;
+    }
 
-    // Update active button
-    document.querySelectorAll('.filter-btn').forEach(btn => {
+    // Update active buttons for the filter type
+    document.querySelectorAll(`.filter-btn[data-filter="${filterType}"]`).forEach(btn => {
         btn.classList.remove('active');
-        if (btn.dataset.filter === filter) {
+        if (btn.dataset.value === value) {
             btn.classList.add('active');
         }
     });
 
-    // Filter and render
-    if (filter === 'all') {
-        renderGallery(builds);
-    } else {
-        const filtered = builds.filter(build => build.difficulty === filter);
-        renderGallery(filtered);
+    // Apply both filters
+    let filtered = builds;
+
+    if (currentDifficultyFilter !== 'all') {
+        filtered = filtered.filter(build => build.difficulty === currentDifficultyFilter);
     }
+
+    if (currentSensorFilter !== 'all') {
+        filtered = filtered.filter(build =>
+            build.sensors && build.sensors.some(s =>
+                s.toLowerCase() === currentSensorFilter.toLowerCase()
+            )
+        );
+    }
+
+    renderGallery(filtered);
 }
 
 // Open project modal
@@ -233,7 +248,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Filter buttons
     document.querySelectorAll('.filter-btn').forEach(btn => {
         btn.addEventListener('click', () => {
-            filterBuilds(btn.dataset.filter);
+            filterBuilds(btn.dataset.filter, btn.dataset.value);
         });
     });
 

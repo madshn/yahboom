@@ -60,14 +60,18 @@ function openLessonViewer(buildId, type) {
   const lessonList = document.getElementById('lessonList');
   const lessons = courseData.lessons || [];
 
-  lessonList.innerHTML = lessons.map((lesson, index) => `
-    <li class="lesson-item ${index === 0 ? 'active' : ''}"
-        onclick="selectLesson(${index})"
-        data-index="${index}">
-      <span class="lesson-number">${index + 1}</span>
-      <span class="lesson-name">${lesson}</span>
-    </li>
-  `).join('');
+  lessonList.innerHTML = lessons.map((lesson, index) => {
+    // Support both old format (string) and new format (object with title)
+    const lessonTitle = typeof lesson === 'string' ? lesson : lesson.title;
+    return `
+      <li class="lesson-item ${index === 0 ? 'active' : ''}"
+          onclick="selectLesson(${index})"
+          data-index="${index}">
+        <span class="lesson-number">${index + 1}</span>
+        <span class="lesson-name">${lessonTitle}</span>
+      </li>
+    `;
+  }).join('');
 
   // Store lesson data
   currentLesson = {
@@ -106,88 +110,300 @@ function showLessonContent(index) {
 
   const lesson = currentLesson.lessons[index];
   const content = document.getElementById('lessonContent');
-
-  // For now, show placeholder content with links
-  // In the full implementation, this would load scraped lesson content
   const type = currentLesson.type;
   const section = currentLesson.courseData.section;
+  const extensionUrl = currentLesson.courseData.extensionUrl || 'https://github.com/YahboomTechnology/SuperBitLibV2';
+
+  // Support both old format (string) and new format (object with full content)
+  const isDetailedLesson = typeof lesson === 'object';
+  const lessonTitle = isDetailedLesson ? lesson.title : lesson;
 
   let html = `
     <div class="lesson-header-content">
-      <h2>${lesson}</h2>
+      <h2>${lessonTitle}</h2>
       <p class="lesson-section">Section ${section} - Lesson ${index + 1}</p>
     </div>
   `;
 
   if (type === 'makecode') {
-    html += `
-      <div class="lesson-section-block">
-        <h3>1. Extension Package</h3>
-        <p>Add the Yahboom SuperBit extension to MakeCode:</p>
-        <div class="copy-block">
-          <code id="extensionUrl">https://github.com/YahboomTechnology/SuperBitLibV2</code>
-          <button class="copy-btn" onclick="copyToClipboard('extensionUrl')">
-            <span class="copy-icon">📋</span> Copy
-          </button>
-        </div>
-      </div>
-
-      <div class="lesson-section-block">
-        <h3>2. Code Blocks</h3>
-        <p>The MakeCode blocks for this lesson:</p>
-        <div class="code-image-placeholder">
-          <div class="placeholder-icon">📦</div>
-          <p>MakeCode block images will be loaded here</p>
-          <p class="placeholder-hint">View the original lesson for block screenshots</p>
-        </div>
-      </div>
-
-      <div class="lesson-section-block">
-        <h3>3. Open in MakeCode</h3>
-        <p>Click below to open MakeCode editor:</p>
-        <a href="https://makecode.microbit.org/" target="_blank" class="lesson-link-btn">
-          <span>🚀</span> Open MakeCode Editor
-        </a>
-      </div>
-    `;
+    if (isDetailedLesson) {
+      // Render detailed MakeCode lesson content
+      html += renderDetailedMakeCodeLesson(lesson, extensionUrl);
+    } else {
+      // Fallback to placeholder for lessons without detailed content
+      html += renderPlaceholderMakeCode(extensionUrl);
+    }
   } else if (type === 'python') {
-    html += `
-      <div class="lesson-section-block">
-        <h3>1. Setup</h3>
-        <p>Make sure you have the Mu editor or Thonny installed for micro:bit Python development.</p>
-      </div>
-
-      <div class="lesson-section-block">
-        <h3>2. Python Code</h3>
-        <p>The Python code for this lesson:</p>
-        <div class="code-image-placeholder">
-          <div class="placeholder-icon">🐍</div>
-          <p>Python code will be loaded here</p>
-          <p class="placeholder-hint">View the original lesson for code snippets</p>
-        </div>
-      </div>
-
-      <div class="lesson-section-block">
-        <h3>3. Resources</h3>
-        <a href="https://python.microbit.org/" target="_blank" class="lesson-link-btn">
-          <span>🐍</span> Open Python Editor
-        </a>
-      </div>
-    `;
+    if (isDetailedLesson) {
+      // Render detailed Python lesson content
+      html += renderDetailedPythonLesson(lesson);
+    } else {
+      // Fallback to placeholder
+      html += renderPlaceholderPython();
+    }
   }
 
   // Add link to original lesson
   html += `
     <div class="lesson-section-block original-link">
-      <h3>Original Lesson</h3>
-      <p>View the complete original lesson on Yahboom:</p>
+      <h3>📚 Resources</h3>
+      <p>View the complete original lesson and download hex files:</p>
       <a href="${currentLesson.build.assemblyUrl}" target="_blank" class="lesson-link-btn secondary">
         <span>🔗</span> View on Yahboom
+      </a>
+      <a href="https://makecode.microbit.org/" target="_blank" class="lesson-link-btn">
+        <span>🚀</span> Open MakeCode Editor
       </a>
     </div>
   `;
 
   content.innerHTML = html;
+}
+
+// Render detailed MakeCode lesson
+function renderDetailedMakeCodeLesson(lesson, extensionUrl) {
+  let html = '';
+
+  // Learning objective
+  if (lesson.objective) {
+    html += `
+      <div class="lesson-section-block objective">
+        <h3>🎯 Learning Objective</h3>
+        <p>${lesson.objective}</p>
+      </div>
+    `;
+  }
+
+  // Motor wiring
+  if (lesson.motorWiring) {
+    html += `
+      <div class="lesson-section-block wiring">
+        <h3>🔌 Motor Wiring</h3>
+        <p>${lesson.motorWiring.description || 'Connect the motors to the expansion board:'}</p>
+        <div class="wiring-info">
+          <div class="wiring-item">
+            <span class="wiring-label">Left Motor:</span>
+            <span class="wiring-value">${lesson.motorWiring.left}</span>
+          </div>
+          <div class="wiring-item">
+            <span class="wiring-label">Right Motor:</span>
+            <span class="wiring-value">${lesson.motorWiring.right}</span>
+          </div>
+          ${lesson.motorWiring.camera ? `
+          <div class="wiring-item">
+            <span class="wiring-label">Camera:</span>
+            <span class="wiring-value">${lesson.motorWiring.camera}</span>
+          </div>
+          ` : ''}
+        </div>
+      </div>
+    `;
+  }
+
+  // Extension package
+  html += `
+    <div class="lesson-section-block extension">
+      <h3>📦 Extension Package</h3>
+      <p>Add the Yahboom SuperBit extension to MakeCode:</p>
+      <div class="copy-block">
+        <code id="extensionUrl">${extensionUrl}</code>
+        <button class="copy-btn" onclick="copyToClipboard('extensionUrl')">
+          <span class="copy-icon">📋</span> Copy
+        </button>
+      </div>
+    </div>
+  `;
+
+  // Blocks used
+  if (lesson.blocksUsed && lesson.blocksUsed.length > 0) {
+    html += `
+      <div class="lesson-section-block blocks">
+        <h3>🧱 Blocks Used</h3>
+        <div class="blocks-grid">
+          ${lesson.blocksUsed.map(cat => `
+            <div class="block-category">
+              <span class="category-name">${cat.category}</span>
+              <div class="category-blocks">
+                ${cat.blocks.map(b => `<span class="block-item">${b}</span>`).join('')}
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  // Code / Combined blocks
+  if (lesson.code) {
+    html += `
+      <div class="lesson-section-block code">
+        <h3>💻 Combined Blocks</h3>
+        ${lesson.code.description ? `<p>${lesson.code.description}</p>` : ''}
+        <div class="code-structure">
+          ${lesson.code.onStart ? `
+            <div class="code-block on-start">
+              <span class="code-label">on start</span>
+              <span class="code-content">${lesson.code.onStart}</span>
+            </div>
+          ` : ''}
+          ${lesson.code.forever ? `
+            <div class="code-block forever">
+              <span class="code-label">forever</span>
+              <div class="code-content">
+                ${Array.isArray(lesson.code.forever)
+                  ? lesson.code.forever.map(line => `<div class="code-line">${line}</div>`).join('')
+                  : lesson.code.forever}
+              </div>
+            </div>
+          ` : ''}
+          ${lesson.code.controller ? `
+            <div class="code-block controller">
+              <span class="code-label">Controller micro:bit</span>
+              <span class="code-content">${lesson.code.controller}</span>
+            </div>
+          ` : ''}
+          ${lesson.code.spider ? `
+            <div class="code-block spider">
+              <span class="code-label">Spider micro:bit</span>
+              <span class="code-content">${lesson.code.spider}</span>
+            </div>
+          ` : ''}
+          ${lesson.code.onCommand ? `
+            <div class="code-block on-command">
+              <span class="code-label">on command received</span>
+              <span class="code-content">${lesson.code.onCommand}</span>
+            </div>
+          ` : ''}
+          ${lesson.code.onData ? `
+            <div class="code-block on-data">
+              <span class="code-label">on data received</span>
+              <span class="code-content">${lesson.code.onData}</span>
+            </div>
+          ` : ''}
+        </div>
+      </div>
+    `;
+  }
+
+  // Hex file
+  if (lesson.hexFile) {
+    html += `
+      <div class="lesson-section-block hex-file">
+        <h3>📁 Program File</h3>
+        <p>Download <strong>${lesson.hexFile}</strong> from the Yahboom resources and drag it to your micro:bit.</p>
+      </div>
+    `;
+  }
+
+  // Experimental phenomenon
+  if (lesson.phenomenon) {
+    html += `
+      <div class="lesson-section-block phenomenon">
+        <h3>✨ What Happens</h3>
+        <p>${lesson.phenomenon}</p>
+      </div>
+    `;
+  }
+
+  return html;
+}
+
+// Render detailed Python lesson
+function renderDetailedPythonLesson(lesson) {
+  let html = '';
+
+  // Learning objective
+  if (lesson.objective) {
+    html += `
+      <div class="lesson-section-block objective">
+        <h3>🎯 Learning Objective</h3>
+        <p>${lesson.objective}</p>
+      </div>
+    `;
+  }
+
+  // Python code
+  if (lesson.code) {
+    html += `
+      <div class="lesson-section-block python-code">
+        <h3>🐍 Python Code</h3>
+        <pre class="code-block python"><code>${escapeHtml(lesson.code)}</code></pre>
+        <button class="copy-btn" onclick="copyCode(this)">
+          <span class="copy-icon">📋</span> Copy Code
+        </button>
+      </div>
+    `;
+  }
+
+  // Setup info
+  html += `
+    <div class="lesson-section-block setup">
+      <h3>⚙️ Setup</h3>
+      <p>Use the Mu editor or Thonny for micro:bit Python development.</p>
+      <a href="https://python.microbit.org/" target="_blank" class="lesson-link-btn">
+        <span>🐍</span> Open Python Editor
+      </a>
+    </div>
+  `;
+
+  return html;
+}
+
+// Fallback placeholder for MakeCode
+function renderPlaceholderMakeCode(extensionUrl) {
+  return `
+    <div class="lesson-section-block">
+      <h3>📦 Extension Package</h3>
+      <p>Add the Yahboom SuperBit extension to MakeCode:</p>
+      <div class="copy-block">
+        <code id="extensionUrl">${extensionUrl}</code>
+        <button class="copy-btn" onclick="copyToClipboard('extensionUrl')">
+          <span class="copy-icon">📋</span> Copy
+        </button>
+      </div>
+    </div>
+    <div class="lesson-section-block">
+      <h3>💻 Code Blocks</h3>
+      <p>View the original lesson on Yahboom for detailed block instructions.</p>
+    </div>
+  `;
+}
+
+// Fallback placeholder for Python
+function renderPlaceholderPython() {
+  return `
+    <div class="lesson-section-block">
+      <h3>🐍 Python Setup</h3>
+      <p>Use the Mu editor or Thonny for micro:bit Python development.</p>
+    </div>
+    <div class="lesson-section-block">
+      <h3>💻 Code</h3>
+      <p>View the original lesson on Yahboom for the Python code.</p>
+    </div>
+  `;
+}
+
+// Helper to escape HTML
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+// Copy code from pre block
+function copyCode(btn) {
+  const pre = btn.previousElementSibling;
+  const code = pre.querySelector('code').textContent;
+
+  navigator.clipboard.writeText(code).then(() => {
+    const originalText = btn.innerHTML;
+    btn.innerHTML = '<span class="copy-icon">✓</span> Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.innerHTML = originalText;
+      btn.classList.remove('copied');
+    }, 2000);
+  });
 }
 
 // Copy text to clipboard

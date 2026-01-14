@@ -25,3 +25,5 @@ npm-debug.log*
 
 # Test artifacts
 test-screenshot.png
+raw/images-original/
+raw/html/
