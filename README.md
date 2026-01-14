@@ -1,6 +1,10 @@
 # Building:bit Projects
 
-A kid-friendly local documentation site for the Yahboom Building:bit Super Kit (LEGO-compatible micro:bit robotics kit).
+A kid-friendly documentation site for the Yahboom Building:bit Super Kit (LEGO-compatible micro:bit robotics kit).
+
+**Live Site:** https://building-bit-superkit.onrender.com
+
+**Original Source:** https://www.yahboom.net/study/buildingbit-super-kit
 
 ## Why This Exists
 

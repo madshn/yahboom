@@ -7,7 +7,7 @@ let currentSensorFilter = 'all';
 // Sensor to Material Symbol icon mapping
 const sensorIcons = {
     'ultrasonic': 'radar',
-    'PIR': 'motion_sensor_active',
+    'PIR': 'sensors',
     'light': 'light_mode',
     'line tracking': 'route',
     'servo': 'precision_manufacturing',
