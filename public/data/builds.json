@@ -105,21 +105,95 @@
         "makecode": {
           "section": "3.A",
           "name": "Mobile shooter",
-          "lessons": [
-            "Cannonball shooting",
-            "Music fortress",
-            "APP control",
-            "Micro:bit handle control",
-            "WiFi camera control"
-          ]
+          "lessons": []
         },
         "python": {
           "section": "4.A",
           "name": "Mobile shooter",
           "lessons": [
-            "Cannonball shooting",
-            "Music fortress",
-            "Micro:bit handle control"
+            {
+              "title": "1.Cannonball shooting",
+              "objective": "In this course, we mainly learn how to control and light up the GB light on the superbit expansion board through python programming. The 4 RGB lights are located on the expansion board as shown in the figure below.",
+              "phenomenon": "In this course, we mainly learn how to control and light up the GB light on the superbit expansion board through python programming. The 4 RGB lights are located on the expansion board as shown in the figure below.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440610/3.Control all RGB lights.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "content",
+                  "url": "1588043486118117.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213555929.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213637497.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213730022.png"
+                }
+              ]
+            },
+            {
+              "title": "2.Music fortress",
+              "objective": "In this course, we mainly learn how to drive the building block servo connected to the superbit expansion board through Python programming. The servo interface is located on the expansion board as shown in the figure below.",
+              "phenomenon": "In this course, we mainly learn how to drive the building block servo connected to the superbit expansion board through Python programming. The servo interface is located on the expansion board as shown in the figure below.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440685/4.Drive 270° building block servo.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "content",
+                  "url": "1588043918631233.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588043956128084.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213555929.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213637497.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213730022.png"
+                }
+              ]
+            },
+            {
+              "title": "3.Micro:bit handle control",
+              "objective": "In this course, we mainly learn how to drive the servo connected to the superbit expansion board through Python programming. The servo interface is located on the expansion board as shown in the figure below.",
+              "phenomenon": "In this course, we mainly learn how to drive the servo connected to the superbit expansion board through Python programming. The servo interface is located on the expansion board as shown in the figure below.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440710/5.Drive 180° servo.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "content",
+                  "url": "1588043918631233.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044176125153.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213555929.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213637497.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213730022.png"
+                }
+              ]
+            }
           ]
         }
       },
@@ -187,7 +261,52 @@
         }
       ],
       "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
-      "codingCourses": {},
+      "codingCourses": {
+        "makecode": {
+          "section": "3.B",
+          "name": "Pretty car",
+          "lessons": []
+        },
+        "python": {
+          "section": "4.B",
+          "name": "Pretty car",
+          "lessons": [
+            {
+              "title": "1.Dancer",
+              "objective": "In this course, we mainly learn how to drive the motor connected to the superbit expansion board through Python programming. The motor interface is located on the expansion board as shown in the figure below.",
+              "phenomenon": "In this course, we mainly learn how to drive the motor connected to the superbit expansion board through Python programming. The motor interface is located on the expansion board as shown in the figure below.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440732/6.Drive motor.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "wiring",
+                  "url": "1588044288726634.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044324115751.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213555929.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213637497.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213730022.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044010942826.png"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "sensors": [],
       "wiringImageUrl": null,
       "localImages": {
@@ -234,7 +353,285 @@
         }
       ],
       "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
-      "codingCourses": {},
+      "codingCourses": {
+        "makecode": {
+          "section": "3.C",
+          "name": "Clip robot",
+          "lessons": [
+            {
+              "title": "3.APP control",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control Clip robot.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control Clip robot.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441947/3.APP control.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "content",
+                  "url": "image-20250607163959305.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607094947210.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045431129319.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045515101942.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045512101537.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045508952809.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045504705032.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045502982587.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045493141875.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045489133204.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045486105087.png"
+                }
+              ]
+            },
+            {
+              "title": "4.Micro:bit handle control",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize the control of Clip robot by microbit handle.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize the control of Clip robot by microbit handle.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753442116/4.Microbit handle control.html",
+              "code": {
+                "description": "The summary program of microbit on Clip robot is shown in the figure below Handle rocker control program is as follows Handle gravity control program is as follows You can also directly open the microbit-handle-control-clip-robot.hex, microbit-Handle-rocker-control.hex, microbit-Handle-gravity-control.hex files provided in this experiment and drag them into the browser that opens the URL, and the program diagram of this project source code will be automatically opened"
+              },
+              "images": [
+                {
+                  "type": "code",
+                  "url": "image-20250610183000547.png"
+                },
+                {
+                  "type": "code",
+                  "url": "image-20250610183032137.png"
+                },
+                {
+                  "type": "code",
+                  "url": "image-20250610183949848.png"
+                },
+                {
+                  "type": "code",
+                  "url": "image-20250610185019064.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607163959305.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607094947210.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044336115798.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610174835687.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610174626884.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610174723708.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610175759535.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610175511071.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610175905864.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180042653.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180238324.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180727860.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180850895.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610181258643.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610181357390.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588046028770914.png"
+                }
+              ]
+            },
+            {
+              "title": "5.WiFi camera control",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to achieve WiFi remote control Clip robot.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to achieve WiFi remote control Clip robot.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753442049/5.WiFi camera control.html",
+              "code": {
+                "description": "You can also directly open the microbit-wifi_superkit_AP.hex file provided in this experiment and drag it into the browser that opens the URL, and the program diagram of the source code of this project will be automatically opened"
+              },
+              "images": [
+                {
+                  "type": "wiring",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "image-20250611113414520.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "image-20250611113649175.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "image-20250611113814571.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "image-20250611113917668.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "image-20250611114042038.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "image-20250611114409374.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "Serial port initialization.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "Serial port buffer.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "transparent data.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "car control.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "image-20250611114621486.png"
+                },
+                {
+                  "type": "code",
+                  "url": "image-20250611114621486.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611111444045.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611111509922.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611111615321.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607163959305.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607094947210.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611111826169.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611114944699.png"
+                },
+                {
+                  "type": "content",
+                  "url": "QR.png"
+                },
+                {
+                  "type": "content",
+                  "url": "192.168.4.1.jpg"
+                },
+                {
+                  "type": "content",
+                  "url": "1.jpg"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611115302220.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611115430525.png"
+                },
+                {
+                  "type": "content",
+                  "url": "WiFiip.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "sensors": [],
       "wiringImageUrl": null,
       "localImages": {
@@ -326,7 +723,436 @@
         }
       ],
       "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
-      "codingCourses": {},
+      "codingCourses": {
+        "makecode": {
+          "section": "3.D",
+          "name": "Proficient carrier",
+          "lessons": [
+            {
+              "title": "1.Dancing",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to make the Proficient carrier &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to make the Proficient carrier &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753442354/1.Dancing.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "content",
+                  "url": "image-20250607163959305.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607094947210.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044336115798.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044683438106.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588043987899579.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611171727521.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045195823628.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611194813273.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044719134633.png"
+                }
+              ]
+            },
+            {
+              "title": "2.Button control shovel",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to achieve that when the A button on the micro:bit motherboard is pressed, the shovel is placed flat; when the B button on the micro:bit motherboard is pressed, the shovel is unloaded; when the AB buttons on the micro:bit motherboard are pressed at the same time, the shovel is lifted.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to achieve that when the A button on the micro:bit motherboard is pressed, the shovel is placed flat; when the B button on the micro:bit motherboard is pressed, the shovel is unloaded; when the AB buttons on the micro:bit motherboard are pressed at the same time, the shovel is lifted.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753442191/2.Button control shovel.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "content",
+                  "url": "image-20250607163959305.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607094947210.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044336115798.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044683438106.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588043987899579.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045195823628.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044719134633.png"
+                }
+              ]
+            },
+            {
+              "title": "3.Transportation",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to achieve. After pressing the micro:bit A button of the micro:bit, the shovel is lifted -> forward 2 seconds -> unload the goods -> shovel is placed flat -> back 2 seconds.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to achieve. After pressing the micro:bit A button of the micro:bit, the shovel is lifted -> forward 2 seconds -> unload the goods -> shovel is placed flat -> back 2 seconds.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753442674/3.Transportation.html",
+              "code": {
+                "description": "The summary program is shown in the figure below. You can also directly open the microbit-Transportation.hex file provided in this experiment and drag it into the browser that opens the URL, and the program diagram of this project source code will be automatically opened"
+              },
+              "images": [
+                {
+                  "type": "code",
+                  "url": "1588045195823628.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607163959305.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607094947210.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044336115798.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044683438106.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588043987899579.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044719134633.png"
+                }
+              ]
+            },
+            {
+              "title": "4.APP control",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Proficient carrier.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Proficient carrier.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753442812/4.APP control.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "content",
+                  "url": "image-20250607163959305.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607094947210.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045431129319.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045515101942.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045512101537.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045508952809.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045504705032.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045502982587.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045493141875.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045489133204.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045486105087.png"
+                }
+              ]
+            },
+            {
+              "title": "5.Micro:bit handle control",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize the control of Proficient carrier by microbit handle.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize the control of Proficient carrier by microbit handle.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753443133/5.Microbit handle control.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "content",
+                  "url": "image-20250607163959305.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607094947210.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044336115798.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610174835687.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610174626884.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610174723708.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610175759535.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610175511071.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610175905864.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180042653.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180238324.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180727860.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180850895.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610181258643.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610181357390.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610183000547.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610183032137.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610183949848.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610185019064.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588046028770914.png"
+                }
+              ]
+            },
+            {
+              "title": "6.WiFi camera control",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to achieve WiFi remote control of Proficient carrier.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to achieve WiFi remote control of Proficient carrier.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753687861/6.WiFi camera control.html",
+              "code": {
+                "description": "You can also directly open the microbit-wifi_superkit_AP.hex file provided in this experiment and drag it into the browser that opens the URL, and the program diagram of the source code of this project will be automatically opened"
+              },
+              "images": [
+                {
+                  "type": "wiring",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "image-20250611113414520.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "image-20250611113649175.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "image-20250611113814571.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "image-20250611113917668.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "image-20250611114042038.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "image-20250611114409374.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "Serial port initialization.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "Serial port buffer.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "transparent data.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "car control.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "image-20250611114621486.png"
+                },
+                {
+                  "type": "code",
+                  "url": "image-20250611114621486.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1.jpg"
+                },
+                {
+                  "type": "content",
+                  "url": "2.jpg"
+                },
+                {
+                  "type": "content",
+                  "url": "3.jpg"
+                },
+                {
+                  "type": "content",
+                  "url": "4.jpg"
+                },
+                {
+                  "type": "content",
+                  "url": "90.jpg"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607163959305.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607094947210.png"
+                },
+                {
+                  "type": "content",
+                  "url": "21.jpg"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611114944699.png"
+                },
+                {
+                  "type": "content",
+                  "url": "QR.png"
+                },
+                {
+                  "type": "content",
+                  "url": "192.168.4.1.jpg"
+                },
+                {
+                  "type": "content",
+                  "url": "1 - Copy.jpg"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611115302220.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611115430525.png"
+                },
+                {
+                  "type": "content",
+                  "url": "WiFiip.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "sensors": [],
       "wiringImageUrl": null,
       "localImages": {
@@ -436,7 +1262,323 @@
         }
       ],
       "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
-      "codingCourses": {},
+      "codingCourses": {
+        "makecode": {
+          "section": "3.E",
+          "name": "Skip car",
+          "lessons": [
+            {
+              "title": "1.Dance battle",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to make Skip car &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to make Skip car &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753443351/1.Dance battle.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "content",
+                  "url": "image-20250607163959305.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607094947210.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044336115798.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044683438106.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588043987899579.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611162423648.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044691135778.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611211817498.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044719134633.png"
+                }
+              ]
+            },
+            {
+              "title": "2.Button control skip car",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to achieve that when the A button on the micro:bit motherboard is pressed, the loading platform is laid flat; when the B button on the micro:bit motherboard is pressed, the loading platform is unloaded.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to achieve that when the A button on the micro:bit motherboard is pressed, the loading platform is laid flat; when the B button on the micro:bit motherboard is pressed, the loading platform is unloaded.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753443376/2.Button control skip car.html",
+              "code": {
+                "description": "The summary program is shown in the figure below. You can also directly open the microbit-Button-control-skip-car.hex file provided in this experiment and drag it into the browser that opens the URL, and the program diagram of this project source code will be automatically opened"
+              },
+              "images": [
+                {
+                  "type": "code",
+                  "url": "1588045195823628.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607163959305.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607094947210.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044336115798.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045186890585.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588043987899579.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044719134633.png"
+                }
+              ]
+            },
+            {
+              "title": "3.Powerful carrier",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to achieve. After pressing the A button of micro:bit, the car moves forward for 2 seconds -> turns left for 1 second -> unloads the goods -> the loading platform is laid flat -> turns left for 1 second -> moves forward for 2 seconds.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to achieve. After pressing the A button of micro:bit, the car moves forward for 2 seconds -> turns left for 1 second -> unloads the goods -> the loading platform is laid flat -> turns left for 1 second -> moves forward for 2 seconds.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753443568/3.Powerful carrier.html",
+              "code": {
+                "description": "The summary program is shown in the figure below. You can also directly open the microbit-Powerful-carrier.hex file provided in this experiment and drag it into the browser that opens the URL, and the program diagram of this project source code will be automatically opened"
+              },
+              "images": [
+                {
+                  "type": "code",
+                  "url": "1588045195823628.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607163959305.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607094947210.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044336115798.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045186890585.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588043987899579.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044719134633.png"
+                }
+              ]
+            },
+            {
+              "title": "4.APP control",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control Skip car.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control Skip car.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753443572/4.APP control.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "content",
+                  "url": "image-20250607163959305.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607094947210.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045431129319.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045515101942.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045512101537.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045508952809.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045504705032.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045502982587.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045493141875.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045489133204.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045486105087.png"
+                }
+              ]
+            },
+            {
+              "title": "5.Micro:bit handle control",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize the control of Skip car by microbit handle.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize the control of Skip car by microbit handle.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753443599/5.Microbit handle control.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "content",
+                  "url": "image-20250607163959305.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607094947210.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044336115798.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610174835687.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610174626884.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611214558917.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611214641057.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610174723708.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610175759535.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610175511071.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610175905864.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180042653.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180238324.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180727860.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180850895.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610181258643.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610181357390.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610183000547.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610183032137.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610183148925.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610183949848.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610185019064.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588046028770914.png"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "sensors": [],
       "wiringImageUrl": null,
       "localImages": {
@@ -510,7 +1652,151 @@
         }
       ],
       "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
-      "codingCourses": {},
+      "codingCourses": {
+        "makecode": {
+          "section": "3.F",
+          "name": "Freestyle",
+          "lessons": [
+            {
+              "title": "1.Dancing and singing",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to achieve Freestyle &quot;singing&quot; and &quot;dancing&quot; at the same time, that is, the motor, buzzer, and RGB light work at the same time.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to achieve Freestyle &quot;singing&quot; and &quot;dancing&quot; at the same time, that is, the motor, buzzer, and RGB light work at the same time.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753443755/1.Dancing and singing.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "content",
+                  "url": "image-20250611160433482.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044336115798.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044683438106.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588043987899579.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611162423648.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044691135778.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611162607237.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044719134633.png"
+                }
+              ]
+            },
+            {
+              "title": "2.Freestyle advance",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to achieve Freestyle advance.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to achieve Freestyle advance.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753443726/2.Freestyle advance.html",
+              "code": {
+                "description": "The summary program is shown in the figure below. You can also directly open the microbit-Freestyle-advance.hex file provided in this experiment and drag it into the browser that opens the URL, and the program diagram of the source code of this project will be automatically opened"
+              },
+              "images": [
+                {
+                  "type": "code",
+                  "url": "1588044691135778.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611160433482.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044336115798.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588043987899579.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044719134633.png"
+                }
+              ]
+            },
+            {
+              "title": "3.Micro:bit handle control",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to achieve Bluetooth APP remote control Freestyle.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to achieve Bluetooth APP remote control Freestyle.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753443747/3.APP control.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "content",
+                  "url": "image-20250611160433482.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045431129319.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045515101942.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045512101537.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045508952809.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045504705032.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045502982587.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045493141875.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045489133204.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045486105087.png"
+                }
+              ]
+            }
+          ]
+        }
+      },
       "sensors": [],
       "wiringImageUrl": null,
       "localImages": {
@@ -633,112 +1919,94 @@
         "makecode": {
           "section": "3.G",
           "name": "Spider",
-          "extensionUrl": "https://github.com/YahboomTechnology/SuperBitLibV2",
           "lessons": [
             {
-              "title": "Spider advance",
-              "objective": "Learn how to use MakeCode graphical programming to make the building block Spider keep moving forward.",
-              "motorWiring": {
-                "description": "Connect the motors to the Super:bit expansion board",
-                "left": "M1 interface (black line close to battery side)",
-                "right": "M3 interface (black line close to battery side)"
-              },
-              "blocksUsed": [
-                {"category": "Basic", "blocks": ["show icon", "show string", "clear screen"]},
-                {"category": "Loops", "blocks": ["forever", "on start", "pause (ms)"]},
-                {"category": "SuperBitV2", "blocks": ["Motor M1 speed(-255~255)", "Motor M3 speed(-255~255)"]}
-              ],
+              "title": "2.The dancing spider",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to make the building block Spider keep moving forward.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to make the building block Spider keep moving forward.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753443805/1.Spider advance.html",
               "code": {
-                "description": "The program makes the Spider walk forward continuously",
-                "onStart": "show icon (heart)",
-                "forever": ["Motor M1 speed(-255~255) = -255", "Motor M3 speed(-255~255) = -255"]
+                "description": "The summary program is shown in the figure below. You can also directly open the microbit-Spider-advance.hex file provided in this experiment and drag it into the browser that opens the URL, and the program diagram of the source code of this project will be automatically opened"
               },
-              "hexFile": "microbit-Spider-advance.hex",
-              "phenomenon": "After the program is downloaded, the micro:bit dot matrix will display a heart. Turn on the power switch, and the Spider will keep moving forward."
+              "images": [
+                {
+                  "type": "code",
+                  "url": "1588044691135778.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611160433482.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044336115798.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588043987899579.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044719134633.png"
+                }
+              ]
             },
             {
-              "title": "The dancing spider",
-              "objective": "Program the Spider to perform a dance routine by alternating motor movements.",
-              "motorWiring": {
-                "description": "Same as Spider advance",
-                "left": "M1 interface",
-                "right": "M3 interface"
-              },
-              "blocksUsed": [
-                {"category": "Basic", "blocks": ["show icon", "pause"]},
-                {"category": "Loops", "blocks": ["forever", "on start"]},
-                {"category": "SuperBitV2", "blocks": ["Motor M1 speed", "Motor M3 speed"]}
-              ],
-              "code": {
-                "description": "Alternating motor patterns create a dancing motion",
-                "onStart": "show icon (heart)",
-                "forever": ["Motor M1 speed = 200, pause 500ms", "Motor M1 speed = -200, pause 500ms"]
-              },
-              "hexFile": "microbit-dancing-spider.hex",
-              "phenomenon": "The Spider will dance by moving its legs in alternating patterns."
-            },
-            {
-              "title": "APP control",
-              "objective": "Control the Spider using the Yahboom mobile app via Bluetooth.",
-              "motorWiring": {
-                "description": "Same motor wiring as previous lessons",
-                "left": "M1 interface",
-                "right": "M3 interface"
-              },
-              "blocksUsed": [
-                {"category": "Basic", "blocks": ["show icon"]},
-                {"category": "Bluetooth", "blocks": ["on bluetooth connected", "on bluetooth data received"]},
-                {"category": "SuperBitV2", "blocks": ["Motor M1 speed", "Motor M3 speed"]}
-              ],
-              "code": {
-                "description": "Bluetooth commands control motor speeds",
-                "onStart": "show icon (bluetooth)",
-                "onData": "Parse commands and set motor speeds accordingly"
-              },
-              "hexFile": "microbit-Spider-app.hex",
-              "phenomenon": "Use the Yahboom app to control Spider movement via Bluetooth."
-            },
-            {
-              "title": "Micro:bit handle control",
-              "objective": "Use a second micro:bit as a wireless controller for the Spider.",
-              "motorWiring": {
-                "description": "Same motor wiring, plus second micro:bit as controller",
-                "left": "M1 interface",
-                "right": "M3 interface"
-              },
-              "blocksUsed": [
-                {"category": "Radio", "blocks": ["radio set group", "on radio received"]},
-                {"category": "Input", "blocks": ["on button pressed", "acceleration"]},
-                {"category": "SuperBitV2", "blocks": ["Motor M1 speed", "Motor M3 speed"]}
-              ],
-              "code": {
-                "description": "Radio signals from controller micro:bit control the Spider",
-                "controller": "Send acceleration/button data via radio",
-                "spider": "Receive radio data and control motors"
-              },
-              "hexFile": "microbit-Spider-handle.hex",
-              "phenomenon": "Tilt or press buttons on the controller micro:bit to move the Spider."
-            },
-            {
-              "title": "WiFi camera control",
-              "objective": "Add a WiFi camera module for remote viewing and control.",
-              "motorWiring": {
-                "description": "Motors plus WiFi camera module connection",
-                "left": "M1 interface",
-                "right": "M3 interface",
-                "camera": "Connect WiFi camera to designated port"
-              },
-              "blocksUsed": [
-                {"category": "WiFi", "blocks": ["on WiFi connected", "on WiFi data"]},
-                {"category": "SuperBitV2", "blocks": ["Motor M1 speed", "Motor M3 speed"]}
-              ],
-              "code": {
-                "description": "WiFi commands from camera app control the Spider",
-                "onStart": "Initialize WiFi connection",
-                "onCommand": "Parse WiFi commands and control motors"
-              },
-              "hexFile": "microbit-Spider-wifi.hex",
-              "phenomenon": "View live camera feed and control Spider movement remotely."
+              "title": "3.Micro:bit handle control",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to make the building block Spider &quot;sing&quot; and &quot;dance&quot;.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to make the building block Spider &quot;sing&quot; and &quot;dance&quot;.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753443848/2.The dancing spider.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "content",
+                  "url": "image-20250611160433482.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044336115798.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044683438106.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588043987899579.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611162423648.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044691135778.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611162607237.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044719134633.png"
+                }
+              ]
             }
           ]
         },
@@ -747,19 +2015,91 @@
           "name": "Spider",
           "lessons": [
             {
-              "title": "Spider advance",
-              "objective": "Program the Spider to move forward using Python.",
-              "code": "from microbit import *\nimport superbit\n\nwhile True:\n    superbit.motor_M1(-255)\n    superbit.motor_M3(-255)"
+              "title": "1.Spider advance",
+              "objective": "In this course, we mainly learn how to use Python programming to achieve that the building block spider keeps moving forward.",
+              "phenomenon": "In this course, we mainly learn how to use Python programming to achieve that the building block spider keeps moving forward.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441387/1.Spider advance.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "content",
+                  "url": "image-20250611160433482.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213555929.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213637497.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213730022.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044719134633.png"
+                }
+              ]
             },
             {
-              "title": "The dancing spider",
-              "objective": "Create a dancing routine with Python.",
-              "code": "from microbit import *\nimport superbit\nimport time\n\nwhile True:\n    superbit.motor_M1(200)\n    time.sleep(0.5)\n    superbit.motor_M1(-200)\n    time.sleep(0.5)"
+              "title": "2.The dancing spider",
+              "objective": "In this course, we mainly learn how to use Python programming to make the building block spider &quot;sing&quot; and &quot;dance&quot; at the same time.",
+              "phenomenon": "In this course, we mainly learn how to use Python programming to make the building block spider &quot;sing&quot; and &quot;dance&quot; at the same time.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441352/2.The dancing spider.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "content",
+                  "url": "image-20250611160433482.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213555929.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213637497.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213730022.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044719134633.png"
+                }
+              ]
             },
             {
-              "title": "Micro:bit handle control",
-              "objective": "Use radio to control Spider with Python.",
-              "code": "from microbit import *\nimport radio\nimport superbit\n\nradio.on()\nwhile True:\n    msg = radio.receive()\n    if msg:\n        # Parse and control motors"
+              "title": "3.Micro:bit handle control",
+              "objective": "In this course, we mainly learn how to use Python programming to control the building block spider with the micro:bit handle.",
+              "phenomenon": "In this course, we mainly learn how to use Python programming to control the building block spider with the micro:bit handle.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441411/3.Microbit handle control.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "content",
+                  "url": "image-20250611160433482.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213555929.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213637497.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250616213730022.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588046028770914.png"
+                }
+              ]
             }
           ]
         },
@@ -780,7 +2120,8 @@
         "thumbnail": "/images/builds/1.7-thumb.webp",
         "medium": "/images/builds/1.7-medium.webp",
         "full": "/images/builds/1.7-full.webp"
-      }
+      },
+      "sensorPrinciples": []
     },
     {
       "id": "1.8",
@@ -910,7 +2251,210 @@
         }
       ],
       "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
-      "codingCourses": {},
+      "codingCourses": {
+        "makecode": {
+          "section": "3.H",
+          "name": "Lifting platform",
+          "lessons": [
+            {
+              "title": "1.Lift up and down",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to achieve Bluetooth APP remote control Spider.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to achieve Bluetooth APP remote control Spider.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753443919/3.APP control.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "content",
+                  "url": "image-20250611160433482.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045431129319.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045515101942.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045512101537.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045508952809.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045504705032.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045502982587.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045493141875.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045489133204.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045486105087.png"
+                }
+              ]
+            },
+            {
+              "title": "2.Motor linkage",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to control Spider with the microbit handle.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to control Spider with the microbit handle.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753444708/4.Microbit handle control.html",
+              "code": {
+                "description": "The summary program of microbit on Spider is shown in the figure below Handle rocker control program is as follows Handle gravity control program is as follows You can also directly open the microbit-handle-control-Spider.hex、microbit-Handle-rocker-control.hex、microbit-Handle-gravity-control.hex files provided in this experiment and drag them into the browser that opens the URL, and the program diagram of this project source code will be automatically opened"
+              },
+              "images": [
+                {
+                  "type": "code",
+                  "url": "image-20250610183000547.png"
+                },
+                {
+                  "type": "code",
+                  "url": "image-20250610183032137.png"
+                },
+                {
+                  "type": "code",
+                  "url": "image-20250612144800862.png"
+                },
+                {
+                  "type": "code",
+                  "url": "image-20250610183949848.png"
+                },
+                {
+                  "type": "code",
+                  "url": "image-20250610185019064.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250611160433482.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044336115798.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610174835687.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610174626884.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610174723708.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610175759535.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610175511071.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610175905864.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180042653.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180238324.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180727860.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180850895.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610181258643.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610181357390.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588046028770914.png"
+                }
+              ]
+            },
+            {
+              "title": "3.Micro:bit handle control",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to make the Lifting platform automatically rise and fall.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to make the Lifting platform automatically rise and fall.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753444680/1.Automatic Lift.html",
+              "code": {
+                "description": "The summary program is shown in the figure below. You can also directly open the microbit-Automatic-Lift.hex file provided in this experiment and drag it into the browser that opens the URL, and the program diagram of this project source code will be automatically opened"
+              },
+              "images": [
+                {
+                  "type": "code",
+                  "url": "1588044691135778.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607163959305.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607094947210.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044336115798.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588043987899579.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250612152510293.png"
+                }
+              ]
+            }
+          ]
+        },
+        "python": {
+          "section": "4.H",
+          "name": "Lifting platform",
+          "lessons": []
+        }
+      },
       "sensors": [],
       "wiringImageUrl": null,
       "localImages": {
@@ -1074,7 +2618,210 @@
         }
       ],
       "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
-      "codingCourses": {},
+      "codingCourses": {
+        "makecode": {
+          "section": "3.I",
+          "name": "Biped robot",
+          "lessons": [
+            {
+              "title": "1.Biped robot advance",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to achieve that when the A button on the micro:bit motherboard is pressed, the Lifting platform rises; when the B button on the micro:bit motherboard is pressed, the Lifting platform descends.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to achieve that when the A button on the micro:bit motherboard is pressed, the Lifting platform rises; when the B button on the micro:bit motherboard is pressed, the Lifting platform descends.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753444736/2.Button control platform.html",
+              "code": {
+                "description": "The summary program is shown in the figure below. You can also directly open the microbit-Button-control-platform.hex file provided in this experiment and drag it into the browser that opens the URL, and the program diagram of this project source code will be automatically opened"
+              },
+              "images": [
+                {
+                  "type": "code",
+                  "url": "1588045195823628.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607163959305.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607094947210.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044336115798.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044683438106.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588043987899579.png"
+                }
+              ]
+            },
+            {
+              "title": "2.Biped robot walk",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Lifting platform.",
+              "phenomenon": "5.1 Download APP Android users, please use the mobile browser to scan the following QR code to download and install the APP; Apple users, please use the hand camera to scan the QR code to download and install the APP. ! Note: During the installation or use of the APP, if the mobile phone prompts that any permissions need to be obtained, please select &quot;Agree&quot;. 5.2 APP remote control 1) After the program is downloaded successfully, turn on the power switch of the car, and the micro:bit dot matrix will display an &quot;S&quot; pattern, as shown in the figure below. This is the state of Bluetooth disconnection. 2) Turn on the Bluetooth of the mobile phone, open our APP, you can see the interface as shown in the figure below, click Allow APP to use positioning information . 3) After the mobile phone is close to the car and waits for a while, the Bluetooth will automatically connect; if it does not automatically connect, we can click [Search Bluetooth devices] to search for the device to connect. After the Bluetooth is successfully connected, a smiley face pattern will be displayed on the micro:bit dot matrix; if the Bluetooth is disconnected, a crying face pattern will be displayed on the dot matrix. [Bluetooth successful connection status] [Bluetooth disconnection status] APP interface function introduction: Main control interface: The forward button controls the platform to rise The backward button controls the platform to descend Press the piano key to hear the buzzer play different tones. Car light interface: RGB light interface: Due to the upgrade of micro:bit V2 motherboard, the Bluetooth code control deleted the RGB light control and changed to dot matrix display. The buttons under the mode options have no defined functions yet.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753444765/3.APP control.html",
+              "code": null,
+              "images": [
+                {
+                  "type": "wiring",
+                  "url": "image-20250607163959305.png"
+                },
+                {
+                  "type": "wiring",
+                  "url": "image-20250607094947210.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045431129319.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045515101942.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045512101537.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045508952809.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045504705032.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045502982587.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045493141875.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045489133204.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588045486105087.png"
+                }
+              ]
+            },
+            {
+              "title": "3.Micro:bit handle control",
+              "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize the microbit handle to control the Lifting platform.",
+              "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize the microbit handle to control the Lifting platform.",
+              "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753444825/4.Microbit handle control.html",
+              "code": {
+                "description": "The microbit summary program on the Lifting platform is shown in the figure below The Handle rocker control program is as follows The Handle gravity control program is as follows You can also directly open the microbit-handle-control-Lifting-platform.hex, microbit-Handle-rocker-control.hex, microbit-Handle-gravity-control.hex files provided in this experiment and drag them into the browser that opens the URL, and the program diagram of this project source code will be automatically opened"
+              },
+              "images": [
+                {
+                  "type": "code",
+                  "url": "image-20250610183000547.png"
+                },
+                {
+                  "type": "code",
+                  "url": "image-20250610183949848.png"
+                },
+                {
+                  "type": "code",
+                  "url": "image-20250610185019064.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607163959305.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250607094947210.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184603631.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250606184759888.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588044336115798.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610174835687.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610174626884.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610174723708.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610175759535.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610175511071.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610175905864.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180042653.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180238324.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180727860.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610180850895.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610181258643.png"
+                },
+                {
+                  "type": "content",
+                  "url": "image-20250610181357390.png"
+                },
+                {
+                  "type": "content",
+                  "url": "1588046028770914.png"
+                }
+              ]
+            }
+          ]
+        },
+        "python": {
+          "section": "4.I",
+          "name": "Biped robot",
+          "lessons": []
+        }
+      },
       "sensors": [],
       "wiringImageUrl": null,
       "localImages": {
@@ -1139,7 +2886,18 @@
         }
       ],
       "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
-      "codingCourses": {},
+      "codingCourses": {
+        "makecode": {
+          "section": "3.J",
+          "name": "Changing Face",
+          "lessons": []
+        },
+        "python": {
+          "section": "4.J",
+          "name": "Changing Face",
+          "lessons": []
+        }
+      },
       "sensors": [],
       "wiringImageUrl": null,
       "localImages": {
@@ -1213,7 +2971,18 @@
         }
       ],
       "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
-      "codingCourses": {},
+      "codingCourses": {
+        "makecode": {
+          "section": "3.K",
+          "name": "Carousel",
+          "lessons": []
+        },
+        "python": {
+          "section": "4.K",
+          "name": "Carousel",
+          "lessons": []
+        }
+      },
       "sensors": [],
       "wiringImageUrl": null,
       "localImages": {
@@ -1287,7 +3056,18 @@
         }
       ],
       "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
-      "codingCourses": {},
+      "codingCourses": {
+        "makecode": {
+          "section": "3.L",
+          "name": "Oscillating fan",
+          "lessons": []
+        },
+        "python": {
+          "section": "4.L",
+          "name": "Oscillating fan",
+          "lessons": []
+        }
+      },
       "sensors": [],
       "wiringImageUrl": null,
       "localImages": {
@@ -1552,7 +3332,18 @@
         }
       ],
       "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
-      "codingCourses": {},
+      "codingCourses": {
+        "makecode": {
+          "section": "3.N",
+          "name": "Unicycle",
+          "lessons": []
+        },
+        "python": {
+          "section": "4.N",
+          "name": "Unicycle",
+          "lessons": []
+        }
+      },
       "sensors": [],
       "wiringImageUrl": null,
       "localImages": {
@@ -1662,7 +3453,18 @@
         }
       ],
       "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
-      "codingCourses": {},
+      "codingCourses": {
+        "makecode": {
+          "section": "3.O",
+          "name": "Auto-door",
+          "lessons": []
+        },
+        "python": {
+          "section": "4.O",
+          "name": "Auto-door",
+          "lessons": []
+        }
+      },
       "sensors": [],
       "wiringImageUrl": null,
       "localImages": {
@@ -1790,7 +3592,18 @@
         }
       ],
       "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
-      "codingCourses": {},
+      "codingCourses": {
+        "makecode": {
+          "section": "3.P",
+          "name": "Dragon knight",
+          "lessons": []
+        },
+        "python": {
+          "section": "4.P",
+          "name": "Dragon knight",
+          "lessons": []
+        }
+      },
       "sensors": [],
       "wiringImageUrl": null,
       "localImages": {
@@ -1837,7 +3650,18 @@
         }
       ],
       "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
-      "codingCourses": {},
+      "codingCourses": {
+        "makecode": {
+          "section": "3.Q",
+          "name": "Ultrasonic handheld rangefinder",
+          "lessons": []
+        },
+        "python": {
+          "section": "4.Q",
+          "name": "Ultrasonic handheld rangefinder",
+          "lessons": []
+        }
+      },
       "sensors": [
         "ultrasonic"
       ],
@@ -1846,7 +3670,8 @@
         "thumbnail": "/images/builds/1.17-thumb.webp",
         "medium": "/images/builds/1.17-medium.webp",
         "full": "/images/builds/1.17-full.webp"
-      }
+      },
+      "sensorPrinciples": []
     },
     {
       "id": "1.18",
@@ -1921,6 +3746,16 @@
             "ultrasonic"
           ],
           "wiringImageUrl": "https://www.yahboom.net/public/upload/upload-html/1753443262/image-20250624143411432.png"
+        },
+        "makecode": {
+          "section": "3.R",
+          "name": "Small flying car obstacle avoidance",
+          "lessons": []
+        },
+        "python": {
+          "section": "4.R",
+          "name": "Small flying car obstacle avoidance",
+          "lessons": []
         }
       },
       "sensors": [
@@ -1931,7 +3766,8 @@
         "thumbnail": "/images/builds/1.18-thumb.webp",
         "medium": "/images/builds/1.18-medium.webp",
         "full": "/images/builds/1.18-full.webp"
-      }
+      },
+      "sensorPrinciples": []
     },
     {
       "id": "1.19",
@@ -1998,7 +3834,18 @@
         }
       ],
       "assemblyUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
-      "codingCourses": {},
+      "codingCourses": {
+        "makecode": {
+          "section": "3.S",
+          "name": "Changing face",
+          "lessons": []
+        },
+        "python": {
+          "section": "4.S",
+          "name": "Changing face",
+          "lessons": []
+        }
+      },
       "sensors": [],
       "wiringImageUrl": null,
       "localImages": {
@@ -2137,7 +3984,8 @@
         "thumbnail": "/images/builds/1.22-thumb.webp",
         "medium": "/images/builds/1.22-medium.webp",
         "full": "/images/builds/1.22-full.webp"
-      }
+      },
+      "sensorPrinciples": []
     },
     {
       "id": "1.23",
@@ -2350,7 +4198,8 @@
         "thumbnail": "/images/builds/1.24-thumb.webp",
         "medium": "/images/builds/1.24-medium.webp",
         "full": "/images/builds/1.24-full.webp"
-      }
+      },
+      "sensorPrinciples": []
     },
     {
       "id": "1.25",
@@ -2563,7 +4412,8 @@
         "thumbnail": "/images/builds/1.26-thumb.webp",
         "medium": "/images/builds/1.26-medium.webp",
         "full": "/images/builds/1.26-full.webp"
-      }
+      },
+      "sensorPrinciples": []
     },
     {
       "id": "1.27",
@@ -2604,7 +4454,8 @@
         "thumbnail": "/images/builds/1.27-thumb.webp",
         "medium": "/images/builds/1.27-medium.webp",
         "full": "/images/builds/1.27-full.webp"
-      }
+      },
+      "sensorPrinciples": []
     },
     {
       "id": "1.28",
@@ -2680,7 +4531,8 @@
         "thumbnail": "/images/builds/1.28-thumb.webp",
         "medium": "/images/builds/1.28-medium.webp",
         "full": "/images/builds/1.28-full.webp"
-      }
+      },
+      "sensorPrinciples": []
     },
     {
       "id": "1.29",
@@ -2729,7 +4581,8 @@
         "thumbnail": "/images/builds/1.29-thumb.webp",
         "medium": "/images/builds/1.29-medium.webp",
         "full": "/images/builds/1.29-full.webp"
-      }
+      },
+      "sensorPrinciples": []
     },
     {
       "id": "1.30",
@@ -2850,7 +4703,8 @@
         "thumbnail": "/images/builds/1.30-thumb.webp",
         "medium": "/images/builds/1.30-medium.webp",
         "full": "/images/builds/1.30-full.webp"
-      }
+      },
+      "sensorPrinciples": []
     },
     {
       "id": "1.31",
@@ -2880,7 +4734,8 @@
         "thumbnail": "/images/builds/1.31-thumb.webp",
         "medium": "/images/builds/1.31-medium.webp",
         "full": "/images/builds/1.31-full.webp"
-      }
+      },
+      "sensorPrinciples": []
     },
     {
       "id": "1.32",
@@ -2983,7 +4838,8 @@
         "thumbnail": "/images/builds/1.32-thumb.webp",
         "medium": "/images/builds/1.32-medium.webp",
         "full": "/images/builds/1.32-full.webp"
-      }
+      },
+      "sensorPrinciples": []
     }
   ]
 }

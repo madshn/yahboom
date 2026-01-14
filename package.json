@@ -8,7 +8,16 @@
     "build": "vite build",
     "scrape": "node scripts/scraper.js",
     "process-images": "node scripts/process-images.js",
-    "test": "node scripts/test-gallery.js"
+    "test": "node scripts/test-gallery.js",
+    "scrape:discover": "node scripts/autonomous-scraper/index.js --phase=discover",
+    "scrape:makecode": "node scripts/autonomous-scraper/index.js --phase=makecode",
+    "scrape:python": "node scripts/autonomous-scraper/index.js --phase=python",
+    "scrape:wiring": "node scripts/autonomous-scraper/index.js --phase=wiring",
+    "scrape:sensors": "node scripts/autonomous-scraper/index.js --phase=sensors",
+    "scrape:all": "node scripts/autonomous-scraper/index.js --all",
+    "scrape:resume": "node scripts/autonomous-scraper/index.js --resume",
+    "scrape:report": "node scripts/autonomous-scraper/index.js --report",
+    "scrape:reset": "node scripts/autonomous-scraper/index.js --reset"
   },
   "keywords": [],
   "author": "",
