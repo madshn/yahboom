@@ -23,6 +23,9 @@ npm-debug.log*
 /tmp/
 *.tmp
 
+# Private/commercial docs (not for public repo)
+commercial/
+
 # Test artifacts
 test-screenshot.png
 raw/images-original/
