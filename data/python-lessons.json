@@ -1,0 +1,438 @@
+{
+  "A.Mobile shooter": [
+    {
+      "title": "1.Cannonball shooting",
+      "buildId": "3824",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440610/3.Control all RGB lights.html",
+      "objective": "In this course, we mainly learn how to control and light up the GB light on the superbit expansion board through python programming. The 4 RGB lights are located on the expansion board as shown in the figure below.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to control and light up the GB light on the superbit expansion board through python programming. The 4 RGB lights are located on the expansion board as shown in the figure below.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"><pre><span>xxxxxxxxxx</span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "1588043486118117.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:09:00.790Z"
+    },
+    {
+      "title": "2.Music fortress",
+      "buildId": "3825",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440685/4.Drive 270° building block servo.html",
+      "objective": "In this course, we mainly learn how to drive the building block servo connected to the superbit expansion board through Python programming. The servo interface is located on the expansion board as shown in the figure below.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to drive the building block servo connected to the superbit expansion board through Python programming. The servo interface is located on the expansion board as shown in the figure below.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"><pre><span>xxxxxxxxxx</span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "1588043918631233.png"
+        },
+        {
+          "type": "content",
+          "url": "1588043956128084.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:09:07.164Z"
+    },
+    {
+      "title": "3.Micro:bit handle control",
+      "buildId": "3826",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440710/5.Drive 180° servo.html",
+      "objective": "In this course, we mainly learn how to drive the servo connected to the superbit expansion board through Python programming. The servo interface is located on the expansion board as shown in the figure below.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to drive the servo connected to the superbit expansion board through Python programming. The servo interface is located on the expansion board as shown in the figure below.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"><pre><span>xxxxxxxxxx</span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "1588043918631233.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044176125153.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:09:13.538Z"
+    }
+  ],
+  "B.Pretty car": [
+    {
+      "title": "1.Dancer",
+      "buildId": "3827",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440732/6.Drive motor.html",
+      "objective": "In this course, we mainly learn how to drive the motor connected to the superbit expansion board through Python programming. The motor interface is located on the expansion board as shown in the figure below.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to drive the motor connected to the superbit expansion board through Python programming. The motor interface is located on the expansion board as shown in the figure below."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to drive the motor connected to the superbit expansion board through Python programming. The motor interface is located on the expansion board as shown in the figure below.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "wiring",
+          "url": "1588044288726634.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044324115751.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044010942826.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:09:19.918Z"
+    },
+    {
+      "title": "2.Micro:bit handle control",
+      "buildId": "3828",
+      "error": "No iframe URL"
+    }
+  ],
+  "G.Spider": [
+    {
+      "title": "1.Spider advance",
+      "buildId": "3848",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441387/1.Spider advance.html",
+      "objective": "In this course, we mainly learn how to use Python programming to achieve that the building block spider keeps moving forward.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to achieve that the building block spider keeps moving forward."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to achieve that the building block spider keeps moving forward.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:09:30.190Z"
+    },
+    {
+      "title": "2.The dancing spider",
+      "buildId": "3849",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441352/2.The dancing spider.html",
+      "objective": "In this course, we mainly learn how to use Python programming to make the building block spider &quot;sing&quot; and &quot;dance&quot; at the same time.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to make the building block spider &quot;sing&quot; and &quot;dance&quot; at the same time."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to make the building block spider &quot;sing&quot; and &quot;dance&quot; at the same time.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:09:36.592Z"
+    },
+    {
+      "title": "3.Micro:bit handle control",
+      "buildId": "3850",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441411/3.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use Python programming to control the building block spider with the micro:bit handle.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to control the building block spider with the micro:bit handle."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to control the building block spider with the micro:bit handle.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:09:43.126Z"
+    }
+  ],
+  "0.Basic course": [
+    {
+      "title": "1.Buzzer play music",
+      "buildId": "3818",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753442715/3.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize the microbit handle control of the Dragon Knight.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to realize the microbit handle control of the Dragon Knight."
+      },
+      "blocksUsed": [],
+      "code": {
+        "description": "The microbit summary program on Dragon Knight is shown in the figure below. Handle joystick control program is as follows. Handle gravity control program is as follows. You can also directly open the microbit-Handle-control-Dragon-knight-code.hex, microbit-Handle-rocker-control.hex, microbit-Handle-gravity-control.hex Drag the file into the browser that opens the URL, and the program diagram of this project source code will be automatically opened."
+      },
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize the microbit handle control of the Dragon Knight.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "code",
+          "url": "image-20250610183000547.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610183949848.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610185019064.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174835687.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174626884.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174723708.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175759535.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175511071.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175905864.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180042653.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180238324.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180727860.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180850895.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181258643.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181357390.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:09:49.533Z"
+    },
+    {
+      "title": "2.Control RGB color",
+      "buildId": "3819",
+      "error": "No iframe URL"
+    },
+    {
+      "title": "3.Control all RGB lights",
+      "buildId": "3820",
+      "error": "No iframe URL"
+    },
+    {
+      "title": "4.Drive 270°building block servo",
+      "buildId": "3821",
+      "error": "No iframe URL"
+    },
+    {
+      "title": "5.Drive 180° servo",
+      "buildId": "3822",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440572/1.Buzzer play music.html",
+      "objective": "In this course, we mainly learn how to drive the buzzer on the superbit expansion board through Python programming. The buzzer is located on the expansion board as shown in the figure below. ! Notes: Before conducting this experiment, we need to connect the jumper cap to the P0 and Buzzer pins on the Super:bit expansion board, as shown in the figure below.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to drive the buzzer on the superbit expansion board through Python programming. The buzzer is located on the expansion board as shown in the figure below. ! Notes: Before conducting this experiment, we need to connect the jumper cap to the P0 and Buzzer pins on the Super:bit expansion board, as shown in the figure below.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"><span><span>​</span>x</span></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\" style=\"\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "1588043031888821.png"
+        },
+        {
+          "type": "content",
+          "url": "1588042801125071.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616211641044.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616212827310.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616212911192.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:10:06.829Z"
+    },
+    {
+      "title": "6.Drive motor",
+      "buildId": "3823",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440590/2.Control RGB color.html",
+      "objective": "In this course, we mainly learn how to control and light up a single RGB light on the superbit expansion board through Python programming. The 4 RGB lights are located on the expansion board as shown in the figure below.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to control and light up a single RGB light on the superbit expansion board through Python programming. The 4 RGB lights are located on the expansion board as shown in the figure below.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "1588043486118117.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:10:13.444Z"
+    }
+  ]
+}

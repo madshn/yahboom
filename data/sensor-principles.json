@@ -1,0 +1,476 @@
+{
+  "principles": [
+    {
+      "title": "1.1 About ultrasonic sensors",
+      "buildId": "15652",
+      "error": "No iframe URL"
+    },
+    {
+      "title": "1.2 Ultrasonic ranging",
+      "buildId": "15653",
+      "error": "No iframe URL"
+    },
+    {
+      "title": "1.3 About potentiometers",
+      "buildId": "15658",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753439621/1.3 About potentiometers.html",
+      "objective": "",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "1667458812691833.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:10:27.529Z"
+    },
+    {
+      "title": "1.4 Adjust potentiometer",
+      "buildId": "15659",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753439738/1.4 Adjust potentiometer.html",
+      "objective": "In this course, we mainly learn how to display the potentiometer status through Python programming.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to display the potentiometer status through Python programming.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250624150416704.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:10:33.921Z"
+    },
+    {
+      "title": "1.5 About photosensitive sensors",
+      "buildId": "15660",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753439833/1.5 About photosensitive sensors.html",
+      "objective": "",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "1667458812691833.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:10:40.320Z"
+    },
+    {
+      "title": "1.6 Read the light intensity",
+      "buildId": "15671",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440007/1.6 Read the light intensity.html",
+      "objective": "In this course, we mainly learn how to display light intensity through Python programming.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to display light intensity through Python programming.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250624155118191.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:10:46.708Z"
+    },
+    {
+      "title": "1.7 About infrared modules",
+      "buildId": "15670",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440039/1.7 About infrared modules.html",
+      "objective": "",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "1667458812691833.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:10:53.190Z"
+    },
+    {
+      "title": "1.8 Obstacle detection",
+      "buildId": "15669",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440136/1.8 Obstacle detection.html",
+      "objective": "In this course, we mainly learn how to implement obstacle detection through python programming.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to implement obstacle detection through python programming.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250624180517791.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:10:59.672Z"
+    },
+    {
+      "title": "1.9 About human infrared sensing modules",
+      "buildId": "15668",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440196/1.9 About human infrared sensing modules.html",
+      "objective": "",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "1667458812691833.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:11:06.062Z"
+    },
+    {
+      "title": "1.10 Human body detection",
+      "buildId": "15667",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440276/1.10 Human body detection.html",
+      "objective": "In this course, we mainly learn how to realize human detection through python programming.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to realize human detection through python programming.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250624191008188.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250724191008189.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:11:12.468Z"
+    },
+    {
+      "title": "1.11 About temperature-humidity modules",
+      "buildId": "15666",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440330/1.11 About temperature-humidity modules.html",
+      "objective": "",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "1667458812691833.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:11:18.878Z"
+    },
+    {
+      "title": "1.12 Read temperature humidity",
+      "buildId": "15664",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440387/1.12 Read temperature humidity.html",
+      "objective": "In this course, we mainly learn how to display temperature and humidity through Python programming.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to display temperature and humidity through Python programming.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250624191008188.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:11:25.297Z"
+    },
+    {
+      "title": "1.13 About color recognition sensors",
+      "buildId": "15663",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440559/1.13 About color recognition sensors.html",
+      "objective": "",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "1667458812691833.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:11:31.681Z"
+    },
+    {
+      "title": "1.14 Color recognition",
+      "buildId": "15665",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440608/1.14 Color recognition.html",
+      "objective": "In this course, we mainly learn how to implement color recognition through python programming.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to implement color recognition through python programming.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250624191008188.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:11:38.125Z"
+    },
+    {
+      "title": "1.15 About rocker module",
+      "buildId": "15662",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440725/1.15 About rocker module.html",
+      "objective": "",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "1667448895451660.png"
+        },
+        {
+          "type": "content",
+          "url": "1667458812691833.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:11:44.763Z"
+    },
+    {
+      "title": "1.16 Control rocker",
+      "buildId": "15661",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440792/1.16 Control rocker.html",
+      "objective": "In this course, we mainly learn how to display the joystick status through Python programming.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to display the joystick status through Python programming.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250624191008188.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:11:51.179Z"
+    }
+  ],
+  "advanced": [
+    {
+      "title": "2.1 Hand-held range finder",
+      "buildId": "15672",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440967/2.1Hand-held range finder.html",
+      "objective": "In this course, we mainly learn how to implement handheld rangefinder of ultrasonic module through python programming.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to implement handheld rangefinder of ultrasonic module through python programming.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250624143411432.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:11:57.543Z"
+    },
+    {
+      "title": "2.2 Adjustable RGB light",
+      "buildId": "15675",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441203/2.2Adjustable RGB light.html",
+      "objective": "In this course, we mainly learn how to adjust the brightness of RGB lights through Python programming.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to adjust the brightness of RGB lights through Python programming.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250624150416704.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:12:04.093Z"
+    },
+    {
+      "title": "2.3 Emergency light",
+      "buildId": "15673",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441258/2.3 Emergency light.html",
+      "objective": "In this course, we mainly learn how to use Python programming to display the switch of lights according to the external light intensity.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to display the switch of lights according to the external light intensity.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250624155118191.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:12:10.643Z"
+    },
+    {
+      "title": "2.4 Intelligent desk lamp",
+      "buildId": "15674",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441243/2.4 Vibrating alarm clock.html",
+      "objective": "In this course, we mainly learn how to use Python programming to display the switch of lights according to the external light intensity.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to display the switch of lights according to the external light intensity.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250624155118191.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-14T22:12:17.201Z"
+    }
+  ]
+}

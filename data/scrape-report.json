@@ -1,0 +1,27 @@
+{
+  "summary": {
+    "phase": "direct-all",
+    "startedAt": "2026-01-14T21:59:57.433Z",
+    "lastCheckpoint": "2026-01-14T22:12:17.202Z",
+    "makecodeScraped": 30,
+    "pythonScraped": 10,
+    "wiringDownloaded": 0,
+    "imagesProcessed": 0,
+    "errorCount": 2
+  },
+  "errors": [
+    {
+      "buildId": "3782",
+      "type": "lesson",
+      "error": "HTTP 500: Internal Server Error",
+      "timestamp": "2026-01-14T22:07:19.459Z"
+    },
+    {
+      "buildId": "3753",
+      "type": "lesson",
+      "error": "HTTP 500: Internal Server Error",
+      "timestamp": "2026-01-14T22:08:35.043Z"
+    }
+  ],
+  "builds": {}
+}
