@@ -63,6 +63,14 @@ npm run process-images   # Download and optimize images
 npm run test             # Run gallery validation tests
 ```
 
+## Deployment
+
+The site is hosted on **Render** as a static site.
+
+- **Dashboard**: https://dashboard.render.com/static/srv-d5jv1htactks73chuc40
+- **Live URL**: https://building-bit-superkit.onrender.com
+- **Auto-deploy**: Pushes to `main` branch trigger automatic deployments
+
 ## Roadmap
 
 ### Phase 1: Gallery (Complete)
