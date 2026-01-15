@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(**)",
+      "Write(./**)",
+      "Edit(./**)",
+      "Glob(**)",
+      "Grep(**)",
+      "Bash",
+      "mcp__*",
+      "Task(*)",
+      "WebFetch",
+      "WebSearch",
+      "TodoWrite",
+      "AskUserQuestion",
+      "NotebookEdit(./**)"
+    ],
+    "deny": [
+      "Bash(sudo:*)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(rm -rf /:*)",
+      "Bash(rm -rf ~:*)",
+      "Bash(mkfs:*)",
+      "Bash(dd if=:*)"
+    ]
+  }
+}
