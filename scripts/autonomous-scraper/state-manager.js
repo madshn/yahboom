@@ -101,10 +101,11 @@ class StateManager {
   }
 
   addError(buildId, type, error) {
+    const errorMsg = error.message || String(error);
     this.state.errors.push({
       buildId,
       type,
-      error: error.message || String(error),
+      error: errorMsg,
       timestamp: new Date().toISOString(),
     });
     this.save();
@@ -154,14 +155,9 @@ class StateManager {
     this.save();
   }
 
+  // Alias for addError to maintain API compatibility
   recordError(id, type, errorMsg) {
-    this.state.errors.push({
-      buildId: id,
-      type,
-      error: errorMsg,
-      timestamp: new Date().toISOString(),
-    });
-    this.save();
+    this.addError(id, type, errorMsg);
   }
 
   updateStats(key, value) {

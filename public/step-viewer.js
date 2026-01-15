@@ -133,32 +133,31 @@ function showStep(stepIndex) {
   document.getElementById('prevBtn').disabled = stepIndex === 0;
   document.getElementById('nextBtn').disabled = stepIndex === totalSteps - 1;
 
-  // Update parts indicator
+  // Update parts indicator and type label
   const partsIndicator = document.getElementById('partsIndicator');
   const typeIndicator = document.getElementById('stepTypeIndicator');
+  const partsText = partsIndicator.querySelector('.parts-text');
 
-  if (step.type === 'parts') {
-    // This is the parts list image
-    partsIndicator.classList.add('visible');
-    partsIndicator.classList.remove('faded');
-    partsIndicator.querySelector('.parts-text').textContent = 'Collect these parts';
+  // Determine indicator state based on step type
+  const isParts = step.type === 'parts';
+  const isPartsNeeded = step.partsNeeded;
+  const isLaterStep = stepIndex > 1;
+  const showIndicator = isParts || isPartsNeeded || isLaterStep;
+  const showFaded = !isParts && !isPartsNeeded && isLaterStep;
+
+  partsIndicator.classList.toggle('visible', showIndicator);
+  partsIndicator.classList.toggle('faded', showFaded);
+
+  if (isParts) {
+    partsText.textContent = 'Collect these parts';
     typeIndicator.textContent = 'Parts List';
     typeIndicator.className = 'step-type-indicator parts';
-  } else if (step.partsNeeded) {
-    // First build step - parts need to be collected
-    partsIndicator.classList.add('visible');
-    partsIndicator.classList.remove('faded');
-    partsIndicator.querySelector('.parts-text').textContent = 'Parts needed for this step';
-    typeIndicator.textContent = `Build Step ${stepIndex}`;
-    typeIndicator.className = 'step-type-indicator step';
-  } else if (stepIndex > 1) {
-    // Subsequent steps - show faded indicator
-    partsIndicator.classList.add('visible', 'faded');
-    partsIndicator.querySelector('.parts-text').textContent = 'Parts already collected';
-    typeIndicator.textContent = `Build Step ${stepIndex}`;
-    typeIndicator.className = 'step-type-indicator step';
   } else {
-    partsIndicator.classList.remove('visible', 'faded');
+    if (isPartsNeeded) {
+      partsText.textContent = 'Parts needed for this step';
+    } else if (isLaterStep) {
+      partsText.textContent = 'Parts already collected';
+    }
     typeIndicator.textContent = `Build Step ${stepIndex}`;
     typeIndicator.className = 'step-type-indicator step';
   }

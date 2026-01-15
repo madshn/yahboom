@@ -161,46 +161,40 @@ function openModal(buildId) {
 
     // Render coding options
     const codingOptions = document.getElementById('codingOptions');
-    let codingHtml = '';
+    const codingConfigs = [
+        { key: 'makecode', icon: '📦', label: 'MakeCode', useViewer: true },
+        { key: 'python', icon: '🐍', label: 'Python', useViewer: true },
+        { key: 'sensorAdvanced', icon: '📡', label: 'Sensor Course', useViewer: false },
+    ];
 
-    if (build.codingCourses.makecode) {
-        const mc = build.codingCourses.makecode;
-        codingHtml += `
-            <a href="#" class="coding-option makecode" onclick="event.preventDefault(); closeModal(); openLessonViewer('${build.id}', 'makecode');">
-                <div class="option-icon">📦</div>
-                <div class="option-text">
-                    <div class="option-title">MakeCode - ${mc.section}</div>
-                    <div class="option-subtitle">${mc.lessons ? mc.lessons.length + ' lessons' : mc.name}</div>
-                </div>
-            </a>
-        `;
-    }
+    const codingHtml = codingConfigs
+        .filter(config => build.codingCourses[config.key])
+        .map(config => {
+            const course = build.codingCourses[config.key];
+            const subtitle = course.lessons ? `${course.lessons.length} lessons` : course.name;
 
-    if (build.codingCourses.python) {
-        const py = build.codingCourses.python;
-        codingHtml += `
-            <a href="#" class="coding-option python" onclick="event.preventDefault(); closeModal(); openLessonViewer('${build.id}', 'python');">
-                <div class="option-icon">🐍</div>
-                <div class="option-text">
-                    <div class="option-title">Python - ${py.section}</div>
-                    <div class="option-subtitle">${py.lessons ? py.lessons.length + ' lessons' : py.name}</div>
-                </div>
-            </a>
-        `;
-    }
-
-    if (build.codingCourses.sensorAdvanced) {
-        const sensor = build.codingCourses.sensorAdvanced;
-        codingHtml += `
-            <a href="${build.assemblyUrl}" class="coding-option sensor" target="_blank">
-                <div class="option-icon">📡</div>
-                <div class="option-text">
-                    <div class="option-title">Sensor Course - ${sensor.section}</div>
-                    <div class="option-subtitle">${sensor.name}</div>
-                </div>
-            </a>
-        `;
-    }
+            if (config.useViewer) {
+                return `
+                    <a href="#" class="coding-option ${config.key}" onclick="event.preventDefault(); closeModal(); openLessonViewer('${build.id}', '${config.key}');">
+                        <div class="option-icon">${config.icon}</div>
+                        <div class="option-text">
+                            <div class="option-title">${config.label} - ${course.section}</div>
+                            <div class="option-subtitle">${subtitle}</div>
+                        </div>
+                    </a>
+                `;
+            }
+            return `
+                <a href="${build.assemblyUrl}" class="coding-option sensor" target="_blank">
+                    <div class="option-icon">${config.icon}</div>
+                    <div class="option-text">
+                        <div class="option-title">${config.label} - ${course.section}</div>
+                        <div class="option-subtitle">${subtitle}</div>
+                    </div>
+                </a>
+            `;
+        })
+        .join('');
 
     codingOptions.innerHTML = codingHtml || '<p style="color: #888;">Basic build - no coding required!</p>';
 

@@ -390,48 +390,45 @@ function escapeHtml(text) {
   return div.innerHTML;
 }
 
+// Show copy success feedback on a button
+function showCopyFeedback(btn) {
+  const originalText = btn.innerHTML;
+  btn.innerHTML = '<span class="copy-icon">✓</span> Copied!';
+  btn.classList.add('copied');
+  setTimeout(() => {
+    btn.innerHTML = originalText;
+    btn.classList.remove('copied');
+  }, 2000);
+}
+
+// Copy text to clipboard with fallback
+function copyTextToClipboard(text, btn) {
+  navigator.clipboard.writeText(text)
+    .then(() => showCopyFeedback(btn))
+    .catch(() => {
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textarea);
+      showCopyFeedback(btn);
+    });
+}
+
 // Copy code from pre block
 function copyCode(btn) {
   const pre = btn.previousElementSibling;
   const code = pre.querySelector('code').textContent;
-
-  navigator.clipboard.writeText(code).then(() => {
-    const originalText = btn.innerHTML;
-    btn.innerHTML = '<span class="copy-icon">✓</span> Copied!';
-    btn.classList.add('copied');
-    setTimeout(() => {
-      btn.innerHTML = originalText;
-      btn.classList.remove('copied');
-    }, 2000);
-  });
+  copyTextToClipboard(code, btn);
 }
 
-// Copy text to clipboard
+// Copy text to clipboard by element ID
 function copyToClipboard(elementId) {
   const element = document.getElementById(elementId);
   const text = element.textContent || element.value;
-
-  navigator.clipboard.writeText(text).then(() => {
-    // Show feedback
-    const btn = element.nextElementSibling;
-    const originalText = btn.innerHTML;
-    btn.innerHTML = '<span class="copy-icon">✓</span> Copied!';
-    btn.classList.add('copied');
-
-    setTimeout(() => {
-      btn.innerHTML = originalText;
-      btn.classList.remove('copied');
-    }, 2000);
-  }).catch(err => {
-    console.error('Copy failed:', err);
-    // Fallback
-    const textarea = document.createElement('textarea');
-    textarea.value = text;
-    document.body.appendChild(textarea);
-    textarea.select();
-    document.execCommand('copy');
-    document.body.removeChild(textarea);
-  });
+  const btn = element.nextElementSibling;
+  copyTextToClipboard(text, btn);
 }
 
 // Close lesson viewer
