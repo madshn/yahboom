@@ -129,9 +129,14 @@ function filterBuilds(filterType, value) {
 }
 
 // Open project modal
-function openModal(buildId) {
+function openModal(buildId, updateUrl = true) {
     const build = builds.find(b => b.id === buildId);
     if (!build) return;
+
+    // Update URL if not already navigating from router
+    if (updateUrl && typeof Router !== 'undefined') {
+        Router.updateHash(`#/build/${buildId}`);
+    }
 
     const modal = document.getElementById('projectModal');
 
@@ -139,6 +144,7 @@ function openModal(buildId) {
     document.getElementById('modalImage').src = getImageUrl(build, 'full');
     document.getElementById('modalImage').alt = build.name;
     document.getElementById('modalTitle').textContent = `${build.id} ${build.name}`;
+    document.getElementById('modalDescription').textContent = build.description || '';
     document.getElementById('modalChinese').textContent = build.nameChinese || '';
 
     // Set up Build Instructions button
@@ -233,6 +239,11 @@ function closeModal() {
     const modal = document.getElementById('projectModal');
     modal.classList.remove('active');
     document.body.style.overflow = '';
+
+    // Clear URL hash if we're on a build route
+    if (typeof Router !== 'undefined' && Router.current?.type === 'build') {
+        Router.navigateToHome();
+    }
 }
 
 // Event listeners

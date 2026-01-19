@@ -61,7 +61,7 @@ function initStepViewer() {
 }
 
 // Open step viewer for a build
-function openStepViewer(buildId) {
+function openStepViewer(buildId, updateUrl = true) {
   currentBuild = builds.find(b => b.id === buildId);
   if (!currentBuild || !currentBuild.assemblySteps || currentBuild.assemblySteps.length === 0) {
     alert('No assembly steps available for this build.');
@@ -70,6 +70,11 @@ function openStepViewer(buildId) {
 
   currentStep = 0;
   isZoomed = false;
+
+  // Update URL
+  if (updateUrl && typeof Router !== 'undefined') {
+    Router.updateHash(`#/build/${buildId}/assembly`);
+  }
 
   // Set build name
   document.getElementById('stepBuildName').textContent = `${currentBuild.id} ${currentBuild.name}`;
@@ -94,6 +99,11 @@ function closeStepViewer() {
   document.body.style.overflow = '';
   isZoomed = false;
   currentBuild = null;
+
+  // Navigate back to home
+  if (typeof Router !== 'undefined' && Router.current?.type === 'assembly') {
+    Router.navigateToHome();
+  }
 }
 
 // Generate thumbnail strip
@@ -182,19 +192,42 @@ function showStep(stepIndex) {
 // Navigation functions
 function nextStep() {
   if (currentStep < currentBuild.assemblySteps.length - 1) {
-    showStep(currentStep + 1);
+    const newStep = currentStep + 1;
+    showStep(newStep);
     preloadImages();
+    // Update URL
+    if (typeof Router !== 'undefined' && currentBuild) {
+      Router.updateHash(`#/build/${currentBuild.id}/assembly/${newStep}`, true);
+    }
   }
 }
 
 function prevStep() {
   if (currentStep > 0) {
-    showStep(currentStep - 1);
+    const newStep = currentStep - 1;
+    showStep(newStep);
+    // Update URL
+    if (typeof Router !== 'undefined' && currentBuild) {
+      if (newStep === 0) {
+        Router.updateHash(`#/build/${currentBuild.id}/assembly`, true);
+      } else {
+        Router.updateHash(`#/build/${currentBuild.id}/assembly/${newStep}`, true);
+      }
+    }
   }
 }
 
-function goToStep(stepIndex) {
+function goToStep(stepIndex, updateUrl = true) {
   showStep(stepIndex);
+
+  // Update URL with step number
+  if (updateUrl && typeof Router !== 'undefined' && currentBuild) {
+    if (stepIndex === 0) {
+      Router.updateHash(`#/build/${currentBuild.id}/assembly`, true);
+    } else {
+      Router.updateHash(`#/build/${currentBuild.id}/assembly/${stepIndex}`, true);
+    }
+  }
 }
 
 // Keyboard navigation

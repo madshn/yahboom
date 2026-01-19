@@ -175,6 +175,10 @@
         @apply text-2xl font-black text-background-dark mb-1;
     }
 
+    .modal-description {
+        @apply text-gray-600 text-base mb-3 leading-relaxed;
+    }
+
     .chinese-name {
         @apply text-lg text-gray-500 mb-6;
     }
@@ -299,4 +303,93 @@
 .loading-spinner {
     @apply w-12 h-12 border-4 border-white/30 border-t-white rounded-full mx-auto mb-4;
     animation: spin 1s linear infinite;
+}
+
+/* Lesson Images Gallery */
+.lesson-images {
+    @apply grid gap-4 mt-4;
+}
+
+.wiring-images {
+    @apply grid-cols-1 md:grid-cols-2;
+}
+
+.blocks-images {
+    @apply grid-cols-1 md:grid-cols-2;
+}
+
+.code-images-gallery {
+    @apply grid-cols-1;
+}
+
+.content-images-gallery {
+    @apply grid-cols-2 md:grid-cols-3 lg:grid-cols-4;
+}
+
+.lesson-image {
+    @apply w-full rounded-lg shadow-md cursor-pointer transition-transform hover:scale-105 bg-white;
+}
+
+.wiring-image,
+.blocks-image,
+.code-image {
+    @apply max-h-80 object-contain;
+}
+
+.content-image {
+    @apply aspect-square object-cover;
+}
+
+.images-hint {
+    @apply text-sm text-gray-500 italic mb-2;
+}
+
+/* Hex File Downloads */
+.hex-files-list {
+    @apply flex flex-col gap-2 my-4;
+}
+
+.hex-file-item {
+    @apply flex items-center gap-3 p-3 bg-gray-100 rounded-lg;
+}
+
+.hex-icon {
+    @apply text-xl;
+}
+
+.hex-name {
+    @apply flex-1 font-mono text-sm;
+}
+
+.hex-download-btn {
+    @apply px-4 py-2 bg-purple-600 text-white rounded-lg text-sm font-bold no-underline hover:bg-purple-700 transition-colors;
+}
+
+.hex-instructions {
+    @apply text-sm text-gray-500 mt-2;
+}
+
+/* Image Modal */
+.image-modal {
+    @apply fixed inset-0 z-[9999] hidden items-center justify-center;
+}
+
+.image-modal.active {
+    @apply flex;
+}
+
+.image-modal-backdrop {
+    @apply absolute inset-0 bg-black/90;
+}
+
+.image-modal-content {
+    @apply relative max-w-[90vw] max-h-[90vh] flex items-center justify-center;
+}
+
+.image-modal-content img {
+    @apply max-w-full max-h-[90vh] rounded-lg shadow-2xl object-contain;
+}
+
+.image-modal-close {
+    @apply absolute -top-12 right-0 w-10 h-10 bg-white/20 text-white rounded-full text-2xl flex items-center justify-center hover:bg-white/40 transition-colors cursor-pointer border-0;
 }

@@ -36,11 +36,16 @@ function initLessonViewer() {
 }
 
 // Open lesson viewer for a build and type
-function openLessonViewer(buildId, type) {
+function openLessonViewer(buildId, type, updateUrl = true) {
   const build = builds.find(b => b.id === buildId);
   if (!build) return;
 
   currentLessonType = type;
+
+  // Update URL
+  if (updateUrl && typeof Router !== 'undefined') {
+    Router.updateHash(`#/build/${buildId}/${type}`);
+  }
 
   const courseData = type === 'makecode'
     ? build.codingCourses?.makecode
@@ -91,10 +96,20 @@ function openLessonViewer(buildId, type) {
 }
 
 // Select a lesson from the list
-function selectLesson(index) {
+function selectLesson(index, updateUrl = true) {
   if (!currentLesson) return;
 
   currentLesson.selectedIndex = index;
+
+  // Update URL with lesson number
+  if (updateUrl && typeof Router !== 'undefined') {
+    const lessonNum = index + 1;
+    if (index === 0) {
+      Router.updateHash(`#/build/${currentLesson.build.id}/${currentLesson.type}`, true);
+    } else {
+      Router.updateHash(`#/build/${currentLesson.build.id}/${currentLesson.type}/${lessonNum}`, true);
+    }
+  }
 
   // Update active state
   document.querySelectorAll('.lesson-item').forEach((item, i) => {
@@ -174,28 +189,61 @@ function renderDetailedMakeCodeLesson(lesson, extensionUrl) {
     `;
   }
 
-  // Motor wiring
-  if (lesson.motorWiring) {
+  // Motor wiring with images
+  const wiringImages = (lesson.images || []).filter(img => img.type === 'wiring');
+  if (lesson.motorWiring || wiringImages.length > 0) {
     html += `
       <div class="lesson-section-block wiring">
         <h3>🔌 Motor Wiring</h3>
+        ${lesson.motorWiring ? `
         <p>${lesson.motorWiring.description || 'Connect the motors to the expansion board:'}</p>
         <div class="wiring-info">
+          ${lesson.motorWiring.leftMotor ? `
+          <div class="wiring-item">
+            <span class="wiring-label">Left Motor:</span>
+            <span class="wiring-value">${lesson.motorWiring.leftMotor.port}</span>
+          </div>
+          ` : lesson.motorWiring.left ? `
           <div class="wiring-item">
             <span class="wiring-label">Left Motor:</span>
             <span class="wiring-value">${lesson.motorWiring.left}</span>
           </div>
+          ` : ''}
+          ${lesson.motorWiring.rightMotor ? `
+          <div class="wiring-item">
+            <span class="wiring-label">Right Motor:</span>
+            <span class="wiring-value">${lesson.motorWiring.rightMotor.port}</span>
+          </div>
+          ` : lesson.motorWiring.right ? `
           <div class="wiring-item">
             <span class="wiring-label">Right Motor:</span>
             <span class="wiring-value">${lesson.motorWiring.right}</span>
           </div>
+          ` : ''}
           ${lesson.motorWiring.camera ? `
           <div class="wiring-item">
             <span class="wiring-label">Camera:</span>
-            <span class="wiring-value">${lesson.motorWiring.camera}</span>
+            <span class="wiring-value">${lesson.motorWiring.camera.port || lesson.motorWiring.camera}</span>
+          </div>
+          ` : ''}
+          ${lesson.motorWiring.servo ? `
+          <div class="wiring-item">
+            <span class="wiring-label">Servo:</span>
+            <span class="wiring-value">${lesson.motorWiring.servo.port || lesson.motorWiring.servo}</span>
           </div>
           ` : ''}
         </div>
+        ` : ''}
+        ${wiringImages.length > 0 ? `
+        <div class="lesson-images wiring-images">
+          ${wiringImages.map(img => `
+            <img src="${img.localPath || img.originalUrl || img.url}"
+                 alt="${img.alt || 'Wiring diagram'}"
+                 class="lesson-image wiring-image"
+                 onclick="openImageModal(this.src)">
+          `).join('')}
+        </div>
+        ` : ''}
       </div>
     `;
   }
@@ -214,11 +262,13 @@ function renderDetailedMakeCodeLesson(lesson, extensionUrl) {
     </div>
   `;
 
-  // Blocks used
-  if (lesson.blocksUsed && lesson.blocksUsed.length > 0) {
+  // Blocks used with images
+  const blocksImages = (lesson.images || []).filter(img => img.type === 'blocks');
+  if ((lesson.blocksUsed && lesson.blocksUsed.length > 0) || blocksImages.length > 0) {
     html += `
       <div class="lesson-section-block blocks">
-        <h3>🧱 Blocks Used</h3>
+        <h3>🧱 Building Blocks</h3>
+        ${lesson.blocksUsed && lesson.blocksUsed.length > 0 ? `
         <div class="blocks-grid">
           ${lesson.blocksUsed.map(cat => `
             <div class="block-category">
@@ -229,6 +279,17 @@ function renderDetailedMakeCodeLesson(lesson, extensionUrl) {
             </div>
           `).join('')}
         </div>
+        ` : ''}
+        ${blocksImages.length > 0 ? `
+        <div class="lesson-images blocks-images">
+          ${blocksImages.map(img => `
+            <img src="${img.localPath || img.originalUrl || img.url}"
+                 alt="${img.alt || 'Block diagram'}"
+                 class="lesson-image blocks-image"
+                 onclick="openImageModal(this.src)">
+          `).join('')}
+        </div>
+        ` : ''}
       </div>
     `;
   }
@@ -285,11 +346,51 @@ function renderDetailedMakeCodeLesson(lesson, extensionUrl) {
     `;
   }
 
-  // Hex file
-  if (lesson.hexFile) {
+  // Code images (combined blocks screenshots)
+  const codeImages = (lesson.images || []).filter(img => img.type === 'code' || img.type === 'combined');
+  if (codeImages.length > 0) {
+    html += `
+      <div class="lesson-section-block code-images">
+        <h3>💻 Combined Code Blocks</h3>
+        <div class="lesson-images code-images-gallery">
+          ${codeImages.map(img => `
+            <img src="${img.localPath || img.originalUrl || img.url}"
+                 alt="${img.alt || 'Code blocks'}"
+                 class="lesson-image code-image"
+                 onclick="openImageModal(this.src)">
+          `).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  // Hex file download
+  if (lesson.hexFiles && lesson.hexFiles.length > 0) {
     html += `
       <div class="lesson-section-block hex-file">
-        <h3>📁 Program File</h3>
+        <h3>📥 Program Files</h3>
+        <p>Import these hex files directly into MakeCode:</p>
+        <div class="hex-files-list">
+          ${lesson.hexFiles.map(hex => `
+            <div class="hex-file-item">
+              <span class="hex-icon">📦</span>
+              <span class="hex-name">${hex}</span>
+              <a href="${lesson.sourceUrl ? lesson.sourceUrl.replace(/[^/]+$/, hex) : '#'}"
+                 target="_blank"
+                 class="hex-download-btn"
+                 title="Download ${hex}">
+                Download
+              </a>
+            </div>
+          `).join('')}
+        </div>
+        <p class="hex-instructions">Drag the .hex file onto your micro:bit, or import it in MakeCode.</p>
+      </div>
+    `;
+  } else if (lesson.hexFile) {
+    html += `
+      <div class="lesson-section-block hex-file">
+        <h3>📥 Program File</h3>
         <p>Download <strong>${lesson.hexFile}</strong> from the Yahboom resources and drag it to your micro:bit.</p>
       </div>
     `;
@@ -301,6 +402,28 @@ function renderDetailedMakeCodeLesson(lesson, extensionUrl) {
       <div class="lesson-section-block phenomenon">
         <h3>✨ What Happens</h3>
         <p>${lesson.phenomenon}</p>
+      </div>
+    `;
+  }
+
+  // All content images (tutorial steps, screenshots, etc)
+  const contentImages = (lesson.images || []).filter(img =>
+    img.type === 'content' && !img.error
+  );
+  if (contentImages.length > 0) {
+    html += `
+      <div class="lesson-section-block all-images">
+        <h3>📸 Tutorial Images</h3>
+        <p class="images-hint">Click any image to view larger</p>
+        <div class="lesson-images content-images-gallery">
+          ${contentImages.map(img => `
+            <img src="${img.localPath || img.originalUrl || img.url}"
+                 alt="${img.alt || 'Tutorial step'}"
+                 class="lesson-image content-image"
+                 loading="lazy"
+                 onclick="openImageModal(this.src)">
+          `).join('')}
+        </div>
       </div>
     `;
   }
@@ -345,6 +468,26 @@ function renderDetailedPythonLesson(lesson) {
       </a>
     </div>
   `;
+
+  // All content images for Python lessons
+  const contentImages = (lesson.images || []).filter(img => !img.error);
+  if (contentImages.length > 0) {
+    html += `
+      <div class="lesson-section-block all-images">
+        <h3>📸 Tutorial Images</h3>
+        <p class="images-hint">Click any image to view larger</p>
+        <div class="lesson-images content-images-gallery">
+          ${contentImages.map(img => `
+            <img src="${img.localPath || img.originalUrl || img.url}"
+                 alt="${img.alt || 'Tutorial step'}"
+                 class="lesson-image content-image"
+                 loading="lazy"
+                 onclick="openImageModal(this.src)">
+          `).join('')}
+        </div>
+      </div>
+    `;
+  }
 
   return html;
 }
@@ -436,7 +579,49 @@ function closeLessonViewer() {
   document.getElementById('lessonViewer').classList.remove('active');
   document.body.style.overflow = '';
   currentLesson = null;
+
+  // Navigate back to home
+  if (typeof Router !== 'undefined' && Router.current?.type === 'lesson') {
+    Router.navigateToHome();
+  }
 }
+
+// Image modal for viewing images full-size
+function openImageModal(src) {
+  // Create modal if it doesn't exist
+  let modal = document.getElementById('imageModal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'imageModal';
+    modal.className = 'image-modal';
+    modal.innerHTML = `
+      <div class="image-modal-backdrop" onclick="closeImageModal()"></div>
+      <div class="image-modal-content">
+        <button class="image-modal-close" onclick="closeImageModal()">&times;</button>
+        <img id="imageModalImg" src="" alt="Full size image">
+      </div>
+    `;
+    document.body.appendChild(modal);
+  }
+
+  // Set image and show modal
+  document.getElementById('imageModalImg').src = src;
+  modal.classList.add('active');
+}
+
+function closeImageModal() {
+  const modal = document.getElementById('imageModal');
+  if (modal) {
+    modal.classList.remove('active');
+  }
+}
+
+// Close image modal on escape key
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    closeImageModal();
+  }
+});
 
 // Initialize on load
 document.addEventListener('DOMContentLoaded', initLessonViewer);
