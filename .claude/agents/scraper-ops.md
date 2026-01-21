@@ -1,3 +1,16 @@
+---
+name: scraper-ops
+description: Maintains and extends Yahboom scrapers
+model: sonnet
+allowed-tools:
+  - Read
+  - Edit
+  - Write
+  - Bash
+  - Glob
+  - Grep
+---
+
 # Scraper Operations Agent
 
 Specialized agent for maintaining and extending Yahboom scrapers.

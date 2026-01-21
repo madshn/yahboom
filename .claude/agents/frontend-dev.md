@@ -1,3 +1,16 @@
+---
+name: frontend-dev
+description: UI iteration specialist for Building:bit gallery
+model: sonnet
+allowed-tools:
+  - Read
+  - Edit
+  - Write
+  - Bash
+  - Glob
+  - Grep
+---
+
 # Frontend Development Agent
 
 Specialized agent for UI iteration on the Building:bit gallery.
