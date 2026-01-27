@@ -1,0 +1,657 @@
+{
+  "analyzedAt": "2026-01-18T22:23:51.293Z",
+  "summary": {
+    "total": 32,
+    "complete": 14,
+    "partial": 18,
+    "missing": 0
+  },
+  "builds": [
+    {
+      "id": "1.1",
+      "name": "Mobile shooter",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": true,
+      "makeCodeLessons": 0,
+      "pythonLessons": 3,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": false
+      },
+      "status": "partial",
+      "gaps": [
+        "Missing MakeCode lessons"
+      ],
+      "category": "basic_with_code"
+    },
+    {
+      "id": "1.2",
+      "name": "Pretty car",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": true,
+      "makeCodeLessons": 0,
+      "pythonLessons": 1,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": false
+      },
+      "status": "partial",
+      "gaps": [
+        "Missing MakeCode lessons"
+      ],
+      "category": "basic_with_code"
+    },
+    {
+      "id": "1.3",
+      "name": "Clip robot",
+      "hasAssembly": true,
+      "hasMakeCode": true,
+      "hasPython": false,
+      "makeCodeLessons": 3,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": false
+      },
+      "status": "complete",
+      "gaps": [],
+      "category": "basic_with_code"
+    },
+    {
+      "id": "1.4",
+      "name": "Proficient carrier",
+      "hasAssembly": true,
+      "hasMakeCode": true,
+      "hasPython": false,
+      "makeCodeLessons": 6,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": false
+      },
+      "status": "complete",
+      "gaps": [],
+      "category": "basic_with_code"
+    },
+    {
+      "id": "1.5",
+      "name": "Skip car",
+      "hasAssembly": true,
+      "hasMakeCode": true,
+      "hasPython": false,
+      "makeCodeLessons": 5,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": false
+      },
+      "status": "complete",
+      "gaps": [],
+      "category": "basic_with_code"
+    },
+    {
+      "id": "1.6",
+      "name": "Freestyle",
+      "hasAssembly": true,
+      "hasMakeCode": true,
+      "hasPython": false,
+      "makeCodeLessons": 3,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": false
+      },
+      "status": "complete",
+      "gaps": [],
+      "category": "basic_with_code"
+    },
+    {
+      "id": "1.7",
+      "name": "Spider",
+      "hasAssembly": true,
+      "hasMakeCode": true,
+      "hasPython": true,
+      "makeCodeLessons": 2,
+      "pythonLessons": 3,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": false
+      },
+      "status": "complete",
+      "gaps": [],
+      "category": "basic_with_code"
+    },
+    {
+      "id": "1.8",
+      "name": "Lifting platform",
+      "hasAssembly": true,
+      "hasMakeCode": true,
+      "hasPython": false,
+      "makeCodeLessons": 3,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": false
+      },
+      "status": "complete",
+      "gaps": [],
+      "category": "basic_with_code"
+    },
+    {
+      "id": "1.9",
+      "name": "Biped robot",
+      "hasAssembly": true,
+      "hasMakeCode": true,
+      "hasPython": false,
+      "makeCodeLessons": 3,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": false
+      },
+      "status": "complete",
+      "gaps": [],
+      "category": "basic_with_code"
+    },
+    {
+      "id": "1.10",
+      "name": "Changing Face",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": false,
+        "python": false
+      },
+      "status": "complete",
+      "gaps": [],
+      "category": "basic_assembly_only"
+    },
+    {
+      "id": "1.11",
+      "name": "Carousel",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": false,
+        "python": false
+      },
+      "status": "complete",
+      "gaps": [],
+      "category": "basic_assembly_only"
+    },
+    {
+      "id": "1.12",
+      "name": "Oscillating fan",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": false,
+        "python": false
+      },
+      "status": "complete",
+      "gaps": [],
+      "category": "basic_assembly_only"
+    },
+    {
+      "id": "1.13",
+      "name": "Airplane",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": false,
+        "python": false
+      },
+      "status": "complete",
+      "gaps": [],
+      "category": "basic_assembly_only"
+    },
+    {
+      "id": "1.14",
+      "name": "Unicycle",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": false,
+        "python": false
+      },
+      "status": "complete",
+      "gaps": [],
+      "category": "basic_assembly_only"
+    },
+    {
+      "id": "1.15",
+      "name": "Auto-door",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": false,
+        "python": false
+      },
+      "status": "complete",
+      "gaps": [],
+      "category": "basic_assembly_only"
+    },
+    {
+      "id": "1.16",
+      "name": "Dragon knight",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": false,
+        "python": false
+      },
+      "status": "complete",
+      "gaps": [],
+      "category": "basic_assembly_only"
+    },
+    {
+      "id": "1.17",
+      "name": "Ultrasonic handheld rangefinder",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": true
+      },
+      "status": "partial",
+      "gaps": [
+        "Missing MakeCode lessons",
+        "Missing Python lessons"
+      ],
+      "category": "sensor"
+    },
+    {
+      "id": "1.18",
+      "name": "Small flying car obstacle avoidance",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": true
+      },
+      "status": "partial",
+      "gaps": [
+        "Missing MakeCode lessons",
+        "Missing Python lessons"
+      ],
+      "category": "sensor"
+    },
+    {
+      "id": "1.19",
+      "name": "Changing face",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": true
+      },
+      "status": "partial",
+      "gaps": [
+        "Missing MakeCode lessons",
+        "Missing Python lessons"
+      ],
+      "category": "sensor"
+    },
+    {
+      "id": "1.20",
+      "name": "Adjustable RGB light",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": true
+      },
+      "status": "partial",
+      "gaps": [
+        "Missing MakeCode lessons",
+        "Missing Python lessons"
+      ],
+      "category": "sensor"
+    },
+    {
+      "id": "1.21",
+      "name": "Adjustable fan",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": true
+      },
+      "status": "partial",
+      "gaps": [
+        "Missing MakeCode lessons",
+        "Missing Python lessons"
+      ],
+      "category": "sensor"
+    },
+    {
+      "id": "1.22",
+      "name": "Photosensitive emergency light",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": true
+      },
+      "status": "partial",
+      "gaps": [
+        "Missing MakeCode lessons",
+        "Missing Python lessons"
+      ],
+      "category": "sensor"
+    },
+    {
+      "id": "1.23",
+      "name": "Smart alarm clock",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": true
+      },
+      "status": "partial",
+      "gaps": [
+        "Missing MakeCode lessons",
+        "Missing Python lessons"
+      ],
+      "category": "sensor"
+    },
+    {
+      "id": "1.24",
+      "name": "Light-controlled bipedal robot",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": true
+      },
+      "status": "partial",
+      "gaps": [
+        "Missing MakeCode lessons",
+        "Missing Python lessons"
+      ],
+      "category": "sensor"
+    },
+    {
+      "id": "1.25",
+      "name": "Swimming robot avoid objects",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": true
+      },
+      "status": "partial",
+      "gaps": [
+        "Missing MakeCode lessons",
+        "Missing Python lessons"
+      ],
+      "category": "sensor"
+    },
+    {
+      "id": "1.26",
+      "name": "Fleeing spider",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": true
+      },
+      "status": "partial",
+      "gaps": [
+        "Missing MakeCode lessons",
+        "Missing Python lessons"
+      ],
+      "category": "sensor"
+    },
+    {
+      "id": "1.27",
+      "name": "Temperature humidity reminder",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": true
+      },
+      "status": "partial",
+      "gaps": [
+        "Missing MakeCode lessons",
+        "Missing Python lessons"
+      ],
+      "category": "sensor"
+    },
+    {
+      "id": "1.28",
+      "name": "Temperature-controlled fan",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": true
+      },
+      "status": "partial",
+      "gaps": [
+        "Missing MakeCode lessons",
+        "Missing Python lessons"
+      ],
+      "category": "sensor"
+    },
+    {
+      "id": "1.29",
+      "name": "Color recognition machine",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": true
+      },
+      "status": "partial",
+      "gaps": [
+        "Missing MakeCode lessons",
+        "Missing Python lessons"
+      ],
+      "category": "sensor"
+    },
+    {
+      "id": "1.30",
+      "name": "Color-recognizing automatic door",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": true
+      },
+      "status": "partial",
+      "gaps": [
+        "Missing MakeCode lessons",
+        "Missing Python lessons"
+      ],
+      "category": "sensor"
+    },
+    {
+      "id": "1.31",
+      "name": "Rocker color changing light",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": true
+      },
+      "status": "partial",
+      "gaps": [
+        "Missing MakeCode lessons",
+        "Missing Python lessons"
+      ],
+      "category": "sensor"
+    },
+    {
+      "id": "1.32",
+      "name": "Rocker transporter",
+      "hasAssembly": true,
+      "hasMakeCode": false,
+      "hasPython": false,
+      "makeCodeLessons": 0,
+      "pythonLessons": 0,
+      "expected": {
+        "assembly": true,
+        "makecode": true,
+        "python": true
+      },
+      "status": "partial",
+      "gaps": [
+        "Missing MakeCode lessons",
+        "Missing Python lessons"
+      ],
+      "category": "sensor"
+    }
+  ],
+  "actionItems": [
+    {
+      "action": "Scrape MakeCode lessons",
+      "builds": [
+        "1.1",
+        "1.2",
+        "1.17",
+        "1.18",
+        "1.19",
+        "1.20",
+        "1.21",
+        "1.22",
+        "1.23",
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29",
+        "1.30",
+        "1.31",
+        "1.32"
+      ],
+      "source": "Chapter 3 (basic) or Chapter 5.2/5.3 (sensor)",
+      "count": 18
+    },
+    {
+      "action": "Scrape Python lessons",
+      "builds": [
+        "1.17",
+        "1.18",
+        "1.19",
+        "1.20",
+        "1.21",
+        "1.22",
+        "1.23",
+        "1.24",
+        "1.25",
+        "1.26",
+        "1.27",
+        "1.28",
+        "1.29",
+        "1.30",
+        "1.31",
+        "1.32"
+      ],
+      "source": "Chapter 6.2/6.3 (sensor only)",
+      "count": 16
+    }
+  ]
+}

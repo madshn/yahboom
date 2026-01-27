@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "description": "Master mapping of builds to all related Yahboom content chapters",
+    "generated": "2026-01-18",
+    "updated": "2026-01-18",
+    "siteUrl": "https://www.yahboom.net/study/buildingbit-super-kit"
+  },
+  "chapterStructure": {
+    "1": {
+      "title": "Assembly Course",
+      "description": "Build instructions (1.1-1.32)",
+      "structure": "flat",
+      "items": "1.1-1.32"
+    },
+    "2": {
+      "title": "Preparation before class",
+      "description": "Documentation and guides"
+    },
+    "3": {
+      "title": "Basic modeling MakeCode course",
+      "description": "MakeCode tutorials for ALL basic builds (1.1-1.16)",
+      "structure": "hierarchical",
+      "sections": {
+        "0": "Basic course (intro: buzzer, RGB, servo, motor)",
+        "A": "Mobile shooter (1.1)",
+        "B": "Pretty car (1.2)",
+        "C": "Clip robot (1.3)",
+        "D": "Proficient carrier (1.4)",
+        "E": "Skip car (1.5)",
+        "F": "Freestyle (1.6)",
+        "G": "Spider (1.7)",
+        "H": "Lifting platform (1.8)",
+        "I": "Biped robot (1.9)",
+        "J": "Changing Face (1.10)",
+        "K": "Carousel (1.11)",
+        "L": "Oscillating fan (1.12)",
+        "M": "Airplane (1.13)",
+        "N": "Unicycle (1.14)",
+        "O": "Auto-door (1.15)",
+        "P": "Dragon knight (1.16)"
+      },
+      "subLessonTypes": [
+        "Basic movement/dance",
+        "Button control",
+        "APP control",
+        "WiFi camera control",
+        "Micro:bit handle control"
+      ]
+    },
+    "4": {
+      "title": "Basic modeling Python course",
+      "description": "Python tutorials - structure TBD",
+      "status": "needs_validation"
+    },
+    "5": {
+      "title": "Sensor Advanced MakeCode course",
+      "structure": "hierarchical",
+      "sections": {
+        "5.1": "Sensor principle (16 theory lessons)",
+        "5.2": "Sensor basic course (9 standalone sensor builds)",
+        "5.3": "Sensor expansion course (9 sensor add-on builds)"
+      }
+    },
+    "6": {
+      "title": "Sensor Advanced Python course",
+      "structure": "hierarchical",
+      "sections": {
+        "6.1": "Sensor principle (16 theory lessons)",
+        "6.2": "Sensor basic course (9 standalone sensor builds)",
+        "6.3": "Sensor expansion course (9 sensor add-on builds)"
+      }
+    }
+  },
+  "basicMakeCodeMapping": {
+    "description": "Chapter 3 uses letter codes A-P for builds 1.1-1.16",
+    "mapping": [
+      { "letter": "0", "buildId": null, "name": "Basic course", "lessons": ["Buzzer music", "Control RGB color", "Control all RGB lights", "Drive 270° servo", "Drive servo", "Drive motor"] },
+      { "letter": "A", "buildId": "1.1", "name": "Mobile shooter", "lessons": ["Cannonball shooting", "Music fortress", "APP control", "WiFi camera control", "Micro:bit handle control"] },
+      { "letter": "B", "buildId": "1.2", "name": "Pretty car", "lessons": ["Dance", "Dancer", "APP control", "Micro:bit handle control", "WiFi camera control"] },
+      { "letter": "C", "buildId": "1.3", "name": "Clip robot", "lessons": ["Dancing and singing", "Button control clip", "APP control", "Micro:bit handle control", "WiFi camera control"] },
+      { "letter": "D", "buildId": "1.4", "name": "Proficient carrier", "lessons": ["Dancing", "Control transport shovel", "Transportation", "APP control", "WiFi camera control", "Micro:bit handle control"] },
+      { "letter": "E", "buildId": "1.5", "name": "Skip car", "lessons": ["Dancing", "Button control skip car", "Firewall carrier", "APP control", "Micro:bit handle control", "WiFi camera control"] },
+      { "letter": "F", "buildId": "1.6", "name": "Freestyle", "lessons": ["Dancing", "Freestyle advance", "APP control", "Micro:bit handle control", "WiFi camera control"] },
+      { "letter": "G", "buildId": "1.7", "name": "Spider", "lessons": ["Dance advance", "The dancing spider", "APP control", "Micro:bit handle control", "WiFi camera control"] },
+      { "letter": "H", "buildId": "1.8", "name": "Lifting platform", "lessons": ["Automatic lift", "Button control platform", "APP control", "Micro:bit handle control"] },
+      { "letter": "I", "buildId": "1.9", "name": "Biped robot", "lessons": ["Walking", "Dancing and singing", "APP control", "Micro:bit handle control"] },
+      { "letter": "J", "buildId": "1.10", "name": "Changing Face", "lessons": ["Changing face", "Bite the hand crocodile", "APP control", "Micro:bit handle control"] },
+      { "letter": "K", "buildId": "1.11", "name": "Carousel", "lessons": ["Music carousel", "APP control", "Micro:bit handle control"] },
+      { "letter": "L", "buildId": "1.12", "name": "Oscillating fan", "lessons": ["Cooling wind", "Summer cooling artifact", "APP control", "Micro:bit handle control"] },
+      { "letter": "M", "buildId": "1.13", "name": "Airplane", "lessons": ["Saluting Pitchfork", "APP control", "Micro:bit handle control"] },
+      { "letter": "N", "buildId": "1.14", "name": "Unicycle", "lessons": ["Circularly reptile", "APP control", "Micro:bit handle control"] },
+      { "letter": "O", "buildId": "1.15", "name": "Auto-door", "lessons": ["Soldiers on duty", "APP control", "Micro:bit handle control"] },
+      { "letter": "P", "buildId": "1.16", "name": "Dragon knight", "lessons": ["Waving wings", "APP control", "Micro:bit handle control"] }
+    ]
+  },
+  "sensorTheory": {
+    "description": "Theory lessons from Chapter 5.1 (MakeCode) and 6.1 (Python)",
+    "lessons": [
+      { "id": "1-2", "sensor": "ultrasonic", "makecode": "5.1.1-5.1.2", "python": "6.1.1-6.1.2", "topics": ["About ultrasonic sensors", "Ultrasonic ranging"] },
+      { "id": "3-4", "sensor": "potentiometer", "makecode": "5.1.3-5.1.4", "python": "6.1.3-6.1.4", "topics": ["About potentiometers", "Adjust potentiometer"] },
+      { "id": "5-6", "sensor": "light", "makecode": "5.1.5-5.1.6", "python": "6.1.5-6.1.6", "topics": ["About photosensitive series", "Read light intensity"] },
+      { "id": "7-8", "sensor": "infrared", "makecode": "5.1.7-5.1.8", "python": "6.1.7-6.1.8", "topics": ["About infrared modules", "Obstacle detection"] },
+      { "id": "9-10", "sensor": "PIR", "makecode": "5.1.9-5.1.10", "python": "6.1.9-6.1.10", "topics": ["About human infrared sensor", "Human body detection"] },
+      { "id": "11-12", "sensor": "temperature", "makecode": "5.1.11-5.1.12", "python": "6.1.11-6.1.12", "topics": ["About temperature-humidity", "Read temperature-humidity"] },
+      { "id": "13-14", "sensor": "color", "makecode": "5.1.13-5.1.14", "python": "6.1.13-6.1.14", "topics": ["About color recognition sensor", "Color recognition"] },
+      { "id": "15-16", "sensor": "joystick", "makecode": "5.1.15-5.1.16", "python": "6.1.15-6.1.16", "topics": ["About rocker module", "Control rocker module"] }
+    ]
+  },
+  "sensorBasicBuilds": {
+    "description": "Standalone sensor builds from Chapter 5.2/6.2",
+    "mapping": [
+      { "chapterId": "5.2.1", "assemblyId": "1.17", "name": "Hand-held range finder", "sensor": "ultrasonic" },
+      { "chapterId": "5.2.2", "assemblyId": "1.20", "name": "Adjustable RGB light", "sensor": "potentiometer" },
+      { "chapterId": "5.2.3", "assemblyId": "1.22", "name": "Emergency light", "sensor": "light" },
+      { "chapterId": "5.2.4", "assemblyId": "1.23", "name": "Vibrating alarm clock", "sensor": null },
+      { "chapterId": "5.2.5", "assemblyId": null, "name": "Infrared detection broadcast", "sensor": "infrared" },
+      { "chapterId": "5.2.6", "assemblyId": null, "name": "Human body infrared detection", "sensor": "PIR" },
+      { "chapterId": "5.2.7", "assemblyId": "1.27", "name": "Temperature and humidity", "sensor": "temperature" },
+      { "chapterId": "5.2.8", "assemblyId": "1.29", "name": "Color recognition machine", "sensor": "color" },
+      { "chapterId": "5.2.9", "assemblyId": "1.31", "name": "Rocker control light", "sensor": "joystick" }
+    ]
+  },
+  "sensorExpansionBuilds": {
+    "description": "Sensor add-on builds from Chapter 5.3/6.3",
+    "mapping": [
+      { "chapterId": "5.3.1", "assemblyId": "1.18", "name": "Avoiding car", "sensor": "ultrasonic", "baseBuild": "1.2" },
+      { "chapterId": "5.3.2", "assemblyId": "1.19", "name": "Changing Face", "sensor": "infrared", "baseBuild": "1.10" },
+      { "chapterId": "5.3.3", "assemblyId": "1.21", "name": "Adjustable fan", "sensor": "potentiometer", "baseBuild": "1.12" },
+      { "chapterId": "5.3.4", "assemblyId": "1.24", "name": "Photosensitive robot", "sensor": "light", "baseBuild": "1.9" },
+      { "chapterId": "5.3.5", "assemblyId": "1.25", "name": "Swimming robot", "sensor": "ultrasonic", "baseBuild": null },
+      { "chapterId": "5.3.6", "assemblyId": "1.26", "name": "Spiders sense human body", "sensor": "PIR", "baseBuild": "1.7" },
+      { "chapterId": "5.3.7", "assemblyId": "1.28", "name": "Temperature control fan", "sensor": "temperature", "baseBuild": "1.21" },
+      { "chapterId": "5.3.8", "assemblyId": "1.30", "name": "Automatic safety door", "sensor": "color", "baseBuild": "1.15" },
+      { "chapterId": "5.3.9", "assemblyId": "1.32", "name": "Rocker carrier car", "sensor": "joystick", "baseBuild": "1.4" }
+    ]
+  },
+  "peripherals": {
+    "description": "Control devices and add-ons used in Chapter 3 lessons",
+    "devices": [
+      {
+        "id": "microbit-handle",
+        "name": "Micro:bit Handle (SGH Controller)",
+        "lessonType": "Micro:bit handle control",
+        "productUrl": "https://www.yahboom.net/study/SGH",
+        "quality": "good",
+        "recommended": true
+      },
+      {
+        "id": "wifi-camera",
+        "name": "WiFi Camera Module",
+        "lessonType": "WiFi camera control",
+        "quality": "good",
+        "recommended": true
+      },
+      {
+        "id": "app-bluetooth",
+        "name": "Bluetooth App Control",
+        "lessonType": "APP control",
+        "appStoreUrl": "https://apps.apple.com/us/app/mbit/id1450346082",
+        "quality": "poor",
+        "qualityNote": "Apps unreliable - use Micro:bit Handle instead",
+        "recommended": false
+      }
+    ],
+    "note": "Full device catalog available in devices.json"
+  },
+  "totalExpectedLessons": {
+    "chapter3_basic_makecode": {
+      "intro": 6,
+      "perBuild": "3-6 lessons each",
+      "builds": 16,
+      "estimatedTotal": "70+ lessons"
+    },
+    "chapter5_sensor_makecode": {
+      "theory": 16,
+      "basic": 9,
+      "expansion": 9,
+      "total": 34
+    },
+    "chapter6_sensor_python": {
+      "theory": 16,
+      "basic": 9,
+      "expansion": 9,
+      "total": 34
+    }
+  }
+}

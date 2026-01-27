@@ -1,0 +1,425 @@
+{
+  "generated": "2026-01-18T15:28:08.499Z",
+  "totalBuilds": 32,
+  "summary": {
+    "withGalleryImage": 32,
+    "withSensors": 12,
+    "withAssembly": 32,
+    "withMakeCode": 7,
+    "withMakeCodeBlocks": 7,
+    "withPython": 3,
+    "withWiring": 4,
+    "withSensorTheory": 0
+  },
+  "builds": [
+    {
+      "id": "1.1",
+      "name": "Mobile shooter",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 10,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 3,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.2",
+      "name": "Pretty car",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 5,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 1,
+      "hasWiring": true,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.3",
+      "name": "Clip robot",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 3,
+      "makeCodeLessonCount": 3,
+      "hasMakeCodeBlocks": true,
+      "pythonLessonCount": 0,
+      "hasWiring": true,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.4",
+      "name": "Proficient carrier",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 8,
+      "makeCodeLessonCount": 6,
+      "hasMakeCodeBlocks": true,
+      "pythonLessonCount": 0,
+      "hasWiring": true,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.5",
+      "name": "Skip car",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 10,
+      "makeCodeLessonCount": 5,
+      "hasMakeCodeBlocks": true,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.6",
+      "name": "Freestyle",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 6,
+      "makeCodeLessonCount": 3,
+      "hasMakeCodeBlocks": true,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.7",
+      "name": "Spider",
+      "hasGalleryImage": true,
+      "sensors": [
+        "PIR"
+      ],
+      "assemblyStepCount": 11,
+      "makeCodeLessonCount": 2,
+      "hasMakeCodeBlocks": true,
+      "pythonLessonCount": 3,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.8",
+      "name": "Lifting platform",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 13,
+      "makeCodeLessonCount": 3,
+      "hasMakeCodeBlocks": true,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.9",
+      "name": "Biped robot",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 16,
+      "makeCodeLessonCount": 3,
+      "hasMakeCodeBlocks": true,
+      "pythonLessonCount": 0,
+      "hasWiring": true,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.10",
+      "name": "Changing Face",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 5,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.11",
+      "name": "Carousel",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 6,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.12",
+      "name": "Oscillating fan",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 6,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.13",
+      "name": "Airplane",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 13,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.14",
+      "name": "Unicycle",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 12,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.15",
+      "name": "Auto-door",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 10,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.16",
+      "name": "Dragon knight",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 12,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.17",
+      "name": "Ultrasonic handheld rangefinder",
+      "hasGalleryImage": true,
+      "sensors": [
+        "ultrasonic"
+      ],
+      "assemblyStepCount": 3,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.18",
+      "name": "Small flying car obstacle avoidance",
+      "hasGalleryImage": true,
+      "sensors": [
+        "ultrasonic"
+      ],
+      "assemblyStepCount": 6,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.19",
+      "name": "Changing face",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 6,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.20",
+      "name": "Adjustable RGB light",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 1,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.21",
+      "name": "Adjustable fan",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 6,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.22",
+      "name": "Photosensitive emergency light",
+      "hasGalleryImage": true,
+      "sensors": [
+        "light"
+      ],
+      "assemblyStepCount": 1,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.23",
+      "name": "Smart alarm clock",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 2,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.24",
+      "name": "Light-controlled bipedal robot",
+      "hasGalleryImage": true,
+      "sensors": [
+        "light"
+      ],
+      "assemblyStepCount": 17,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.25",
+      "name": "Swimming robot avoid objects",
+      "hasGalleryImage": true,
+      "sensors": [],
+      "assemblyStepCount": 7,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.26",
+      "name": "Fleeing spider",
+      "hasGalleryImage": true,
+      "sensors": [
+        "PIR"
+      ],
+      "assemblyStepCount": 12,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.27",
+      "name": "Temperature humidity reminder",
+      "hasGalleryImage": true,
+      "sensors": [
+        "temperature",
+        "humidity"
+      ],
+      "assemblyStepCount": 2,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.28",
+      "name": "Temperature-controlled fan",
+      "hasGalleryImage": true,
+      "sensors": [
+        "temperature"
+      ],
+      "assemblyStepCount": 6,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.29",
+      "name": "Color recognition machine",
+      "hasGalleryImage": true,
+      "sensors": [
+        "color"
+      ],
+      "assemblyStepCount": 3,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.30",
+      "name": "Color-recognizing automatic door",
+      "hasGalleryImage": true,
+      "sensors": [
+        "color"
+      ],
+      "assemblyStepCount": 11,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.31",
+      "name": "Rocker color changing light",
+      "hasGalleryImage": true,
+      "sensors": [
+        "joystick"
+      ],
+      "assemblyStepCount": 1,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    },
+    {
+      "id": "1.32",
+      "name": "Rocker transporter",
+      "hasGalleryImage": true,
+      "sensors": [
+        "joystick"
+      ],
+      "assemblyStepCount": 9,
+      "makeCodeLessonCount": 0,
+      "hasMakeCodeBlocks": false,
+      "pythonLessonCount": 0,
+      "hasWiring": false,
+      "hasSensorTheory": false
+    }
+  ]
+}

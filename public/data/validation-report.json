@@ -1,0 +1,5043 @@
+{
+  "timestamp": "2026-01-19T00:04:14.583Z",
+  "baseUrl": "http://localhost:3000",
+  "summary": {
+    "passed": 345,
+    "warnings": 22,
+    "failed": 16
+  },
+  "categories": {
+    "contentCompleteness": {
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.1"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.1"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)",
+          "buildId": "1.1"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "4 lesson(s)",
+          "buildId": "1.1"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.1"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "10 assembly steps",
+          "buildId": "1.1"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.2"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.2"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)",
+          "buildId": "1.2"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "4 lesson(s)",
+          "buildId": "1.2"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.2"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "5 assembly steps",
+          "buildId": "1.2"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.3"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.3"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)",
+          "buildId": "1.3"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "5 lesson(s)",
+          "buildId": "1.3"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.3"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "3 assembly steps",
+          "buildId": "1.3"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.4"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.4"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)",
+          "buildId": "1.4"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "6 lesson(s)",
+          "buildId": "1.4"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.4"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "8 assembly steps",
+          "buildId": "1.4"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.5"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.5"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)",
+          "buildId": "1.5"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "5 lesson(s)",
+          "buildId": "1.5"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.5"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "10 assembly steps",
+          "buildId": "1.5"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.6"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.6"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)",
+          "buildId": "1.6"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "3 lesson(s)",
+          "buildId": "1.6"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.6"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "6 assembly steps",
+          "buildId": "1.6"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.7"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.7"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "3 tutorial(s)",
+          "buildId": "1.7"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "2 lesson(s)",
+          "buildId": "1.7"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.7"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "11 assembly steps",
+          "buildId": "1.7"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.8"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.8"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)",
+          "buildId": "1.8"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "3 lesson(s)",
+          "buildId": "1.8"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.8"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "13 assembly steps",
+          "buildId": "1.8"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.9"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.9"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)",
+          "buildId": "1.9"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "3 lesson(s)",
+          "buildId": "1.9"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.9"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "16 assembly steps",
+          "buildId": "1.9"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.10"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.10"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)",
+          "buildId": "1.10"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "4 lesson(s)",
+          "buildId": "1.10"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.10"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "5 assembly steps",
+          "buildId": "1.10"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.11"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.11"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)",
+          "buildId": "1.11"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "3 lesson(s)",
+          "buildId": "1.11"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.11"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "6 assembly steps",
+          "buildId": "1.11"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.12"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.12"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)",
+          "buildId": "1.12"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "4 lesson(s)",
+          "buildId": "1.12"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.12"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "6 assembly steps",
+          "buildId": "1.12"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.13"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.13"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)",
+          "buildId": "1.13"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "3 lesson(s)",
+          "buildId": "1.13"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.13"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "13 assembly steps",
+          "buildId": "1.13"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.14"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.14"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)",
+          "buildId": "1.14"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "3 lesson(s)",
+          "buildId": "1.14"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.14"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "12 assembly steps",
+          "buildId": "1.14"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.15"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.15"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)",
+          "buildId": "1.15"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "4 lesson(s)",
+          "buildId": "1.15"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.15"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "10 assembly steps",
+          "buildId": "1.15"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.16"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.16"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)",
+          "buildId": "1.16"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "3 lesson(s)",
+          "buildId": "1.16"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.16"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "12 assembly steps",
+          "buildId": "1.16"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.17"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.17"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)",
+          "buildId": "1.17"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)",
+          "buildId": "1.17"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": false,
+          "warning": false,
+          "details": "No lessons in viewer",
+          "buildId": "1.17"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": true,
+          "details": "Lessons appear to be placeholders",
+          "buildId": "1.17"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "3 assembly steps",
+          "buildId": "1.17"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.18"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.18"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "3 tutorial(s)",
+          "buildId": "1.18"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)",
+          "buildId": "1.18"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": false,
+          "warning": false,
+          "details": "No lessons in viewer",
+          "buildId": "1.18"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": true,
+          "details": "Lessons appear to be placeholders",
+          "buildId": "1.18"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "6 assembly steps",
+          "buildId": "1.18"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.19"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.19"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)",
+          "buildId": "1.19"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)",
+          "buildId": "1.19"
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": false,
+          "warning": false,
+          "details": "No lessons in viewer",
+          "buildId": "1.19"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": true,
+          "details": "Lessons appear to be placeholders",
+          "buildId": "1.19"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "6 assembly steps",
+          "buildId": "1.19"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.20"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.20"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials",
+          "buildId": "1.20"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)",
+          "buildId": "1.20"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "1 assembly steps",
+          "buildId": "1.20"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.21"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.21"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials",
+          "buildId": "1.21"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)",
+          "buildId": "1.21"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "6 assembly steps",
+          "buildId": "1.21"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.22"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.22"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials",
+          "buildId": "1.22"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)",
+          "buildId": "1.22"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "1 assembly steps",
+          "buildId": "1.22"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.23"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.23"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials",
+          "buildId": "1.23"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)",
+          "buildId": "1.23"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "2 assembly steps",
+          "buildId": "1.23"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.24"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.24"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials",
+          "buildId": "1.24"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)",
+          "buildId": "1.24"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "17 assembly steps",
+          "buildId": "1.24"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.25"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.25"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials",
+          "buildId": "1.25"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)",
+          "buildId": "1.25"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "7 assembly steps",
+          "buildId": "1.25"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.26"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.26"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials",
+          "buildId": "1.26"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)",
+          "buildId": "1.26"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "12 assembly steps",
+          "buildId": "1.26"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.27"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.27"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials",
+          "buildId": "1.27"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)",
+          "buildId": "1.27"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "2 assembly steps",
+          "buildId": "1.27"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.28"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.28"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials",
+          "buildId": "1.28"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)",
+          "buildId": "1.28"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "6 assembly steps",
+          "buildId": "1.28"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.29"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.29"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials",
+          "buildId": "1.29"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)",
+          "buildId": "1.29"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "3 assembly steps",
+          "buildId": "1.29"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.30"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.30"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials",
+          "buildId": "1.30"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)",
+          "buildId": "1.30"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "11 assembly steps",
+          "buildId": "1.30"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.31"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.31"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials",
+          "buildId": "1.31"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)",
+          "buildId": "1.31"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "1 assembly steps",
+          "buildId": "1.31"
+        },
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.32"
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.32"
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials",
+          "buildId": "1.32"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)",
+          "buildId": "1.32"
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "9 assembly steps",
+          "buildId": "1.32"
+        },
+        {
+          "name": "Devices catalog exists",
+          "passed": true,
+          "warning": false,
+          "details": "11 devices cataloged"
+        },
+        {
+          "name": "Devices catalog exists",
+          "passed": true,
+          "warning": false,
+          "details": "11 devices cataloged"
+        },
+        {
+          "name": "Devices have complete data",
+          "passed": true,
+          "warning": false,
+          "details": "11/11 devices complete"
+        },
+        {
+          "name": "Devices have complete data",
+          "passed": true,
+          "warning": false,
+          "details": "11/11 devices complete"
+        }
+      ],
+      "passed": 170,
+      "failed": 16,
+      "warnings": 3
+    },
+    "textFormatting": {
+      "tests": [
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.1"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (45 words): \"A - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (44 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\"",
+          "buildId": "1.1"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.2"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (44 words): \"B - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (43 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\"",
+          "buildId": "1.2"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.3"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (44 words): \"C - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (43 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\"",
+          "buildId": "1.3"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.4"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (45 words): \"D - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (44 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\"",
+          "buildId": "1.4"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.5"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (44 words): \"E - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (43 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\"",
+          "buildId": "1.5"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.6"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (42 words): \"F - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (41 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\"",
+          "buildId": "1.6"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.7"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (28 words): \"G - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (55 words): \"hex file provided in this expe...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\"",
+          "buildId": "1.7"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.8"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (26 words): \"H - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (25 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\"",
+          "buildId": "1.8"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.9"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (50 words): \"I - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (75 words): \"hex file provided in this expe...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\"",
+          "buildId": "1.9"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.10"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (36 words): \"J - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (35 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\"",
+          "buildId": "1.10"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.11"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (26 words): \"K - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (25 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\"",
+          "buildId": "1.11"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.12"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (49 words): \"L - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (48 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\"",
+          "buildId": "1.12"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.13"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (32 words): \"M - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (31 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\"",
+          "buildId": "1.13"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.14"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (26 words): \"N - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (27 words): \" Unicycle walking principle: T...\"; Long sentence (50 words): \" When the 1# bolt connection i...\"",
+          "buildId": "1.14"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.15"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (78 words): \"O - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (77 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\"",
+          "buildId": "1.15"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.16"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (40 words): \"P - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (29 words): \"hex file provided in this expe...\"; Long sentence (36 words): \"\n        \n          \n         ...\"",
+          "buildId": "1.16"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.17"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (16 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n    \n  \n    \n      📚 Resourc...\"",
+          "buildId": "1.17"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.18"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (16 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n    \n  \n    \n      📚 Resourc...\"",
+          "buildId": "1.18"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.19"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (16 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n    \n  \n    \n      📚 Resourc...\"",
+          "buildId": "1.19"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.20"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.21"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.22"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.23"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.24"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.25"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.26"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.27"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.28"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.29"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.30"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.31"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.32"
+        }
+      ],
+      "passed": 51,
+      "failed": 0,
+      "warnings": 19
+    },
+    "imageDisplay": {
+      "tests": [
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1619",
+          "buildId": "1.1"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.1"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.1"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.1"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x934",
+          "buildId": "1.2"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.2"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.2"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.2"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x700",
+          "buildId": "1.3"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.3"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.3"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.3"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x665",
+          "buildId": "1.4"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.4"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.4"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.4"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x979",
+          "buildId": "1.5"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.5"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.5"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.5"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x622",
+          "buildId": "1.6"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.6"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.6"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.6"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x892",
+          "buildId": "1.7"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.7"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.7"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.7"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1006",
+          "buildId": "1.8"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.8"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.8"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.8"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1928",
+          "buildId": "1.9"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.9"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.9"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.9"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x965",
+          "buildId": "1.10"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.10"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.10"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.10"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1114",
+          "buildId": "1.11"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.11"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.11"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.11"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x2133",
+          "buildId": "1.12"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.12"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.12"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.12"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x903",
+          "buildId": "1.13"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.13"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.13"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.13"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x975",
+          "buildId": "1.14"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.14"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.14"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.14"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x783",
+          "buildId": "1.15"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.15"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.15"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.15"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x911",
+          "buildId": "1.16"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.16"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.16"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.16"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1078",
+          "buildId": "1.17"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.17"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.17"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.17"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x890",
+          "buildId": "1.18"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.18"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.18"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.18"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1047",
+          "buildId": "1.19"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.19"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.19"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.19"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1259",
+          "buildId": "1.20"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.20"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.20"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.20"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x2400",
+          "buildId": "1.21"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.21"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.21"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.21"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1277",
+          "buildId": "1.22"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.22"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.22"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.22"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1427",
+          "buildId": "1.23"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.23"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.23"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.23"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x2268",
+          "buildId": "1.24"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.24"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.24"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.24"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x888",
+          "buildId": "1.25"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.25"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.25"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.25"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x995",
+          "buildId": "1.26"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.26"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.26"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.26"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1632",
+          "buildId": "1.27"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.27"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.27"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.27"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x2090",
+          "buildId": "1.28"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.28"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.28"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.28"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1287",
+          "buildId": "1.29"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.29"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.29"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.29"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1093",
+          "buildId": "1.30"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.30"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.30"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.30"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1038",
+          "buildId": "1.31"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.31"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.31"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.31"
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1012",
+          "buildId": "1.32"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.32"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.32"
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null,
+          "buildId": "1.32"
+        }
+      ],
+      "passed": 128,
+      "failed": 0
+    },
+    "relatedContent": {
+      "tests": [],
+      "passed": 0,
+      "failed": 0
+    }
+  },
+  "builds": [
+    {
+      "id": "1.1",
+      "name": "1.1 Mobile shooter",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1619"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "4 lesson(s)"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (45 words): \"A - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (44 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "10 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "warnings": 1
+    },
+    {
+      "id": "1.2",
+      "name": "1.2 Pretty car",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x934"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "4 lesson(s)"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (44 words): \"B - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (43 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "5 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "warnings": 1
+    },
+    {
+      "id": "1.3",
+      "name": "1.3 Clip robot",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x700"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "5 lesson(s)"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (44 words): \"C - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (43 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "3 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "warnings": 1
+    },
+    {
+      "id": "1.4",
+      "name": "1.4 Proficient carrier",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x665"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "6 lesson(s)"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (45 words): \"D - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (44 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "8 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "warnings": 1
+    },
+    {
+      "id": "1.5",
+      "name": "1.5 Skip car",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x979"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "5 lesson(s)"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (44 words): \"E - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (43 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "10 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "warnings": 1
+    },
+    {
+      "id": "1.6",
+      "name": "1.6 Freestyle",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x622"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "3 lesson(s)"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (42 words): \"F - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (41 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "6 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "warnings": 1
+    },
+    {
+      "id": "1.7",
+      "name": "1.7 Spider",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "3 tutorial(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x892"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "2 lesson(s)"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (28 words): \"G - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (55 words): \"hex file provided in this expe...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "11 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "warnings": 1
+    },
+    {
+      "id": "1.8",
+      "name": "1.8 Lifting platform",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1006"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "3 lesson(s)"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (26 words): \"H - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (25 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "13 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "warnings": 1
+    },
+    {
+      "id": "1.9",
+      "name": "1.9 Biped robot",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1928"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "3 lesson(s)"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (50 words): \"I - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (75 words): \"hex file provided in this expe...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "16 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "warnings": 1
+    },
+    {
+      "id": "1.10",
+      "name": "1.10 Changing Face",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x965"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "4 lesson(s)"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (36 words): \"J - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (35 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "5 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "warnings": 1
+    },
+    {
+      "id": "1.11",
+      "name": "1.11 Carousel",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1114"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "3 lesson(s)"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (26 words): \"K - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (25 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "6 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "warnings": 1
+    },
+    {
+      "id": "1.12",
+      "name": "1.12 Oscillating fan",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x2133"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "4 lesson(s)"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (49 words): \"L - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (48 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "6 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "warnings": 1
+    },
+    {
+      "id": "1.13",
+      "name": "1.13 Airplane",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x903"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "3 lesson(s)"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (32 words): \"M - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (31 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "13 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "warnings": 1
+    },
+    {
+      "id": "1.14",
+      "name": "1.14 Unicycle",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x975"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "3 lesson(s)"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (26 words): \"N - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (27 words): \" Unicycle walking principle: T...\"; Long sentence (50 words): \" When the 1# bolt connection i...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "12 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "warnings": 1
+    },
+    {
+      "id": "1.15",
+      "name": "1.15 Auto-door",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x783"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "4 lesson(s)"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (78 words): \"O - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (77 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n      \n    \n    \n      📚 Res...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "10 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "warnings": 1
+    },
+    {
+      "id": "1.16",
+      "name": "1.16 Dragon knight",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x911"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": true,
+          "warning": false,
+          "details": "3 lesson(s)"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (40 words): \"P - Lesson 1\n    \n  \n      \n  ...\"; Long sentence (29 words): \"hex file provided in this expe...\"; Long sentence (36 words): \"\n        \n          \n         ...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "12 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 0,
+      "warnings": 1
+    },
+    {
+      "id": "1.17",
+      "name": "1.17 Ultrasonic handheld rangefinder",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1078"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": false,
+          "warning": false,
+          "details": "No lessons in viewer"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": true,
+          "details": "Lessons appear to be placeholders"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (16 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n    \n  \n    \n      📚 Resourc...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "3 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 1,
+      "warnings": 2
+    },
+    {
+      "id": "1.18",
+      "name": "1.18 Small flying car obstacle avoidance",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "3 tutorial(s)"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x890"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": false,
+          "warning": false,
+          "details": "No lessons in viewer"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": true,
+          "details": "Lessons appear to be placeholders"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (16 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n    \n  \n    \n      📚 Resourc...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "6 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 1,
+      "warnings": 2
+    },
+    {
+      "id": "1.19",
+      "name": "1.19 Changing face",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": true,
+          "warning": false,
+          "details": "2 tutorial(s)"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1047"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Lesson viewer has lessons",
+          "passed": false,
+          "warning": false,
+          "details": "No lessons in viewer"
+        },
+        {
+          "name": "Lessons have detailed content",
+          "passed": true,
+          "warning": true,
+          "details": "Lessons appear to be placeholders"
+        },
+        {
+          "name": "Lesson text is child-friendly",
+          "passed": true,
+          "warning": true,
+          "details": "Long sentence (16 words): \"com/YahboomTechnology/SuperBit...\"; Long sentence (19 words): \"\n    \n  \n    \n      📚 Resourc...\""
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "6 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 12,
+      "failed": 1,
+      "warnings": 2
+    },
+    {
+      "id": "1.20",
+      "name": "1.20 Adjustable RGB light",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1259"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "1 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 9,
+      "failed": 1,
+      "warnings": 0
+    },
+    {
+      "id": "1.21",
+      "name": "1.21 Adjustable fan",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x2400"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "6 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 9,
+      "failed": 1,
+      "warnings": 0
+    },
+    {
+      "id": "1.22",
+      "name": "1.22 Photosensitive emergency light",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1277"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "1 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 9,
+      "failed": 1,
+      "warnings": 0
+    },
+    {
+      "id": "1.23",
+      "name": "1.23 Smart alarm clock",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1427"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "2 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 9,
+      "failed": 1,
+      "warnings": 0
+    },
+    {
+      "id": "1.24",
+      "name": "1.24 Light-controlled bipedal robot",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x2268"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "17 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 9,
+      "failed": 1,
+      "warnings": 0
+    },
+    {
+      "id": "1.25",
+      "name": "1.25 Swimming robot avoid objects",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x888"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "7 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 9,
+      "failed": 1,
+      "warnings": 0
+    },
+    {
+      "id": "1.26",
+      "name": "1.26 Fleeing spider",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x995"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "12 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 9,
+      "failed": 1,
+      "warnings": 0
+    },
+    {
+      "id": "1.27",
+      "name": "1.27 Temperature humidity reminder",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1632"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "2 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 9,
+      "failed": 1,
+      "warnings": 0
+    },
+    {
+      "id": "1.28",
+      "name": "1.28 Temperature-controlled fan",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x2090"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "6 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 9,
+      "failed": 1,
+      "warnings": 0
+    },
+    {
+      "id": "1.29",
+      "name": "1.29 Color recognition machine",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1287"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "3 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 9,
+      "failed": 1,
+      "warnings": 0
+    },
+    {
+      "id": "1.30",
+      "name": "1.30 Color-recognizing automatic door",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1093"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "11 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 9,
+      "failed": 1,
+      "warnings": 0
+    },
+    {
+      "id": "1.31",
+      "name": "1.31 Rocker color changing light",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1038"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "1 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 9,
+      "failed": 1,
+      "warnings": 0
+    },
+    {
+      "id": "1.32",
+      "name": "1.32 Rocker transporter",
+      "tests": [
+        {
+          "name": "Has description",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has build instructions",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Has coding tutorials",
+          "passed": false,
+          "warning": false,
+          "details": "No coding tutorials"
+        },
+        {
+          "name": "Sensor build has sensors listed",
+          "passed": true,
+          "warning": false,
+          "details": "1 sensor(s)"
+        },
+        {
+          "name": "Description is child-friendly",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Modal image loads",
+          "passed": true,
+          "warning": false,
+          "details": "1200x1012"
+        },
+        {
+          "name": "Image aspect ratio preserved",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly has steps",
+          "passed": true,
+          "warning": false,
+          "details": "9 assembly steps"
+        },
+        {
+          "name": "Assembly step image loads",
+          "passed": true,
+          "warning": false,
+          "details": null
+        },
+        {
+          "name": "Assembly image not cropped",
+          "passed": true,
+          "warning": false,
+          "details": null
+        }
+      ],
+      "passed": 9,
+      "failed": 1,
+      "warnings": 0
+    }
+  ]
+}

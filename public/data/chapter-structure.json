@@ -1,0 +1,497 @@
+{
+  "scrapedAt": "2026-01-18T20:43:02.805Z",
+  "sourceUrl": "https://www.yahboom.net/study/buildingbit-super-kit",
+  "chapters": [
+    {
+      "number": "1",
+      "title": "Assembly Course",
+      "subchapters": [
+        {
+          "id": "1.1",
+          "title": "Mobile shooter"
+        },
+        {
+          "id": "1.1",
+          "title": "About ultrasonic sensors"
+        },
+        {
+          "id": "1.1",
+          "title": "About ultrasonic sensors"
+        },
+        {
+          "id": "1.2",
+          "title": "Pretty car"
+        },
+        {
+          "id": "1.2",
+          "title": "Ultrasonic ranging"
+        },
+        {
+          "id": "1.2",
+          "title": "Ultrasonic ranging"
+        },
+        {
+          "id": "1.3",
+          "title": "Clip robot"
+        },
+        {
+          "id": "1.3",
+          "title": "About potentiometers"
+        },
+        {
+          "id": "1.3",
+          "title": "About potentiometers"
+        },
+        {
+          "id": "1.4",
+          "title": "Proficient carrier"
+        },
+        {
+          "id": "1.4",
+          "title": "Adjust potentiometer"
+        },
+        {
+          "id": "1.4",
+          "title": "Adjust potentiometer"
+        },
+        {
+          "id": "1.5",
+          "title": "Skip car"
+        },
+        {
+          "id": "1.5",
+          "title": "About photosensitive sensors"
+        },
+        {
+          "id": "1.5",
+          "title": "About photosensitive sensors"
+        },
+        {
+          "id": "1.6",
+          "title": "Freestyle"
+        },
+        {
+          "id": "1.6",
+          "title": "Read the light intensity"
+        },
+        {
+          "id": "1.6",
+          "title": "Read the light intensity"
+        },
+        {
+          "id": "1.7",
+          "title": "Spider"
+        },
+        {
+          "id": "1.7",
+          "title": "About infrared modules"
+        },
+        {
+          "id": "1.7",
+          "title": "About infrared modules"
+        },
+        {
+          "id": "1.8",
+          "title": "Lifting platform"
+        },
+        {
+          "id": "1.8",
+          "title": "Obstacle detection"
+        },
+        {
+          "id": "1.8",
+          "title": "Obstacle detection"
+        },
+        {
+          "id": "1.9",
+          "title": "Biped robot"
+        },
+        {
+          "id": "1.9",
+          "title": "Introduction of module"
+        },
+        {
+          "id": "1.9",
+          "title": "About human infrared sensing modules"
+        },
+        {
+          "id": "1.10",
+          "title": "Changing Face"
+        },
+        {
+          "id": "1.10",
+          "title": "Human body detection"
+        },
+        {
+          "id": "1.10",
+          "title": "Human body detection"
+        },
+        {
+          "id": "1.11",
+          "title": "Carousel"
+        },
+        {
+          "id": "1.11",
+          "title": "About temperature-humidity modules"
+        },
+        {
+          "id": "1.11",
+          "title": "About temperature-humidity modules"
+        },
+        {
+          "id": "1.12",
+          "title": "Oscillating fan"
+        },
+        {
+          "id": "1.12",
+          "title": "Read temperature humidity"
+        },
+        {
+          "id": "1.12",
+          "title": "Read temperature humidity"
+        },
+        {
+          "id": "1.13",
+          "title": "Airplane"
+        },
+        {
+          "id": "1.13",
+          "title": "About color recognition sensors"
+        },
+        {
+          "id": "1.13",
+          "title": "About color recognition sensors"
+        },
+        {
+          "id": "1.14",
+          "title": "Unicycle"
+        },
+        {
+          "id": "1.14",
+          "title": "Color recognition"
+        },
+        {
+          "id": "1.14",
+          "title": "Color recognition"
+        },
+        {
+          "id": "1.15",
+          "title": "Auto-door"
+        },
+        {
+          "id": "1.15",
+          "title": "About rocker module"
+        },
+        {
+          "id": "1.15",
+          "title": "About rocker module"
+        },
+        {
+          "id": "1.16",
+          "title": "Dragon knight"
+        },
+        {
+          "id": "1.16",
+          "title": "Control rocker"
+        },
+        {
+          "id": "1.16",
+          "title": "Control rocker"
+        },
+        {
+          "id": "1.17",
+          "title": "Ultrasonic handheld rangefinder"
+        },
+        {
+          "id": "1.18",
+          "title": "Small flying car obstacle avoidance"
+        },
+        {
+          "id": "1.19",
+          "title": "Changing face"
+        },
+        {
+          "id": "1.20",
+          "title": "Adjustable RGB light"
+        },
+        {
+          "id": "1.21",
+          "title": "Adjustable fan"
+        },
+        {
+          "id": "1.22",
+          "title": "Photosensitive emergency light"
+        },
+        {
+          "id": "1.23",
+          "title": "Smart alarm clock"
+        },
+        {
+          "id": "1.24",
+          "title": "Light-controlled bipedal robot"
+        },
+        {
+          "id": "1.25",
+          "title": "Swimming robot avoid objects"
+        },
+        {
+          "id": "1.26",
+          "title": "Fleeing spider"
+        },
+        {
+          "id": "1.27",
+          "title": "Temperature humidity reminder"
+        },
+        {
+          "id": "1.28",
+          "title": "Temperature-controlled fan"
+        },
+        {
+          "id": "1.29",
+          "title": "Color recognition machine"
+        },
+        {
+          "id": "1.30",
+          "title": "Color-recognizing automatic door"
+        },
+        {
+          "id": "1.31",
+          "title": "Rokcer color changing light"
+        },
+        {
+          "id": "1.32",
+          "title": "Rokcer transporter"
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "Preparation before class",
+      "subchapters": [
+        {
+          "id": "2.1",
+          "title": "About BBC microbit"
+        },
+        {
+          "id": "2.1",
+          "title": "Hand-held range finder"
+        },
+        {
+          "id": "2.1",
+          "title": "Hand-held range finder"
+        },
+        {
+          "id": "2.2",
+          "title": "Super:bit expansion board"
+        },
+        {
+          "id": "2.2",
+          "title": "Adjustable RGB light"
+        },
+        {
+          "id": "2.2",
+          "title": "Adjustable RGB light"
+        },
+        {
+          "id": "2.3",
+          "title": "MakeCode Graphical Programming Guide"
+        },
+        {
+          "id": "2.3",
+          "title": "Emergency light"
+        },
+        {
+          "id": "2.3",
+          "title": "Emergency light"
+        },
+        {
+          "id": "2.4",
+          "title": "MakeCode graphical API"
+        },
+        {
+          "id": "2.4",
+          "title": "Vibrating alarm clock"
+        },
+        {
+          "id": "2.4",
+          "title": "Vibrating alarm clock"
+        },
+        {
+          "id": "2.5",
+          "title": "Python Programming Guide"
+        },
+        {
+          "id": "2.5",
+          "title": "Infrared detection broadcast"
+        },
+        {
+          "id": "2.5",
+          "title": "Infrared detection broadcast"
+        },
+        {
+          "id": "2.6",
+          "title": "Superbit MicroPython API"
+        },
+        {
+          "id": "2.6",
+          "title": "Human body infrared detection broadcast"
+        },
+        {
+          "id": "2.6",
+          "title": "Human body infrared detection broadcast"
+        },
+        {
+          "id": "2.7",
+          "title": "Notes on charging and battery use"
+        },
+        {
+          "id": "2.7",
+          "title": "Temperature and humidity broadcaster"
+        },
+        {
+          "id": "2.7",
+          "title": "Temperature and humidity broadcaster"
+        },
+        {
+          "id": "2.8",
+          "title": "Color recognition machine"
+        },
+        {
+          "id": "2.8",
+          "title": "Color recognition machine"
+        },
+        {
+          "id": "2.9",
+          "title": "Rocker control light"
+        },
+        {
+          "id": "2.9",
+          "title": "Rocker control light"
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "Basic modeling MakeCode course",
+      "subchapters": [
+        {
+          "id": "3.1",
+          "title": "Avoiding car"
+        },
+        {
+          "id": "3.1",
+          "title": "Avoiding car"
+        },
+        {
+          "id": "3.2",
+          "title": "Changing Face"
+        },
+        {
+          "id": "3.2",
+          "title": "Changing Face"
+        },
+        {
+          "id": "3.3",
+          "title": "Adjustable fan"
+        },
+        {
+          "id": "3.3",
+          "title": "Adjustable fan"
+        },
+        {
+          "id": "3.4",
+          "title": "Photosensitive robot"
+        },
+        {
+          "id": "3.4",
+          "title": "Photosensitive robot"
+        },
+        {
+          "id": "3.5",
+          "title": "Swimming robot"
+        },
+        {
+          "id": "3.5",
+          "title": "Swimming robot"
+        },
+        {
+          "id": "3.6",
+          "title": "Spiders sense human body"
+        },
+        {
+          "id": "3.6",
+          "title": "Spiders sense human body"
+        },
+        {
+          "id": "3.7",
+          "title": "Temperature control fan"
+        },
+        {
+          "id": "3.7",
+          "title": "Temperature control fan"
+        },
+        {
+          "id": "3.8",
+          "title": "Automatic safety door"
+        },
+        {
+          "id": "3.8",
+          "title": "Automatic safety door"
+        },
+        {
+          "id": "3.9",
+          "title": "Rocker carrier car"
+        },
+        {
+          "id": "3.9",
+          "title": "Rocker carrier"
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "Basic modeling Python course",
+      "subchapters": []
+    },
+    {
+      "number": "5",
+      "title": "Sensor Advanced MakeCode course",
+      "sections": {
+        "5.1": {
+          "title": "Sensor principle",
+          "items": []
+        },
+        "5.2": {
+          "title": "Sensor basic course",
+          "items": []
+        },
+        "5.3": {
+          "title": "Sensor expansion course",
+          "items": []
+        }
+      }
+    },
+    {
+      "number": "6",
+      "title": "Sensor Advanced Python course",
+      "sections": {
+        "6.1": {
+          "title": "Sensor principle",
+          "items": []
+        },
+        "6.2": {
+          "title": "Sensor basic course",
+          "items": []
+        },
+        "6.3": {
+          "title": "Sensor expansion course",
+          "items": []
+        }
+      }
+    }
+  ],
+  "summary": {
+    "totalChapters": 6,
+    "totalItems": 107
+  }
+}

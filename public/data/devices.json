@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "description": "Catalog of sensors and peripherals used with Building:bit kit",
+    "generated": "2026-01-18",
+    "categories": ["sensor", "controller", "peripheral"]
+  },
+  "devices": [
+    {
+      "id": "ultrasonic",
+      "name": "Ultrasonic Sensor",
+      "category": "sensor",
+      "type": "distance",
+      "description": "Measures distance using ultrasonic waves (sonar). Used for obstacle detection and ranging.",
+      "theoryChapters": {
+        "makecode": ["5.1.1", "5.1.2"],
+        "python": ["6.1.1", "6.1.2"]
+      },
+      "usedInBuilds": ["1.17", "1.18", "1.25"],
+      "iconClass": "sensor-distance"
+    },
+    {
+      "id": "potentiometer",
+      "name": "Potentiometer",
+      "category": "sensor",
+      "type": "analog",
+      "description": "Rotary dial that outputs analog values. Used for adjustable controls like brightness or speed.",
+      "theoryChapters": {
+        "makecode": ["5.1.3", "5.1.4"],
+        "python": ["6.1.3", "6.1.4"]
+      },
+      "usedInBuilds": ["1.20", "1.21"],
+      "iconClass": "sensor-dial"
+    },
+    {
+      "id": "light",
+      "name": "Light Sensor (Photoresistor)",
+      "category": "sensor",
+      "type": "light",
+      "description": "Detects ambient light intensity. Used for automatic lights and light-following robots.",
+      "theoryChapters": {
+        "makecode": ["5.1.5", "5.1.6"],
+        "python": ["6.1.5", "6.1.6"]
+      },
+      "usedInBuilds": ["1.22", "1.24"],
+      "iconClass": "sensor-light"
+    },
+    {
+      "id": "infrared",
+      "name": "Infrared Obstacle Sensor",
+      "category": "sensor",
+      "type": "proximity",
+      "description": "Detects nearby obstacles using infrared light reflection. Used for edge detection and obstacle avoidance.",
+      "theoryChapters": {
+        "makecode": ["5.1.7", "5.1.8"],
+        "python": ["6.1.7", "6.1.8"]
+      },
+      "usedInBuilds": ["1.19"],
+      "iconClass": "sensor-ir"
+    },
+    {
+      "id": "pir",
+      "name": "PIR Motion Sensor",
+      "category": "sensor",
+      "type": "motion",
+      "description": "Passive Infrared sensor that detects human body heat/motion. Used for security and presence detection.",
+      "theoryChapters": {
+        "makecode": ["5.1.9", "5.1.10"],
+        "python": ["6.1.9", "6.1.10"]
+      },
+      "usedInBuilds": ["1.26"],
+      "iconClass": "sensor-motion"
+    },
+    {
+      "id": "temperature",
+      "name": "Temperature & Humidity Sensor",
+      "category": "sensor",
+      "type": "environmental",
+      "description": "Measures ambient temperature and humidity levels. Used for weather stations and climate control.",
+      "theoryChapters": {
+        "makecode": ["5.1.11", "5.1.12"],
+        "python": ["6.1.11", "6.1.12"]
+      },
+      "usedInBuilds": ["1.27", "1.28"],
+      "iconClass": "sensor-temp"
+    },
+    {
+      "id": "color",
+      "name": "Color Recognition Sensor",
+      "category": "sensor",
+      "type": "color",
+      "description": "Identifies colors using RGB detection. Used for sorting and color-based triggers.",
+      "theoryChapters": {
+        "makecode": ["5.1.13", "5.1.14"],
+        "python": ["6.1.13", "6.1.14"]
+      },
+      "usedInBuilds": ["1.29", "1.30"],
+      "iconClass": "sensor-color"
+    },
+    {
+      "id": "joystick",
+      "name": "Joystick Module",
+      "category": "sensor",
+      "type": "input",
+      "description": "Analog 2-axis joystick with button. Used for manual directional control.",
+      "theoryChapters": {
+        "makecode": ["5.1.15", "5.1.16"],
+        "python": ["6.1.15", "6.1.16"]
+      },
+      "usedInBuilds": ["1.31", "1.32"],
+      "iconClass": "sensor-joystick"
+    },
+    {
+      "id": "microbit-handle",
+      "name": "Micro:bit Handle (SGH Controller)",
+      "category": "controller",
+      "type": "remote",
+      "description": "Nintendo-style wireless game controller for BBC micro:bit. Features 2 joysticks, 6 buttons, buzzer, motor, and RGB LEDs. Uses micro:bit radio for wireless control of robots.",
+      "productUrl": "https://www.yahboom.net/study/SGH",
+      "features": [
+        "2x analog joysticks",
+        "6x programmable buttons",
+        "Buzzer for sound effects",
+        "Vibration motor",
+        "4x RGB LEDs",
+        "Rechargeable battery"
+      ],
+      "lessonType": "Micro:bit handle control",
+      "usedInBuilds": ["1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "1.8", "1.9", "1.10", "1.11", "1.12", "1.13", "1.14", "1.15", "1.16"],
+      "iconClass": "controller-gamepad"
+    },
+    {
+      "id": "wifi-camera",
+      "name": "WiFi Camera Module",
+      "category": "peripheral",
+      "type": "vision",
+      "description": "Wireless camera that streams video to smartphone app. Used for first-person view (FPV) control of robots and vehicles.",
+      "features": [
+        "WiFi streaming",
+        "Smartphone app control",
+        "First-person view",
+        "Video recording"
+      ],
+      "lessonType": "WiFi camera control",
+      "usedInBuilds": ["1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7"],
+      "iconClass": "peripheral-camera"
+    },
+    {
+      "id": "app-bluetooth",
+      "name": "Bluetooth App Control",
+      "category": "peripheral",
+      "type": "communication",
+      "description": "Yahboom smartphone apps for Bluetooth robot control. Note: App quality is inconsistent and may not work reliably.",
+      "quality": "poor",
+      "qualityNote": "Multiple Yahboom apps exist (MBit, etc.) with varying reliability. Physical controllers like the Micro:bit Handle are recommended instead.",
+      "appStoreUrl": "https://apps.apple.com/us/app/mbit/id1450346082",
+      "features": [
+        "Bluetooth connectivity",
+        "Virtual joystick",
+        "Button controls"
+      ],
+      "lessonType": "APP control",
+      "usedInBuilds": ["1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "1.8", "1.9", "1.10", "1.11", "1.12", "1.13", "1.14", "1.15", "1.16"],
+      "iconClass": "peripheral-bluetooth",
+      "recommended": false
+    }
+  ],
+  "buildDeviceMapping": {
+    "description": "Quick lookup of which devices are used in each build",
+    "1.1": { "controllers": ["app-bluetooth", "wifi-camera", "microbit-handle"], "sensors": [] },
+    "1.2": { "controllers": ["app-bluetooth", "wifi-camera", "microbit-handle"], "sensors": [] },
+    "1.3": { "controllers": ["app-bluetooth", "wifi-camera", "microbit-handle"], "sensors": [] },
+    "1.4": { "controllers": ["app-bluetooth", "wifi-camera", "microbit-handle"], "sensors": [] },
+    "1.5": { "controllers": ["app-bluetooth", "wifi-camera", "microbit-handle"], "sensors": [] },
+    "1.6": { "controllers": ["app-bluetooth", "wifi-camera", "microbit-handle"], "sensors": [] },
+    "1.7": { "controllers": ["app-bluetooth", "wifi-camera", "microbit-handle"], "sensors": [] },
+    "1.8": { "controllers": ["app-bluetooth", "microbit-handle"], "sensors": [] },
+    "1.9": { "controllers": ["app-bluetooth", "microbit-handle"], "sensors": [] },
+    "1.10": { "controllers": ["app-bluetooth", "microbit-handle"], "sensors": [] },
+    "1.11": { "controllers": ["app-bluetooth", "microbit-handle"], "sensors": [] },
+    "1.12": { "controllers": ["app-bluetooth", "microbit-handle"], "sensors": [] },
+    "1.13": { "controllers": ["app-bluetooth", "microbit-handle"], "sensors": [] },
+    "1.14": { "controllers": ["app-bluetooth", "microbit-handle"], "sensors": [] },
+    "1.15": { "controllers": ["app-bluetooth", "microbit-handle"], "sensors": [] },
+    "1.16": { "controllers": ["app-bluetooth", "microbit-handle"], "sensors": [] },
+    "1.17": { "controllers": [], "sensors": ["ultrasonic"] },
+    "1.18": { "controllers": [], "sensors": ["ultrasonic"] },
+    "1.19": { "controllers": [], "sensors": ["infrared"] },
+    "1.20": { "controllers": [], "sensors": ["potentiometer"] },
+    "1.21": { "controllers": [], "sensors": ["potentiometer"] },
+    "1.22": { "controllers": [], "sensors": ["light"] },
+    "1.23": { "controllers": [], "sensors": [] },
+    "1.24": { "controllers": [], "sensors": ["light"] },
+    "1.25": { "controllers": [], "sensors": ["ultrasonic"] },
+    "1.26": { "controllers": [], "sensors": ["pir"] },
+    "1.27": { "controllers": [], "sensors": ["temperature"] },
+    "1.28": { "controllers": [], "sensors": ["temperature"] },
+    "1.29": { "controllers": [], "sensors": ["color"] },
+    "1.30": { "controllers": [], "sensors": ["color"] },
+    "1.31": { "controllers": [], "sensors": ["joystick"] },
+    "1.32": { "controllers": [], "sensors": ["joystick"] }
+  }
+}
