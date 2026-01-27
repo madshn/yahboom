@@ -108,6 +108,44 @@ export const ALL_BUILD_IDS = {
       { title: '5.Drive 180° servo', buildId: '3755' },
       { title: '6.Drive motor', buildId: '3756' },
     ],
+    'J.Changing Face': [
+      { title: '1.Changing face', buildId: '3795' },
+      { title: '2.Bite the hand crocodile', buildId: '3796' },
+      { title: '3.APP control', buildId: '3797' },
+      { title: '4.Micro:bit handle control', buildId: '3798' },
+    ],
+    'K.Carousel': [
+      { title: '1.Music carousel', buildId: '3799' },
+      { title: '2.APP control', buildId: '3800' },
+      { title: '3.Micro:bit handle control', buildId: '3801' },
+    ],
+    'L.Oscillating fan': [
+      { title: '1.Colorful windmill', buildId: '3802' },
+      { title: '2.Summer cooling artifact', buildId: '3803' },
+      { title: '3.APP control', buildId: '3804' },
+      { title: '4.Micro:bit handle control', buildId: '3805' },
+    ],
+    'M.Airplane': [
+      { title: '1.Sailing Prelude', buildId: '3806' },
+      { title: '2.APP control', buildId: '3807' },
+      { title: '3.Micro:bit handle control', buildId: '3808' },
+    ],
+    'N.Unicycle': [
+      { title: '1.Clumsy reptile', buildId: '3809' },
+      { title: '2.APP control', buildId: '3810' },
+      { title: '3.Micro:bit handle control', buildId: '3811' },
+    ],
+    'O.Auto-door': [
+      { title: '1.Soldiers on duty', buildId: '3812' },
+      { title: '2.Music door', buildId: '3813' },
+      { title: '3.APP control', buildId: '3814' },
+      { title: '4.Micro:bit handle control', buildId: '3815' },
+    ],
+    'P.Dragon knight': [
+      { title: '1.Waving wings', buildId: '3816' },
+      { title: '2.APP control', buildId: '3817' },
+      { title: '3.Microbit handle control', buildId: '3818' },
+    ],
   },
 
   // Python lessons (Section 4)
@@ -127,12 +165,76 @@ export const ALL_BUILD_IDS = {
       { title: '3.Micro:bit handle control', buildId: '3850' },
     ],
     '0.Basic course': [
-      { title: '1.Buzzer play music', buildId: '3818' },
-      { title: '2.Control RGB color', buildId: '3819' },
-      { title: '3.Control all RGB lights', buildId: '3820' },
-      { title: '4.Drive 270°building block servo', buildId: '3821' },
-      { title: '5.Drive 180° servo', buildId: '3822' },
-      { title: '6.Drive motor', buildId: '3823' },
+      { title: '1.Buzzer play music', buildId: '3822' },
+      { title: '2.Control RGB color', buildId: '3823' },
+      { title: '3.Control all RGB lights', buildId: '3824' },
+      { title: '4.Drive 270° building block servo', buildId: '3825' },
+      { title: '5.Drive 180° servo', buildId: '3826' },
+      { title: '6.Drive motor', buildId: '3827' },
+      { title: '7.Drive stepper motor', buildId: '3828' },
+    ],
+    'C.Clip robot': [
+      { title: '1.Dancing and singing', buildId: '3834' },
+      { title: '2.Button control clip', buildId: '3835' },
+      { title: '3.Micro:bit handle control', buildId: '3836' },
+    ],
+    'D.Proficient carrier': [
+      { title: '1.Dancing', buildId: '3837' },
+      { title: '2.Button control shovel', buildId: '3838' },
+      { title: '3.Transportation', buildId: '3839' },
+      { title: '4.Micro:bit handle control', buildId: '3840' },
+    ],
+    'E.Skip car': [
+      { title: '1.Dance battle', buildId: '3841' },
+      { title: '2.Button control skip car', buildId: '3842' },
+      { title: '3.Powerful carrier', buildId: '3843' },
+      { title: '4.Microbit handle control', buildId: '3844' },
+    ],
+    'F.Freestyle': [
+      { title: '1.Dancing and singing', buildId: '3845' },
+      { title: '2.Freestyle advance', buildId: '3846' },
+      { title: '3.Micro:bit handle control', buildId: '3847' },
+    ],
+    'H.Lifting platform': [
+      { title: '1.Automatic Lift', buildId: '3851' },
+      { title: '2.Button control platform', buildId: '3852' },
+      { title: '3.Micro:bit handle control', buildId: '3853' },
+    ],
+    'I.Biped robot': [
+      { title: '1.Walking', buildId: '3854' },
+      { title: '2.Dancing and singing', buildId: '3855' },
+      { title: '3.Micro:bit handle control', buildId: '3856' },
+    ],
+    'J.Changing Face': [
+      { title: '1.Changing face', buildId: '3857' },
+      { title: '2.Bite the hand crocodile', buildId: '3858' },
+      { title: '3.Micro:bit handle control', buildId: '3859' },
+    ],
+    'K.Carousel': [
+      { title: '1.Music carousel', buildId: '3860' },
+      { title: '2.Micro:bit handle control', buildId: '3861' },
+    ],
+    'L.Oscillating fan': [
+      { title: '1.Colorful windmill', buildId: '3862' },
+      { title: '2.Summer cooling artifact', buildId: '3863' },
+      { title: '3.Micro:bit handle control', buildId: '3864' },
+    ],
+    'M.Airplane': [
+      { title: '1.Sailing Prelude', buildId: '3865' },
+      { title: '2.Micro:bit handle control', buildId: '3866' },
+    ],
+    'N.Unicycle': [
+      { title: '1.Clumsy reptile', buildId: '3867' },
+      { title: '2.Micro:bit handle control', buildId: '3869' },
+    ],
+    'O.Auto-door': [
+      { title: '1.Soldiers on duty', buildId: '3870' },
+      { title: '2.Music door', buildId: '3871' },
+      { title: '3.Microbit handle control', buildId: '3872' },
+    ],
+    'P.Dragon knight': [
+      { title: '1.Waving wings', buildId: '3873' },
+      { title: '2.Micro:bit handle control', buildId: '3874' },
     ],
   },
 

@@ -4,10 +4,851 @@
       "title": "1.Cannonball shooting",
       "buildId": "3757",
       "error": "No iframe URL"
+    },
+    {
+      "title": "2.Music fortress",
+      "buildId": "3759",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441025/2.Music fortress.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to make the Mobile shooter &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to make the Mobile shooter &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to make the Mobile shooter &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045186890585.png"
+        },
+        {
+          "type": "content",
+          "url": "1588043987899579.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611162423648.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045195823628.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610144629774.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:51:33.565Z"
+    },
+    {
+      "title": "3.APP control",
+      "buildId": "3760",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440947/3.APP control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Mobile shooter.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Mobile shooter."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Mobile shooter.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045431129319.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045515101942.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045512101537.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045508952809.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045504705032.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045502982587.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045493141875.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045489133204.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045486105087.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:51:39.935Z"
+    },
+    {
+      "title": "4.Micro:bit handle control",
+      "buildId": "3761",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440936/4.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize the control of the Mobile shooter with the microbit handle.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to realize the control of the Mobile shooter with the microbit handle."
+      },
+      "blocksUsed": [],
+      "code": {
+        "description": "The microbit summary program on Mobile shooter is shown in the figure below Handle rocker control program is as follows Handle gravity control program is as follows You can also directly open the microbit-Handle-control-mobile-shooter.hex, microbit-Handle-rocker-control.hex, microbit-Handle-gravity-control.hex files provided in this experiment and drag them into the browser that opens the URL, and the program diagram of this project source code will be automatically opened"
+      },
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize the control of the Mobile shooter with the microbit handle.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "code",
+          "url": "image-20250610183000547.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610183032137.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610183949848.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610185019064.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174835687.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174626884.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174723708.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175759535.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175511071.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175905864.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180042653.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180238324.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180727860.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180850895.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181258643.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181357390.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:51:46.316Z"
+    },
+    {
+      "title": "5.WiFi camera control",
+      "buildId": "11254",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753442125/5.WiFi camera control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize WiFi remote control Mobile shooter.",
+      "motorWiring": {
+        "description": "Method 1 Online programming: First, connect micro:bit to the computer via a USB data cable. The computer will pop up a U disk. Click the URL in the U disk: https://makecode.microbit.org/ to enter the programming interface. Then, add the Yabo smart software package to start programming. Method 2 Offline Programming: Open the offline programming software MakeCode and enter the programming interface. Click [New] and add the Yahboom smart software package to start programming. superbit kit expansion package : https://github.com/YahboomTechnology/SuperBitLibV2 WiFi camera expansion package : https://github.com/yahboomtechnology/ESP32-wifi-Microbit 4.1 Add expansion package 4.2 Building blocks used The location of the building blocks required for this programming is shown in the figure below. 4.3 Introduction to main building blocks Serial port initialization building block This is used to define the pins for serial communication, and communicate with the WiFi camera. The baud rate is 115200 by default and cannot be changed Set the size of the serial port receiving buffer This building block is used to define the size of a packet of data that can be accepted for transparent transmission, for example This defines that the maximum size of a packet is 30 characters. Exceeding this will result in incomplete data reception. This value cannot be less than 25, otherwise the IP information will also be incomplete Block for obtaining transparent data This block is mainly used to obtain information sent by the host computer to microbit, and transmits information through the wifi camera as the intermediate information Block for car control This block is mainly used to receive instructions sent by the app and transmit them to the car You can know the function of other blocks by looking at their names. For how to use them, you can refer to the source code provided in this tutorial. This tutorial will not elaborate on them 4.4 Combined blocks You can also directly open the microbit-wifi_superkit_AP.hex file provided in this experiment and drag it into the browser that opens the URL, and the program diagram of the source code of this project will be automatically opened"
+      },
+      "blocksUsed": [],
+      "code": {
+        "description": "You can also directly open the microbit-wifi_superkit_AP.hex file provided in this experiment and drag it into the browser that opens the URL, and the program diagram of the source code of this project will be automatically opened"
+      },
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize WiFi remote control Mobile shooter.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "wiring",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "wiring",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "wiring",
+          "url": "image-20250611113414520.png"
+        },
+        {
+          "type": "wiring",
+          "url": "image-20250611113649175.png"
+        },
+        {
+          "type": "wiring",
+          "url": "image-20250611113814571.png"
+        },
+        {
+          "type": "wiring",
+          "url": "image-20250611113917668.png"
+        },
+        {
+          "type": "wiring",
+          "url": "image-20250611114042038.png"
+        },
+        {
+          "type": "wiring",
+          "url": "image-20250611114409374.png"
+        },
+        {
+          "type": "wiring",
+          "url": "Serial port initialization.png"
+        },
+        {
+          "type": "wiring",
+          "url": "Serial port buffer.png"
+        },
+        {
+          "type": "wiring",
+          "url": "transparent data.png"
+        },
+        {
+          "type": "wiring",
+          "url": "car control.png"
+        },
+        {
+          "type": "wiring",
+          "url": "image-20250611114621486.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250611114621486.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611111444045.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611111509922.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611111615321.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611111627238.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611111641040.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611111653801.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611111725047.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611111826169.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611111854351.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611114944699.png"
+        },
+        {
+          "type": "content",
+          "url": "QR.png"
+        },
+        {
+          "type": "content",
+          "url": "192.168.4.1.jpg"
+        },
+        {
+          "type": "content",
+          "url": "1.jpg"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611115302220.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611115430525.png"
+        },
+        {
+          "type": "content",
+          "url": "WiFiip.jpg"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:51:52.851Z"
     }
   ],
-  "B.Pretty car": [],
+  "B.Pretty car": [
+    {
+      "title": "1.Dancer",
+      "buildId": "3762",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441684/1.Dancer.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to make Pretty car &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to make Pretty car &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to make Pretty car &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044683438106.png"
+        },
+        {
+          "type": "content",
+          "url": "1588043987899579.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611162423648.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044691135778.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611162607237.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:51:59.228Z"
+    },
+    {
+      "title": "2.APP control",
+      "buildId": "3763",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441202/2.APP control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Pretty car.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Pretty car."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Pretty car.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045431129319.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045515101942.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045512101537.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045508952809.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045504705032.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045502982587.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045493141875.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045489133204.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045486105087.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:52:05.634Z"
+    },
+    {
+      "title": "3.Micro:bit handle control",
+      "buildId": "3764",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441614/3.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize microbit handle control of Pretty car.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to realize microbit handle control of Pretty car."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize microbit handle control of Pretty car.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174835687.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174626884.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174723708.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175759535.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175511071.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175905864.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180042653.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180238324.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180727860.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180850895.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181258643.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181357390.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610183000547.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610183032137.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610183949848.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610185019064.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:52:12.006Z"
+    },
+    {
+      "title": "4.WiFi camera control",
+      "buildId": "11255",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441442/4.WiFi camera control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to achieve WiFi remote control of Pretty car.",
+      "motorWiring": {
+        "description": "Method 1 Online programming: First, connect micro:bit to the computer via a USB data cable. A U disk will pop up on the computer. Click the URL in the U disk: https://makecode.microbit.org/ to enter the programming interface. Then, add the Yabo smart software package to start programming. Method 2 Offline programming: Open the offline programming software MakeCode and enter the programming interface. Click [New] and add the Yabo smart software package to start programming. superbit kit expansion package : https://github.com/YahboomTechnology/SuperBitLibV2 WiFi camera expansion package : https://github.com/yahboomtechnology/ESP32-wifi-Microbit 4.1 Add expansion package 4.2 Blocks used The location of the blocks required for this programming is shown in the figure below. 4.3 Introduction to main building blocks Serial port initialization building block This is used to define the pins for serial communication, and communicate with the WiFi camera. The baud rate is 115200 by default and cannot be changed Set the size of the serial port receiving buffer This building block is used to define the size of a packet of data that can be accepted for transparent transmission, for example This defines that the maximum size of a packet is 30 characters. Exceeding this will result in incomplete data reception. This value cannot be less than 25, otherwise the IP information will also be incomplete Block for obtaining transparent data This block is mainly used to obtain information sent by the host computer to microbit, and transmits information through the wifi camera as the intermediate information Block for car control This block is mainly used to receive instructions sent by the app and transmit them to the car You can know the function of other blocks by looking at their names. For how to use them, you can refer to the source code provided in this tutorial. This tutorial will not elaborate on them 4.4 Combined blocks You can also directly open the microbit-wifi_superkit_AP.hex file provided in this experiment and drag it into the browser that opens the URL, and the program diagram of this project source code will be automatically opened"
+      },
+      "blocksUsed": [],
+      "code": {
+        "description": "You can also directly open the microbit-wifi_superkit_AP.hex file provided in this experiment and drag it into the browser that opens the URL, and the program diagram of this project source code will be automatically opened"
+      },
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to achieve WiFi remote control of Pretty car.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "wiring",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "wiring",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "wiring",
+          "url": "image-20250611113414520.png"
+        },
+        {
+          "type": "wiring",
+          "url": "image-20250611113649175.png"
+        },
+        {
+          "type": "wiring",
+          "url": "image-20250611113814571.png"
+        },
+        {
+          "type": "wiring",
+          "url": "image-20250611113917668.png"
+        },
+        {
+          "type": "wiring",
+          "url": "image-20250611114042038.png"
+        },
+        {
+          "type": "wiring",
+          "url": "image-20250611114409374.png"
+        },
+        {
+          "type": "wiring",
+          "url": "D:/111/3.Basic modeling graphics course/A.Mobile shooter/5.WiFi camera control/Serial port initialization.png"
+        },
+        {
+          "type": "wiring",
+          "url": "D:/111/3.Basic modeling graphics course/A.Mobile shooter/5.WiFi camera control/Serial port buffer.png"
+        },
+        {
+          "type": "wiring",
+          "url": "D:/111/3.Basic modeling graphics course/A.Mobile shooter/5.WiFi camera control/transparent data.png"
+        },
+        {
+          "type": "wiring",
+          "url": "D:/111/3.Basic modeling graphics course/A.Mobile shooter/5.WiFi camera control/car control.png"
+        },
+        {
+          "type": "wiring",
+          "url": "image-20250611114621486.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250611114621486.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611111444045.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611111509922.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611111615321.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611111627238.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611111641040.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611111653801.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611111725047.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611111826169.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611111854351.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611114944699.png"
+        },
+        {
+          "type": "content",
+          "url": "QR.png"
+        },
+        {
+          "type": "content",
+          "url": "192.168.4.1.jpg"
+        },
+        {
+          "type": "content",
+          "url": "1.jpg"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611115302220.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611115430525.png"
+        },
+        {
+          "type": "content",
+          "url": "WiFiip.jpg"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:52:18.557Z"
+    }
+  ],
   "C.Clip robot": [
+    {
+      "title": "1.Dancing and singing",
+      "buildId": "3765",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753442057/1.Dancing and singing.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to make Clip robot &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to make Clip robot &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to make Clip robot &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044683438106.png"
+        },
+        {
+          "type": "content",
+          "url": "1588043987899579.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611171727521.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044691135778.png"
+        },
+        {
+          "type": "content",
+          "url": "Snipaste_2025-07-14_19-23-23.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:52:24.922Z"
+    },
+    {
+      "title": "2.Button control clip",
+      "buildId": "3766",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441830/2.Button control clip.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to achieve that when the A button on the micro:bit motherboard is pressed, the clip is released; when the B button on the micro:bit motherboard is pressed, the clip is clamped.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to achieve that when the A button on the micro:bit motherboard is pressed, the clip is released; when the B button on the micro:bit motherboard is pressed, the clip is clamped."
+      },
+      "blocksUsed": [],
+      "code": {
+        "description": "The summary program is shown in the figure below. You can also directly open the microbit-Button-control-clip.hex file provided in this experiment and drag it into the browser that opens the URL, and the program diagram of this project source code will be automatically opened"
+      },
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to achieve that when the A button on the micro:bit motherboard is pressed, the clip is released; when the B button on the micro:bit motherboard is pressed, the clip is clamped.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "code",
+          "url": "1588045195823628.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045186890585.png"
+        },
+        {
+          "type": "content",
+          "url": "1588043987899579.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:52:31.290Z"
+    },
     {
       "title": "3.APP control",
       "buildId": "3767",
@@ -66,7 +907,7 @@
           "url": "1588045486105087.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:05:22.077Z"
+      "scrapedAt": "2026-01-18T23:52:37.656Z"
     },
     {
       "title": "4.Micro:bit handle control",
@@ -172,7 +1013,7 @@
           "url": "1588046028770914.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:05:28.445Z"
+      "scrapedAt": "2026-01-18T23:52:44.014Z"
     },
     {
       "title": "5.WiFi camera control",
@@ -298,7 +1139,7 @@
           "url": "WiFiip.jpg"
         }
       ],
-      "scrapedAt": "2026-01-14T22:05:34.811Z"
+      "scrapedAt": "2026-01-18T23:52:50.541Z"
     }
   ],
   "D.Proficient carrier": [
@@ -360,7 +1201,7 @@
           "url": "1588044719134633.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:05:41.178Z"
+      "scrapedAt": "2026-01-18T23:52:56.902Z"
     },
     {
       "title": "2.Button control shovel",
@@ -412,7 +1253,7 @@
           "url": "1588044719134633.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:05:47.537Z"
+      "scrapedAt": "2026-01-18T23:53:03.264Z"
     },
     {
       "title": "3.Transportation",
@@ -466,7 +1307,7 @@
           "url": "1588044719134633.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:05:53.902Z"
+      "scrapedAt": "2026-01-18T23:53:09.648Z"
     },
     {
       "title": "4.APP control",
@@ -526,7 +1367,7 @@
           "url": "1588045486105087.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:06:00.291Z"
+      "scrapedAt": "2026-01-18T23:53:16.004Z"
     },
     {
       "title": "5.Micro:bit handle control",
@@ -630,7 +1471,7 @@
           "url": "1588046028770914.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:06:06.653Z"
+      "scrapedAt": "2026-01-18T23:53:22.378Z"
     },
     {
       "title": "6.WiFi camera control",
@@ -764,7 +1605,7 @@
           "url": "WiFiip.jpg"
         }
       ],
-      "scrapedAt": "2026-01-14T22:06:13.020Z"
+      "scrapedAt": "2026-01-18T23:53:28.912Z"
     }
   ],
   "E.Skip car": [
@@ -826,7 +1667,7 @@
           "url": "1588044719134633.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:06:19.384Z"
+      "scrapedAt": "2026-01-18T23:53:35.301Z"
     },
     {
       "title": "2.Button control skip car",
@@ -880,7 +1721,7 @@
           "url": "1588044719134633.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:06:25.768Z"
+      "scrapedAt": "2026-01-18T23:53:41.665Z"
     },
     {
       "title": "3.Powerful carrier",
@@ -934,7 +1775,7 @@
           "url": "1588044719134633.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:06:32.126Z"
+      "scrapedAt": "2026-01-18T23:53:48.025Z"
     },
     {
       "title": "4.APP control",
@@ -994,7 +1835,7 @@
           "url": "1588045486105087.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:06:38.556Z"
+      "scrapedAt": "2026-01-18T23:53:54.387Z"
     },
     {
       "title": "5.Micro:bit handle control",
@@ -1110,7 +1951,7 @@
           "url": "1588046028770914.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:06:44.918Z"
+      "scrapedAt": "2026-01-18T23:54:00.744Z"
     },
     {
       "title": "6.WiFi camera control",
@@ -1173,7 +2014,7 @@
           "url": "1588044719134633.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:06:54.914Z"
+      "scrapedAt": "2026-01-18T23:54:10.676Z"
     },
     {
       "title": "2.Freestyle advance",
@@ -1219,7 +2060,7 @@
           "url": "1588044719134633.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:07:01.315Z"
+      "scrapedAt": "2026-01-18T23:54:17.030Z"
     },
     {
       "title": "3.Micro:bit handle control",
@@ -1275,7 +2116,7 @@
           "url": "1588045486105087.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:07:07.670Z"
+      "scrapedAt": "2026-01-18T23:54:23.385Z"
     }
   ],
   "G.Spider": [
@@ -1328,7 +2169,7 @@
           "url": "1588044719134633.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:07:25.819Z"
+      "scrapedAt": "2026-01-18T23:54:41.528Z"
     },
     {
       "title": "3.Micro:bit handle control",
@@ -1384,7 +2225,7 @@
           "url": "1588044719134633.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:07:32.192Z"
+      "scrapedAt": "2026-01-18T23:54:47.897Z"
     }
   ],
   "H.Lifting platform": [
@@ -1442,7 +2283,7 @@
           "url": "1588045486105087.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:07:38.558Z"
+      "scrapedAt": "2026-01-18T23:54:54.261Z"
     },
     {
       "title": "2.Motor linkage",
@@ -1548,7 +2389,7 @@
           "url": "1588046028770914.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:07:44.955Z"
+      "scrapedAt": "2026-01-18T23:55:00.630Z"
     },
     {
       "title": "3.Micro:bit handle control",
@@ -1598,7 +2439,7 @@
           "url": "image-20250612152510293.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:07:51.361Z"
+      "scrapedAt": "2026-01-18T23:55:06.995Z"
     }
   ],
   "I.Biped robot": [
@@ -1650,7 +2491,7 @@
           "url": "1588043987899579.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:07:57.737Z"
+      "scrapedAt": "2026-01-18T23:55:13.351Z"
     },
     {
       "title": "2.Biped robot walk",
@@ -1710,7 +2551,7 @@
           "url": "1588045486105087.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:08:04.097Z"
+      "scrapedAt": "2026-01-18T23:55:19.706Z"
     },
     {
       "title": "3.Micro:bit handle control",
@@ -1812,7 +2653,7 @@
           "url": "1588046028770914.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:08:10.475Z"
+      "scrapedAt": "2026-01-18T23:55:26.057Z"
     }
   ],
   "0.Basic course": [
@@ -1862,7 +2703,7 @@
           "url": "1588042601375108.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:08:16.842Z"
+      "scrapedAt": "2026-01-18T23:55:32.424Z"
     },
     {
       "title": "2.Control RGB color",
@@ -1918,7 +2759,7 @@
           "url": "1588043566136324.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:08:23.211Z"
+      "scrapedAt": "2026-01-18T23:55:38.792Z"
     },
     {
       "title": "3.Control all RGB lights",
@@ -1971,7 +2812,7 @@
           "url": "1588044010942826.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:08:41.426Z"
+      "scrapedAt": "2026-01-18T23:55:56.957Z"
     },
     {
       "title": "5.Drive 180° servo",
@@ -2017,7 +2858,7 @@
           "url": "1588044010942826.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:08:47.849Z"
+      "scrapedAt": "2026-01-18T23:56:03.336Z"
     },
     {
       "title": "6.Drive motor",
@@ -2065,7 +2906,1703 @@
           "url": "1588044010942826.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:08:54.160Z"
+      "scrapedAt": "2026-01-18T23:56:09.709Z"
+    }
+  ],
+  "J.Changing Face": [
+    {
+      "title": "1.Changing face",
+      "buildId": "3795",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753444999/1.Changing face.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to make the Changing Face building block shape realize the gameplay of &quot;changing faces in one second&quot;.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to make the Changing Face building block shape realize the gameplay of &quot;changing faces in one second&quot;."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to make the Changing Face building block shape realize the gameplay of &quot;changing faces in one second&quot;.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "1588043987899579.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174723708.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250613173300328.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250613172135826.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250613172227314.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181258643.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181357390.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250613172347695.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250613172426507.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044691135778.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:56:16.067Z"
+    },
+    {
+      "title": "2.Bite the hand crocodile",
+      "buildId": "3796",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753445095/2.Bite the hand crocodile.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to make the Changing Face building block shape realize the &quot;biting hand crocodile&quot; gameplay. When we press the A button or the B button, the Changing Face mask will fall off randomly.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to make the Changing Face building block shape realize the &quot;biting hand crocodile&quot; gameplay. When we press the A button or the B button, the Changing Face mask will fall off randomly."
+      },
+      "blocksUsed": [],
+      "code": {
+        "description": "The summary program is shown in the figure below. You can also directly open the microbit-Bite-the-hand-crocodile.hex file provided in this experiment and drag it into the browser that opens the URL, and the program diagram of this project source code will be automatically opened"
+      },
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to make the Changing Face building block shape realize the &quot;biting hand crocodile&quot; gameplay. When we press the A button or the B button, the Changing Face mask will fall off randomly.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "code",
+          "url": "1588045195823628.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044683438106.png"
+        },
+        {
+          "type": "content",
+          "url": "1588043987899579.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250613173300328.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250613172135826.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174723708.png"
+        },
+        {
+          "type": "content",
+          "url": "1588080390126685.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:56:22.457Z"
+    },
+    {
+      "title": "3.APP control",
+      "buildId": "3797",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753445109/3.APP control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control Changing Face.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control Changing Face."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control Changing Face.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045431129319.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045515101942.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045512101537.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045508952809.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045504705032.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045502982587.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045493141875.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045489133204.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045486105087.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:56:28.911Z"
+    },
+    {
+      "title": "4.Micro:bit handle control",
+      "buildId": "3798",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753445126/4.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize the control of Changing Face by the microbit handle.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to realize the control of Changing Face by the microbit handle."
+      },
+      "blocksUsed": [],
+      "code": {
+        "description": "The summary program of microbit on Changing Face is shown in the figure below The program of Handle rocker control is as follows The program of Handle gravity control is as follows You can also directly open the microbit-handle-control-Changing-Face.hex, microbit-Handle-rocker-control.hex, microbit-Handle-gravity-control.hex files provided in this experiment and drag them into the browser that opens the URL, and the program diagram of this project source code will be automatically opened"
+      },
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize the control of Changing Face by the microbit handle.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "code",
+          "url": "image-20250610183000547.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610183949848.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610185019064.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174835687.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174626884.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174723708.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175759535.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175511071.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175905864.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180042653.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180238324.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180727860.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180850895.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181258643.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181357390.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:56:35.340Z"
+    }
+  ],
+  "K.Carousel": [
+    {
+      "title": "1.Music carousel",
+      "buildId": "3799",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753445092/1.Music carousel.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to make Carousel rotate while playing music.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to make Carousel rotate while playing music."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to make Carousel rotate while playing music.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "1591238493187618.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "1588043987899579.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250612152510293.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044683438106.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044691135778.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:56:41.823Z"
+    },
+    {
+      "title": "2.APP control",
+      "buildId": "3800",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753445117/2.APP control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to achieve Bluetooth APP remote control of Carousel.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to achieve Bluetooth APP remote control of Carousel."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to achieve Bluetooth APP remote control of Carousel.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "1591238493187618.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045431129319.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045515101942.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045512101537.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045508952809.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045504705032.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045502982587.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045493141875.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045489133204.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045486105087.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:56:48.209Z"
+    },
+    {
+      "title": "3.Micro:bit handle control",
+      "buildId": "3801",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753445174/3.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to control Carousel with the microbit handle.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to control Carousel with the microbit handle."
+      },
+      "blocksUsed": [],
+      "code": {
+        "description": "The microbit summary program on Carousel is shown in the figure below The Handle rocker control program is as follows The Handle gravity control program is as follows You can also directly open the microbit-handle-control-Carousel.hex、microbit-Handle-rocker-control.hex、microbit-Handle-gravity-control.hex Drag the file into the browser that opens the URL, and the program diagram of the source code of this project will be automatically opened"
+      },
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to control Carousel with the microbit handle.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "code",
+          "url": "image-20250610183000547.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610183949848.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610185019064.png"
+        },
+        {
+          "type": "content",
+          "url": "1591238493187618.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174835687.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174626884.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174723708.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175759535.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175511071.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175905864.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180042653.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180238324.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180727860.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180850895.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181258643.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181357390.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:56:54.589Z"
+    }
+  ],
+  "L.Oscillating fan": [
+    {
+      "title": "1.Colorful windmill",
+      "buildId": "3802",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753444786/1.Colorful windmill.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to make the oscillating fan rotate at different speeds, while the micro:bit dot matrix displays the dynamic picture of the windmill rotating, and the RGB light switches to different colors.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to make the oscillating fan rotate at different speeds, while the micro:bit dot matrix displays the dynamic picture of the windmill rotating, and the RGB light switches to different colors."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to make the oscillating fan rotate at different speeds, while the micro:bit dot matrix displays the dynamic picture of the windmill rotating, and the RGB light switches to different colors.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611162423648.png"
+        },
+        {
+          "type": "content",
+          "url": "1588043987899579.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044691135778.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:57:00.957Z"
+    },
+    {
+      "title": "2.Summer cooling artifact",
+      "buildId": "3803",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753444890/2.Summer cooling artifact.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to make the fan shake and display the dynamic picture of the windmill on the micro:bit dot matrix.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to make the fan shake and display the dynamic picture of the windmill on the micro:bit dot matrix."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to make the fan shake and display the dynamic picture of the windmill on the micro:bit dot matrix.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616171633950.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174723708.png"
+        },
+        {
+          "type": "content",
+          "url": "1588043987899579.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175759535.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610144629774.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:57:07.322Z"
+    },
+    {
+      "title": "3.APP control",
+      "buildId": "3804",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753690837/3.APP control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Oscillating fan.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Oscillating fan."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Oscillating fan.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045431129319.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045515101942.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045512101537.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045508952809.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045504705032.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045502982587.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045493141875.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045489133204.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045486105087.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:57:13.695Z"
+    },
+    {
+      "title": "4.Micro:bit handle control",
+      "buildId": "3805",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753445054/4.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to control the oscillating fan with the microbit handle.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to control the oscillating fan with the microbit handle."
+      },
+      "blocksUsed": [],
+      "code": {
+        "description": "The microbit summary program on the Oscillating fan is shown in the figure below The handle rocker control program is as follows The handle gravity control program is as follows You can also directly open the microbit-handle-control-Oscillating-fan.hex、microbit-Handle-rocker-control.hex、microbit-Handle-gravity-control.hex Drag the file into the browser that opens the URL, and the program diagram of the source code of this project will be automatically opened"
+      },
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to control the oscillating fan with the microbit handle.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "code",
+          "url": "image-20250610183000547.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610183949848.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610185019064.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174835687.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174626884.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174723708.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175759535.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175511071.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175905864.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180042653.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180238324.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180727860.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180850895.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181258643.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181357390.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:57:20.060Z"
+    }
+  ],
+  "M.Airplane": [
+    {
+      "title": "1.Sailing Prelude",
+      "buildId": "3806",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753444954/1.Sailing Prelude.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to make the propeller of the Airplane rotate while the buzzer plays music.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to make the propeller of the Airplane rotate while the buzzer plays music."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to make the propeller of the Airplane rotate while the buzzer plays music.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044683438106.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611162423648.png"
+        },
+        {
+          "type": "content",
+          "url": "1588043987899579.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044691135778.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:57:26.431Z"
+    },
+    {
+      "title": "2.APP control",
+      "buildId": "3807",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753444575/2.APP control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Unicycle. Unicycle walking principle: The friction of the front wheel is changed by adjusting the 1# bolt connection buckle ratchet to control the forward direction of the car. When the 1# bolt connection is located in front of the 24-tooth gear, the front wheel can only move forward, so the car creeps forward; when the 1# bolt is connected to the back of the 24-tooth gear, the front wheel can only move backward, and the car creeps backward.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Unicycle. Unicycle walking principle: The friction of the front wheel is changed by adjusting the 1# bolt connection buckle ratchet to control the forward direction of the car. When the 1# bolt connection is located in front of the 24-tooth gear, the front wheel can only move forward, so the car creeps forward; when the 1# bolt is connected to the back of the 24-tooth gear, the front wheel can only move backward, and the car creeps backward."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Unicycle. Unicycle walking principle: The friction of the front wheel is changed by adjusting the 1# bolt connection buckle ratchet to control the forward direction of the car. When the 1# bolt connection is located in front of the 24-tooth gear, the front wheel can only move forward, so the car creeps forward; when the 1# bolt is connected to the back of the 24-tooth gear, the front wheel can only move backward, and the car creeps backward.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "1588160303495597.png"
+        },
+        {
+          "type": "content",
+          "url": "1588160377125622.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045431129319.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045515101942.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045512101537.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045508952809.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045504705032.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045502982587.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045493141875.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045489133204.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045486105087.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:57:32.792Z"
+    },
+    {
+      "title": "3.Micro:bit handle control",
+      "buildId": "3808",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753444620/3.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize the microbit handle to control the airplane.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to realize the microbit handle to control the airplane."
+      },
+      "blocksUsed": [],
+      "code": {
+        "description": "The microbit summary program on Airplane is shown in the figure below Handle Rocker control program is as follows Handle gravity control program is as follows You can also directly open the microbit-handle-control-airplane.hex、microbit-Handle-rocker-control.hex、microbit-Handle-gravity-control.hex Drag the file into the browser that opens the URL, and the program diagram of the source code of this project will be automatically opened"
+      },
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize the microbit handle to control the airplane.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "code",
+          "url": "image-20250610183000547.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610183949848.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610185019064.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174835687.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174626884.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174723708.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175759535.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175511071.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175905864.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180042653.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180238324.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180727860.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180850895.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181258643.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181357390.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:57:39.153Z"
+    }
+  ],
+  "N.Unicycle": [
+    {
+      "title": "1.Clumsy reptile",
+      "buildId": "3809",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753444544/1.Clumsy reptile.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to make Unicycle move forward and backward. Unicycle walking principle: The friction of the front wheel is changed by adjusting the 1# bolt connection buckle ratchet to control the forward direction of the car. When the 1# bolt connection is located in front of the 24-tooth gear, the front wheel can only move forward, so the car creeps forward; when the 1# bolt is connected to the back of the 24-tooth gear, the front wheel can only move backward, and the car creeps backward.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to make Unicycle move forward and backward. Unicycle walking principle: The friction of the front wheel is changed by adjusting the 1# bolt connection buckle ratchet to control the forward direction of the car. When the 1# bolt connection is located in front of the 24-tooth gear, the front wheel can only move forward, so the car creeps forward; when the 1# bolt is connected to the back of the 24-tooth gear, the front wheel can only move backward, and the car creeps backward."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to make Unicycle move forward and backward. Unicycle walking principle: The friction of the front wheel is changed by adjusting the 1# bolt connection buckle ratchet to control the forward direction of the car. When the 1# bolt connection is located in front of the 24-tooth gear, the front wheel can only move forward, so the car creeps forward; when the 1# bolt is connected to the back of the 24-tooth gear, the front wheel can only move backward, and the car creeps backward.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "1588160303495597.png"
+        },
+        {
+          "type": "content",
+          "url": "1588160377125622.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "1588043987899579.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044691135778.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:57:45.516Z"
+    },
+    {
+      "title": "2.APP control",
+      "buildId": "3810",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753691910/2.APP control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Unicycle. Unicycle walking principle: The friction of the front wheel is changed by adjusting the 1# bolt connection buckle ratchet to control the forward direction of the car. When the 1# bolt connection is located in front of the 24-tooth gear, the front wheel can only move forward, so the car creeps forward; when the 1# bolt is connected to the back of the 24-tooth gear, the front wheel can only move backward, and the car creeps backward.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Unicycle. Unicycle walking principle: The friction of the front wheel is changed by adjusting the 1# bolt connection buckle ratchet to control the forward direction of the car. When the 1# bolt connection is located in front of the 24-tooth gear, the front wheel can only move forward, so the car creeps forward; when the 1# bolt is connected to the back of the 24-tooth gear, the front wheel can only move backward, and the car creeps backward."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Unicycle. Unicycle walking principle: The friction of the front wheel is changed by adjusting the 1# bolt connection buckle ratchet to control the forward direction of the car. When the 1# bolt connection is located in front of the 24-tooth gear, the front wheel can only move forward, so the car creeps forward; when the 1# bolt is connected to the back of the 24-tooth gear, the front wheel can only move backward, and the car creeps backward.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "1588160303495597.png"
+        },
+        {
+          "type": "content",
+          "url": "1588160377125622.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045431129319.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045515101942.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045512101537.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045508952809.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045504705032.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045502982587.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045493141875.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045489133204.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045486105087.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:57:51.876Z"
+    },
+    {
+      "title": "3.Micro:bit handle control",
+      "buildId": "3811",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753444842/3.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize the microbit handle to control the creeping car. Principle of creeping car movement: The friction of the front wheel is changed by adjusting the 1# bolt connection buckle ratchet to control the forward direction of the car. When the 1# bolt connection is located in front of the 24-tooth gear, the front wheel can only move forward, so the car creeps forward; when the 1# bolt is connected to the back of the 24-tooth gear, the front wheel can only move backward, and the car creeps backward.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to realize the microbit handle to control the creeping car. Principle of creeping car movement: The friction of the front wheel is changed by adjusting the 1# bolt connection buckle ratchet to control the forward direction of the car. When the 1# bolt connection is located in front of the 24-tooth gear, the front wheel can only move forward, so the car creeps forward; when the 1# bolt is connected to the back of the 24-tooth gear, the front wheel can only move backward, and the car creeps backward."
+      },
+      "blocksUsed": [],
+      "code": {
+        "description": "The microbit summary program on the squirm car is shown in the figure below The handle joystick control program is as follows The handle gravity control program is as follows You can also directly open the microbit-handle-control-Unicycle-code.hex, microbit-microbit-Handle-rocker-control.hex, microbit-Handle-gravity-control.hex files provided in this experiment and drag them into the browser that opens the URL, and the program diagram of this project source code will be automatically opened"
+      },
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize the microbit handle to control the creeping car. Principle of creeping car movement: The friction of the front wheel is changed by adjusting the 1# bolt connection buckle ratchet to control the forward direction of the car. When the 1# bolt connection is located in front of the 24-tooth gear, the front wheel can only move forward, so the car creeps forward; when the 1# bolt is connected to the back of the 24-tooth gear, the front wheel can only move backward, and the car creeps backward.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "code",
+          "url": "image-20250610183000547.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610183949848.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610185019064.png"
+        },
+        {
+          "type": "content",
+          "url": "1588160303495597.png"
+        },
+        {
+          "type": "content",
+          "url": "1588160377125622.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174835687.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174626884.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174723708.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175759535.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175511071.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175905864.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180042653.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180238324.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180727860.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180850895.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181258643.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181357390.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:57:58.252Z"
+    }
+  ],
+  "O.Auto-door": [
+    {
+      "title": "1.Soldiers on duty",
+      "buildId": "3812",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753444671/1.Soldiers on duty.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to achieve that when the micro:bit A button is pressed, the dot matrix displays the direction of the door movement (left), the buzzer beeps shortly, and the security automatic door closes; when the micro:bit B button is pressed, the dot matrix displays the direction of the door movement (right), the buzzer beeps shortly, and the security automatic door opens.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to achieve that when the micro:bit A button is pressed, the dot matrix displays the direction of the door movement (left), the buzzer beeps shortly, and the security automatic door closes; when the micro:bit B button is pressed, the dot matrix displays the direction of the door movement (right), the buzzer beeps shortly, and the security automatic door opens."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to achieve that when the micro:bit A button is pressed, the dot matrix displays the direction of the door movement (left), the buzzer beeps shortly, and the security automatic door closes; when the micro:bit B button is pressed, the dot matrix displays the direction of the door movement (right), the buzzer beeps shortly, and the security automatic door opens.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "1588145767275446.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "1588043987899579.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044683438106.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044691135778.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:58:04.612Z"
+    },
+    {
+      "title": "2.Music door",
+      "buildId": "3813",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753444695/2.Music door.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize that the automatic door gradually opens and closes, the buzzer plays the song &quot;Ode to Joy&quot;, and the RGB light switches to different colors.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to realize that the automatic door gradually opens and closes, the buzzer plays the song &quot;Ode to Joy&quot;, and the RGB light switches to different colors."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize that the automatic door gradually opens and closes, the buzzer plays the song &quot;Ode to Joy&quot;, and the RGB light switches to different colors.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "1588145767275446.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044683438106.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174723708.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616171633950.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175759535.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250612152510293.png"
+        },
+        {
+          "type": "content",
+          "url": "1588043987899579.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045195823628.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:58:10.977Z"
+    },
+    {
+      "title": "3.APP control",
+      "buildId": "3814",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753444717/3.APP control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of security automatic doors.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of security automatic doors."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of security automatic doors.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "1588145767275446.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045431129319.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045515101942.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045512101537.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045508952809.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045504705032.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045502982587.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045493141875.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045489133204.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045486105087.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:58:17.338Z"
+    },
+    {
+      "title": "4.Micro:bit handle control",
+      "buildId": "3815",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753443408/4.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize the control of the security automatic door by the microbit handle.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to realize the control of the security automatic door by the microbit handle."
+      },
+      "blocksUsed": [],
+      "code": {
+        "description": "The microbit summary program on the security automatic door is shown in the figure below. The handle joystick control program is as follows. The handle gravity control program is as follows. You can also directly open the microbit-handle-control-auto-door-code.hex, microbit-Handle-rocker-control.hex, microbit-Handle-gravity-control.hex files provided in this experiment and drag them into the browser that opens the URL, and the program diagram of this project source code will be automatically opened."
+      },
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize the control of the security automatic door by the microbit handle.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "code",
+          "url": "image-20250610183000547.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610183949848.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610185019064.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "1588145767275446.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174835687.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174626884.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174723708.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175759535.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175511071.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175905864.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180042653.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180238324.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180727860.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180850895.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181258643.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181357390.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:58:23.706Z"
+    }
+  ],
+  "P.Dragon knight": [
+    {
+      "title": "1.Waving wings",
+      "buildId": "3816",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753692705/1.Waving wings.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to make the &quot;wings&quot; on the left and right sides of the dragon knight shape flutter, that is, the motor rotates.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to make the &quot;wings&quot; on the left and right sides of the dragon knight shape flutter, that is, the motor rotates."
+      },
+      "blocksUsed": [],
+      "code": {
+        "description": "The summary program is shown in the figure below. You can also directly open the microbit-Waving-wings.hex file provided in this experiment and drag it into the browser that opens the URL, and the program diagram of this project source code will be automatically opened."
+      },
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to make the &quot;wings&quot; on the left and right sides of the dragon knight shape flutter, that is, the motor rotates.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "code",
+          "url": "1588044691135778.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616204023934.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:58:30.063Z"
+    },
+    {
+      "title": "2.APP control",
+      "buildId": "3817",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753692728/2.APP control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Dragon Knight.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Dragon Knight."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize Bluetooth APP remote control of Dragon Knight.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045431129319.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045515101942.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045512101537.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045508952809.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045504705032.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045502982587.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045493141875.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045489133204.png"
+        },
+        {
+          "type": "content",
+          "url": "1588045486105087.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:58:36.444Z"
+    },
+    {
+      "title": "3.Microbit handle control",
+      "buildId": "3818",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753442715/3.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize the microbit handle control of the Dragon Knight.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use MakeCode graphical programming to realize the microbit handle control of the Dragon Knight."
+      },
+      "blocksUsed": [],
+      "code": {
+        "description": "The microbit summary program on Dragon Knight is shown in the figure below. Handle joystick control program is as follows. Handle gravity control program is as follows. You can also directly open the microbit-Handle-control-Dragon-knight-code.hex, microbit-Handle-rocker-control.hex, microbit-Handle-gravity-control.hex Drag the file into the browser that opens the URL, and the program diagram of this project source code will be automatically opened."
+      },
+      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize the microbit handle control of the Dragon Knight.",
+      "pythonCode": null,
+      "images": [
+        {
+          "type": "code",
+          "url": "image-20250610183000547.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610183949848.png"
+        },
+        {
+          "type": "code",
+          "url": "image-20250610185019064.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184603631.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250606184759888.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044336115798.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174835687.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174626884.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610174723708.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175759535.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175511071.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610175905864.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180042653.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180238324.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180727860.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610180850895.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181258643.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250610181357390.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-18T23:58:42.804Z"
     }
   ]
 }

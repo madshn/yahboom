@@ -28,7 +28,7 @@
           "url": "image-20250616213730022.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:09:00.790Z"
+      "scrapedAt": "2026-01-18T23:58:56.010Z"
     },
     {
       "title": "2.Music fortress",
@@ -62,7 +62,7 @@
           "url": "image-20250616213730022.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:09:07.164Z"
+      "scrapedAt": "2026-01-18T23:59:02.406Z"
     },
     {
       "title": "3.Micro:bit handle control",
@@ -96,7 +96,7 @@
           "url": "image-20250616213730022.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:09:13.538Z"
+      "scrapedAt": "2026-01-18T23:59:08.767Z"
     }
   ],
   "B.Pretty car": [
@@ -138,7 +138,7 @@
           "url": "1588044010942826.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:09:19.918Z"
+      "scrapedAt": "2026-01-18T23:59:15.124Z"
     },
     {
       "title": "2.Micro:bit handle control",
@@ -181,7 +181,7 @@
           "url": "1588044719134633.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:09:30.190Z"
+      "scrapedAt": "2026-01-18T23:59:25.373Z"
     },
     {
       "title": "2.The dancing spider",
@@ -217,7 +217,7 @@
           "url": "1588044719134633.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:09:36.592Z"
+      "scrapedAt": "2026-01-18T23:59:31.897Z"
     },
     {
       "title": "3.Micro:bit handle control",
@@ -253,125 +253,12 @@
           "url": "1588046028770914.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:09:43.126Z"
+      "scrapedAt": "2026-01-18T23:59:38.433Z"
     }
   ],
   "0.Basic course": [
     {
       "title": "1.Buzzer play music",
-      "buildId": "3818",
-      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753442715/3.Microbit handle control.html",
-      "objective": "In this course, we mainly learn how to use MakeCode graphical programming to realize the microbit handle control of the Dragon Knight.",
-      "motorWiring": {
-        "description": "In this course, we mainly learn how to use MakeCode graphical programming to realize the microbit handle control of the Dragon Knight."
-      },
-      "blocksUsed": [],
-      "code": {
-        "description": "The microbit summary program on Dragon Knight is shown in the figure below. Handle joystick control program is as follows. Handle gravity control program is as follows. You can also directly open the microbit-Handle-control-Dragon-knight-code.hex, microbit-Handle-rocker-control.hex, microbit-Handle-gravity-control.hex Drag the file into the browser that opens the URL, and the program diagram of this project source code will be automatically opened."
-      },
-      "phenomenon": "In this course, we mainly learn how to use MakeCode graphical programming to realize the microbit handle control of the Dragon Knight.",
-      "pythonCode": null,
-      "images": [
-        {
-          "type": "code",
-          "url": "image-20250610183000547.png"
-        },
-        {
-          "type": "code",
-          "url": "image-20250610183949848.png"
-        },
-        {
-          "type": "code",
-          "url": "image-20250610185019064.png"
-        },
-        {
-          "type": "content",
-          "url": "image-20250611160433482.png"
-        },
-        {
-          "type": "content",
-          "url": "image-20250606184603631.png"
-        },
-        {
-          "type": "content",
-          "url": "image-20250606184759888.png"
-        },
-        {
-          "type": "content",
-          "url": "1588044336115798.png"
-        },
-        {
-          "type": "content",
-          "url": "image-20250610174835687.png"
-        },
-        {
-          "type": "content",
-          "url": "image-20250610174626884.png"
-        },
-        {
-          "type": "content",
-          "url": "image-20250610174723708.png"
-        },
-        {
-          "type": "content",
-          "url": "image-20250610175759535.png"
-        },
-        {
-          "type": "content",
-          "url": "image-20250610175511071.png"
-        },
-        {
-          "type": "content",
-          "url": "image-20250610175905864.png"
-        },
-        {
-          "type": "content",
-          "url": "image-20250610180042653.png"
-        },
-        {
-          "type": "content",
-          "url": "image-20250610180238324.png"
-        },
-        {
-          "type": "content",
-          "url": "image-20250610180727860.png"
-        },
-        {
-          "type": "content",
-          "url": "image-20250610180850895.png"
-        },
-        {
-          "type": "content",
-          "url": "image-20250610181258643.png"
-        },
-        {
-          "type": "content",
-          "url": "image-20250610181357390.png"
-        },
-        {
-          "type": "content",
-          "url": "1588046028770914.png"
-        }
-      ],
-      "scrapedAt": "2026-01-14T22:09:49.533Z"
-    },
-    {
-      "title": "2.Control RGB color",
-      "buildId": "3819",
-      "error": "No iframe URL"
-    },
-    {
-      "title": "3.Control all RGB lights",
-      "buildId": "3820",
-      "error": "No iframe URL"
-    },
-    {
-      "title": "4.Drive 270°building block servo",
-      "buildId": "3821",
-      "error": "No iframe URL"
-    },
-    {
-      "title": "5.Drive 180° servo",
       "buildId": "3822",
       "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440572/1.Buzzer play music.html",
       "objective": "In this course, we mainly learn how to drive the buzzer on the superbit expansion board through Python programming. The buzzer is located on the expansion board as shown in the figure below. ! Notes: Before conducting this experiment, we need to connect the jumper cap to the P0 and Buzzer pins on the Super:bit expansion board, as shown in the figure below.",
@@ -402,10 +289,10 @@
           "url": "image-20250616212911192.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:10:06.829Z"
+      "scrapedAt": "2026-01-18T23:59:44.804Z"
     },
     {
-      "title": "6.Drive motor",
+      "title": "2.Control RGB color",
       "buildId": "3823",
       "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440590/2.Control RGB color.html",
       "objective": "In this course, we mainly learn how to control and light up a single RGB light on the superbit expansion board through Python programming. The 4 RGB lights are located on the expansion board as shown in the figure below.",
@@ -432,7 +319,1450 @@
           "url": "image-20250616213730022.png"
         }
       ],
-      "scrapedAt": "2026-01-14T22:10:13.444Z"
+      "scrapedAt": "2026-01-18T23:59:51.340Z"
+    },
+    {
+      "title": "7.Drive stepper motor",
+      "buildId": "3828",
+      "error": "No iframe URL"
+    }
+  ],
+  "C.Clip robot": [
+    {
+      "title": "1.Dancing and singing",
+      "buildId": "3834",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440916/1.Dancing and singing.html",
+      "objective": "In this course, we mainly learn how to use Python programming to make the Iron Armored Hand &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to make the Iron Armored Hand &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to make the Iron Armored Hand &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\" style=\"\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:00:01.589Z"
+    },
+    {
+      "title": "2.Button control clip",
+      "buildId": "3835",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753440996/2.Button control clip.html",
+      "objective": "In this course, we mainly learn how to use Python programming to achieve that when the A button on the micro:bit motherboard is pressed, the Armored Saint Clamp opens; when the B button on the micro:bit motherboard is pressed, the Armored Saint Clamp clamps.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to achieve that when the A button on the micro:bit motherboard is pressed, the Armored Saint Clamp opens; when the B button on the micro:bit motherboard is pressed, the Armored Saint Clamp clamps."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to achieve that when the A button on the micro:bit motherboard is pressed, the Armored Saint Clamp opens; when the B button on the micro:bit motherboard is pressed, the Armored Saint Clamp clamps.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:00:08.135Z"
+    },
+    {
+      "title": "3.Micro:bit handle control",
+      "buildId": "3836",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441035/3.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use Python programming to realize the remote control of the Iron Armored Saint with the micro:bit handle.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to realize the remote control of the Iron Armored Saint with the micro:bit handle."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to realize the remote control of the Iron Armored Saint with the micro:bit handle.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:00:14.667Z"
+    }
+  ],
+  "D.Proficient carrier": [
+    {
+      "title": "1.Dancing",
+      "buildId": "3837",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441051/1.Dancing.html",
+      "objective": "In this course, we mainly learn how to use Python programming to achieve the &quot;singing&quot; and &quot;dancing&quot; of the transporter, that is, the motor, servo, buzzer, and RGB light work at the same time.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to achieve the &quot;singing&quot; and &quot;dancing&quot; of the transporter, that is, the motor, servo, buzzer, and RGB light work at the same time."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to achieve the &quot;singing&quot; and &quot;dancing&quot; of the transporter, that is, the motor, servo, buzzer, and RGB light work at the same time.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\" style=\"\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:00:21.211Z"
+    },
+    {
+      "title": "2.Button control shovel",
+      "buildId": "3838",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441085/2.Button control shovel.html",
+      "objective": "In this course, we mainly learn how to use Python programming to achieve that when the A button on the micro:bit motherboard is pressed, the shovel is placed flat; when the B button on the micro:bit motherboard is pressed, the shovel is unloaded; when the AB buttons on the micro:bit motherboard are pressed at the same time, the shovel is lifted.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to achieve that when the A button on the micro:bit motherboard is pressed, the shovel is placed flat; when the B button on the micro:bit motherboard is pressed, the shovel is unloaded; when the AB buttons on the micro:bit motherboard are pressed at the same time, the shovel is lifted."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to achieve that when the A button on the micro:bit motherboard is pressed, the shovel is placed flat; when the B button on the micro:bit motherboard is pressed, the shovel is unloaded; when the AB buttons on the micro:bit motherboard are pressed at the same time, the shovel is lifted.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:00:27.743Z"
+    },
+    {
+      "title": "3.Transportation",
+      "buildId": "3839",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441117/3.Transportation.html",
+      "objective": "In this course, we mainly learn how to implement it through Python programming. After pressing the micro:bit A button, the shovel is lifted -> forward 2 seconds -> unload the goods -> shovel is placed flat -> back 2 seconds.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to implement it through Python programming. After pressing the micro:bit A button, the shovel is lifted -> forward 2 seconds -> unload the goods -> shovel is placed flat -> back 2 seconds."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to implement it through Python programming. After pressing the micro:bit A button, the shovel is lifted -> forward 2 seconds -> unload the goods -> shovel is placed flat -> back 2 seconds.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:00:34.284Z"
+    },
+    {
+      "title": "4.Micro:bit handle control",
+      "buildId": "3840",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441168/4.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use Python programming to realize the remote control of the transporter with the micro:bit handle.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to realize the remote control of the transporter with the micro:bit handle."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to realize the remote control of the transporter with the micro:bit handle.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:00:40.651Z"
+    }
+  ],
+  "E.Skip car": [
+    {
+      "title": "1.Dance battle",
+      "buildId": "3841",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441136/1.Dance battle.html",
+      "objective": "In this course, we mainly learn how to use Python programming to make the dump truck &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to make the dump truck &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to make the dump truck &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, servo, buzzer, and RGB light work at the same time.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\" style=\"\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:00:47.193Z"
+    },
+    {
+      "title": "2.Button control skip car",
+      "buildId": "3842",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441189/2.Button control skip car.html",
+      "objective": "In this course, we mainly learn how to use Python programming to achieve that when the A button on the micro:bit motherboard is pressed, the loading platform is laid flat; when the B button on the micro:bit motherboard is pressed, the loading platform is unloaded.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to achieve that when the A button on the micro:bit motherboard is pressed, the loading platform is laid flat; when the B button on the micro:bit motherboard is pressed, the loading platform is unloaded."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to achieve that when the A button on the micro:bit motherboard is pressed, the loading platform is laid flat; when the B button on the micro:bit motherboard is pressed, the loading platform is unloaded.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:00:53.733Z"
+    },
+    {
+      "title": "3.Powerful carrier",
+      "buildId": "3843",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441212/3.Powerful carrier.html",
+      "objective": "In this course, we mainly learn how to implement it through Python programming. After pressing the A button of micro:bit, the car moves forward for 2 seconds -> turns left for 1 second -> unloads the goods -> the loading platform is laid flat -> turns left for 1 second -> moves forward for 2 seconds.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to implement it through Python programming. After pressing the A button of micro:bit, the car moves forward for 2 seconds -> turns left for 1 second -> unloads the goods -> the loading platform is laid flat -> turns left for 1 second -> moves forward for 2 seconds."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to implement it through Python programming. After pressing the A button of micro:bit, the car moves forward for 2 seconds -> turns left for 1 second -> unloads the goods -> the loading platform is laid flat -> turns left for 1 second -> moves forward for 2 seconds.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:01:00.312Z"
+    },
+    {
+      "title": "4.Microbit handle control",
+      "buildId": "3844",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441245/4.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use Python programming to realize the remote control of the dump truck with the micro:bit handle.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to realize the remote control of the dump truck with the micro:bit handle."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to realize the remote control of the dump truck with the micro:bit handle.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:01:06.852Z"
+    }
+  ],
+  "F.Freestyle": [
+    {
+      "title": "1.Dancing and singing",
+      "buildId": "3845",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441268/1.Dancing and singing.html",
+      "objective": "In this course, we mainly learn how to use Python programming to make the water monster &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, buzzer, and RGB light work at the same time.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to make the water monster &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, buzzer, and RGB light work at the same time."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to make the water monster &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor, buzzer, and RGB light work at the same time.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\" style=\"\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:01:13.378Z"
+    },
+    {
+      "title": "2.Freestyle advance",
+      "buildId": "3846",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441297/2.Freestyle advance.html",
+      "objective": "In this course, we mainly learn how to use Python programming to make the water monster move forward.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to make the water monster move forward."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to make the water monster move forward.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:01:19.742Z"
+    },
+    {
+      "title": "3.Micro:bit handle control",
+      "buildId": "3847",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441324/3.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use Python programming to realize the microbit handle to control the water monster.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to realize the microbit handle to control the water monster."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to realize the microbit handle to control the water monster.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\" style=\"\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:01:26.276Z"
+    }
+  ],
+  "H.Lifting platform": [
+    {
+      "title": "1.Automatic Lift",
+      "buildId": "3851",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441445/1.Automatic Lift.html",
+      "objective": "In this course, we mainly learn how to use Python programming to make the lift platform automatically rise and fall.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to make the lift platform automatically rise and fall."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to make the lift platform automatically rise and fall.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:01:32.824Z"
+    },
+    {
+      "title": "2.Button control platform",
+      "buildId": "3852",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441462/2.Button control platform.html",
+      "objective": "In this course, we mainly learn how to use Python programming to achieve that when the A button on the micro:bit motherboard is pressed, the lifting platform rises; when the B button on the micro:bit motherboard is pressed, the lifting platform descends.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to achieve that when the A button on the micro:bit motherboard is pressed, the lifting platform rises; when the B button on the micro:bit motherboard is pressed, the lifting platform descends."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to achieve that when the A button on the micro:bit motherboard is pressed, the lifting platform rises; when the B button on the micro:bit motherboard is pressed, the lifting platform descends.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:01:39.374Z"
+    },
+    {
+      "title": "3.Micro:bit handle control",
+      "buildId": "3853",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441482/3.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use Python programming to control the lifting platform with the micro:bit handle.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to control the lifting platform with the micro:bit handle."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to control the lifting platform with the micro:bit handle.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:01:45.954Z"
+    }
+  ],
+  "I.Biped robot": [
+    {
+      "title": "1.Walking",
+      "buildId": "3854",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441512/1.Walking.html",
+      "objective": "In this course, we mainly learn how to make the bipedal robot move forward through Python programming.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to make the bipedal robot move forward through Python programming."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to make the bipedal robot move forward through Python programming.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:01:52.316Z"
+    },
+    {
+      "title": "2.Dancing and singing",
+      "buildId": "3855",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441600/2.Dancing and singing.html",
+      "objective": "In this course, we mainly learn how to use Python programming to make the bipedal robot &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor and buzzer work at the same time.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to make the bipedal robot &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor and buzzer work at the same time."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to make the bipedal robot &quot;sing&quot; and &quot;dance&quot; at the same time, that is, the motor and buzzer work at the same time.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\" style=\"\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:01:58.844Z"
+    },
+    {
+      "title": "3.Micro:bit handle control",
+      "buildId": "3856",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441616/3.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use Python programming to realize the control of the bipedal robot by the microbit handle.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to realize the control of the bipedal robot by the microbit handle."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to realize the control of the bipedal robot by the microbit handle.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\" style=\"\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:02:05.389Z"
+    }
+  ],
+  "J.Changing Face": [
+    {
+      "title": "1.Changing face",
+      "buildId": "3857",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441637/1.Changing face.html",
+      "objective": "In this course, we mainly learn how to use Python programming to make the Face Changing King building blocks realize the gameplay of &quot;face changing in one second&quot;.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to make the Face Changing King building blocks realize the gameplay of &quot;face changing in one second&quot;."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to make the Face Changing King building blocks realize the gameplay of &quot;face changing in one second&quot;.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:02:11.938Z"
+    },
+    {
+      "title": "2.Bite the hand crocodile",
+      "buildId": "3858",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441660/2.Bite the hand crocodile.html",
+      "objective": "In this course, we mainly learn how to use Python programming to make the Face Changing King building block shape realize the &quot;hand-biting crocodile&quot; gameplay. When we press the A button or the B button, the mask of the Face Changing King will fall off randomly.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to make the Face Changing King building block shape realize the &quot;hand-biting crocodile&quot; gameplay. When we press the A button or the B button, the mask of the Face Changing King will fall off randomly."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to make the Face Changing King building block shape realize the &quot;hand-biting crocodile&quot; gameplay. When we press the A button or the B button, the mask of the Face Changing King will fall off randomly.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588080390126685.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:02:18.335Z"
+    },
+    {
+      "title": "3.Micro:bit handle control",
+      "buildId": "3859",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441681/3.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use Python programming to control the face-changing king with the micro:bit handle.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to control the face-changing king with the micro:bit handle.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:02:24.900Z"
+    }
+  ],
+  "K.Carousel": [
+    {
+      "title": "1.Music carousel",
+      "buildId": "3860",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441693/1.Music carousel.html",
+      "objective": "In this course, we mainly learn how to use Python programming to make the carousel rotate while playing music.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to make the carousel rotate while playing music."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to make the carousel rotate while playing music.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\" style=\"\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "1591238493187618.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:02:31.462Z"
+    },
+    {
+      "title": "2.Micro:bit handle control",
+      "buildId": "3861",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441712/2.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use Python programming to control the carousel with the microbit handle.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to control the carousel with the microbit handle."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to control the carousel with the microbit handle.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "1591238493187618.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:02:38.092Z"
+    }
+  ],
+  "L.Oscillating fan": [
+    {
+      "title": "1.Colorful windmill",
+      "buildId": "3862",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441735/1.Colorful windmill.html",
+      "objective": "In this course, we mainly learn how to use Python programming to make the oscillating fan rotate at different speeds and switch the RGB light to different colors.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to make the oscillating fan rotate at different speeds and switch the RGB light to different colors."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to make the oscillating fan rotate at different speeds and switch the RGB light to different colors.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\" style=\"\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:02:44.474Z"
+    },
+    {
+      "title": "2.Summer cooling artifact",
+      "buildId": "3863",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441852/2.Summer cooling artifact.html",
+      "objective": "In this course, we mainly learn how to use Python programming to make the oscillating fan rotate while displaying the dynamic picture of the windmill rotating on the micro:bit dot matrix.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to make the oscillating fan rotate while displaying the dynamic picture of the windmill rotating on the micro:bit dot matrix."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to make the oscillating fan rotate while displaying the dynamic picture of the windmill rotating on the micro:bit dot matrix.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:02:51.036Z"
+    },
+    {
+      "title": "3.Micro:bit handle control",
+      "buildId": "3864",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441812/3.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use Python programming to control the oscillating fan with the microbit handle",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to control the oscillating fan with the microbit handle"
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to control the oscillating fan with the microbit handle",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:02:57.610Z"
+    }
+  ],
+  "M.Airplane": [
+    {
+      "title": "1.Sailing Prelude",
+      "buildId": "3865",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441875/1.Sailing Prelude.html",
+      "objective": "In this course, we mainly learn how to use Python programming to make the helicopter propeller rotate while the buzzer plays music.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to make the helicopter propeller rotate while the buzzer plays music."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to make the helicopter propeller rotate while the buzzer plays music.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\" style=\"\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:03:04.162Z"
+    },
+    {
+      "title": "2.Micro:bit handle control",
+      "buildId": "3866",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441897/2.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use Python programming to realize the control of helicopters by microbit handles.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to realize the control of helicopters by microbit handles."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to realize the control of helicopters by microbit handles.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\" style=\"\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:03:10.722Z"
+    }
+  ],
+  "N.Unicycle": [
+    {
+      "title": "1.Clumsy reptile",
+      "buildId": "3867",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441984/1.Clumsy reptile.html",
+      "objective": "In this course, we mainly learn how to use Python programming to make the creeper car move forward and backward. Walking principle of creeper car: The friction of the front wheel is changed by adjusting the 1# bolt connection buckle ratchet to control the forward direction of the car. When the 1# bolt connection is located in front of the 24-tooth gear, the front wheel can only move forward, so the car creeps forward; when the 1# bolt is connected to the back of the 24-tooth gear, the front wheel can only move backward, and the car creeps backward.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to make the creeper car move forward and backward. Walking principle of creeper car: The friction of the front wheel is changed by adjusting the 1# bolt connection buckle ratchet to control the forward direction of the car. When the 1# bolt connection is located in front of the 24-tooth gear, the front wheel can only move forward, so the car creeps forward; when the 1# bolt is connected to the back of the 24-tooth gear, the front wheel can only move backward, and the car creeps backward."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to make the creeper car move forward and backward. Walking principle of creeper car: The friction of the front wheel is changed by adjusting the 1# bolt connection buckle ratchet to control the forward direction of the car. When the 1# bolt connection is located in front of the 24-tooth gear, the front wheel can only move forward, so the car creeps forward; when the 1# bolt is connected to the back of the 24-tooth gear, the front wheel can only move backward, and the car creeps backward.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "1588160303495597.png"
+        },
+        {
+          "type": "content",
+          "url": "1588160377125622.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588044719134633.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:03:17.117Z"
+    },
+    {
+      "title": "2.Micro:bit handle control",
+      "buildId": "3869",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753441994/2.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use Python programming to realize the control of the creeping car with the microbit handle. Principle of creeping car movement: The friction of the front wheel is changed by adjusting the 1# bolt connection buckle ratchet to control the forward direction of the car. When the 1# bolt connection is located in front of the 24-tooth gear, the front wheel can only move forward, so the car creeps forward; when the 1# bolt is connected to the back of the 24-tooth gear, the front wheel can only move backward, and the car creeps backward.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to realize the control of the creeping car with the microbit handle. Principle of creeping car movement: The friction of the front wheel is changed by adjusting the 1# bolt connection buckle ratchet to control the forward direction of the car. When the 1# bolt connection is located in front of the 24-tooth gear, the front wheel can only move forward, so the car creeps forward; when the 1# bolt is connected to the back of the 24-tooth gear, the front wheel can only move backward, and the car creeps backward."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to realize the control of the creeping car with the microbit handle. Principle of creeping car movement: The friction of the front wheel is changed by adjusting the 1# bolt connection buckle ratchet to control the forward direction of the car. When the 1# bolt connection is located in front of the 24-tooth gear, the front wheel can only move forward, so the car creeps forward; when the 1# bolt is connected to the back of the 24-tooth gear, the front wheel can only move backward, and the car creeps backward.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\" style=\"\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "1588160303495597.png"
+        },
+        {
+          "type": "content",
+          "url": "1588160377125622.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:03:23.655Z"
+    }
+  ],
+  "O.Auto-door": [
+    {
+      "title": "1.Soldiers on duty",
+      "buildId": "3870",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753442020/1.Soldiers on duty.html",
+      "objective": "In this course, we mainly learn how to use Python programming to achieve that when the micro:bit A button is pressed, the dot matrix displays the direction of the door movement (left), the buzzer beeps shortly, and the security automatic door closes; when the micro:bit B button is pressed, the dot matrix displays the direction of the door movement (right), the buzzer beeps shortly, and the security automatic door opens.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to achieve that when the micro:bit A button is pressed, the dot matrix displays the direction of the door movement (left), the buzzer beeps shortly, and the security automatic door closes; when the micro:bit B button is pressed, the dot matrix displays the direction of the door movement (right), the buzzer beeps shortly, and the security automatic door opens.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "1588145767275446.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:03:30.205Z"
+    },
+    {
+      "title": "2.Music door",
+      "buildId": "3871",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753442045/2.Music door.html",
+      "objective": "In this course, we mainly learn how to use Python programming to realize that the automatic door gradually opens and closes, the buzzer plays the song &quot;Ode to Joy&quot;, and the RGB light switches to different colors.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to realize that the automatic door gradually opens and closes, the buzzer plays the song &quot;Ode to Joy&quot;, and the RGB light switches to different colors.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\" style=\"\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "1588145767275446.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:03:36.736Z"
+    },
+    {
+      "title": "3.Microbit handle control",
+      "buildId": "3872",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753442109/3.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use Python programming to control the security automatic door with the micro:bit handle.",
+      "motorWiring": null,
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to control the security automatic door with the micro:bit handle.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250607163959305.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250607094947210.png"
+        },
+        {
+          "type": "content",
+          "url": "1588145767275446.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:03:43.296Z"
+    }
+  ],
+  "P.Dragon knight": [
+    {
+      "title": "1.Waving wings",
+      "buildId": "3873",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753442130/1.Waving wings.html",
+      "objective": "In this course, we mainly learn how to make the Dragon Knight flap its wings through Python programming.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to make the Dragon Knight flap its wings through Python programming."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to make the Dragon Knight flap its wings through Python programming.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:03:49.671Z"
+    },
+    {
+      "title": "2.Micro:bit handle control",
+      "buildId": "3874",
+      "sourceUrl": "https://www.yahboom.net/public/upload/upload-html/1753442154/2.Microbit handle control.html",
+      "objective": "In this course, we mainly learn how to use Python programming to realize the microbit handle to control the Dragon Knight.",
+      "motorWiring": {
+        "description": "In this course, we mainly learn how to use Python programming to realize the microbit handle to control the Dragon Knight."
+      },
+      "blocksUsed": [],
+      "code": null,
+      "phenomenon": "In this course, we mainly learn how to use Python programming to realize the microbit handle to control the Dragon Knight.",
+      "pythonCode": "<div class=\"CodeMirror cm-s-inner CodeMirror-wrap\" lang=\"python\"><div style=\"overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 8px;\"><textarea autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" style=\"position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;\"></textarea></div><div class=\"CodeMirror-scrollbar-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-gutter-filler\" cm-not-content=\"true\"></div><div class=\"CodeMirror-scroll\" tabindex=\"-1\"><div class=\"CodeMirror-sizer\" style=\"margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;\"><div style=\"position: relative; top: 0px;\"><div class=\"CodeMirror-lines\" role=\"presentation\"><div role=\"presentation\" style=\"position: relative; outline: none;\"><div class=\"CodeMirror-measure\"></div><div class=\"CodeMirror-measure\"></div><div style=\"position: relative; z-index: 1;\"></div><div class=\"CodeMirror-code\" role=\"presentation\" style=\"\"><div class=\"CodeMirror-activeline\" style=\"position: relative;\"><div class=\"CodeMirror-activeline-background CodeMirror-linebackground\"></div><div class=\"CodeMirror-gutter-background CodeMirror-activeline-gutter\" style=\"left: 0px; width: 0px;\"></div><pre class=\" CodeMirror-line \" role=\"presentation\"><span role=\"presentation\" style=\"padding-right: 0.1px;\"><span class=\"cm-keyword\">from</span> <span class=\"cm-variable\">microbit</span> <span class=\"cm-keyword\">import</span> <span class=\"cm-operator\">*</span></span>",
+      "images": [
+        {
+          "type": "content",
+          "url": "image-20250611160433482.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213555929.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213637497.png"
+        },
+        {
+          "type": "content",
+          "url": "image-20250616213730022.png"
+        },
+        {
+          "type": "content",
+          "url": "1588046028770914.png"
+        }
+      ],
+      "scrapedAt": "2026-01-19T00:03:56.209Z"
     }
   ]
 }
