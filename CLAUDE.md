@@ -18,6 +18,34 @@ Reorganizes slow, poorly-organized Yahboom docs into a visual gallery where kids
 
 ---
 
+## Coordinator Protocol
+
+This CLAUDE.md is the **Tier 1 Coordinator** for this project. Workers in `.claude/agents/` handle specialized tasks and return structured results.
+
+### Routing
+
+When a task can be delegated:
+1. Identify applicable worker(s) from `.claude/agents/`
+2. Provide minimal context (do not over-share)
+3. Dispatch via Task tool, await structured result
+4. Interpret result and continue or return to user
+
+### Worker Results
+
+| Result | Signal | Action |
+|--------|--------|--------|
+| `success` | Task done | Continue or return to user |
+| `blocked` | Cannot proceed | Try alternative or ask user |
+| `escalate` | Needs decision | Present to user, await input |
+
+### Error Containment
+
+- Never propagate raw errors — interpret and contextualize
+- One worker failure does not crash the operation
+- Graceful degradation — continue with what succeeded
+
+---
+
 ## Commands
 
 | Command | Purpose |
