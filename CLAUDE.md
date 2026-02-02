@@ -103,6 +103,28 @@ When a task can be delegated:
 
 ---
 
+
+### Worktree Setup Protocol
+
+**CRITICAL:** When creating a worktree, `git worktree add` does NOT change directory. You must cd into it and verify before reporting ready.
+
+```bash
+# 1. Create worktree
+git worktree add .worktrees/<name> -b <name>
+
+# 2. Change into it (REQUIRED)
+cd /full/path/to/.worktrees/<name>
+
+# 3. Verify location and branch
+pwd && git branch --show-current
+```
+
+**Only report "ready state" AFTER step 3 confirms:**
+1. Working directory is inside the worktree
+2. Branch name matches expected branch
+
+**Why this matters:** Creating infrastructure ≠ being on that infrastructure. Reporting ready without verification causes confusion, wasted debugging, and cleanup overhead.
+
 ## Key Files
 
 | File | Purpose |
