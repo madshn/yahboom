@@ -18,6 +18,31 @@ Reorganizes slow, poorly-organized Yahboom docs into a visual gallery where kids
 
 ---
 
+## Impediment-Driven Development
+
+Implementation is instant. Planning is impediment discovery.
+
+All delays trace to one of:
+1. **Decision Latency** — Undefined requirements, missing human input
+2. **External Dependencies** — APIs, approvals outside our control
+3. **Verification Gaps** — Untestable assumptions, missing feedback loops
+4. **Context Debt** — Ambiguous specs, scattered knowledge
+
+Never use calendar-based estimates. Phases are sequenced by dependencies, not duration.
+
+---
+
+## Human Attention Optimization
+
+Human attention is the scarcest resource. When presenting to humans:
+1. **Status** — One sentence. What state is this in?
+2. **Decisions Needed** — Bulleted, prioritized.
+3. **Recommendations** — Lead with your best judgment.
+
+Assume humans are away. Structure output so they can catch up in <30 seconds.
+
+---
+
 ## Coordinator Protocol
 
 This CLAUDE.md is the **Tier 1 Coordinator** for this project. Workers in `.claude/agents/` handle specialized tasks and return structured results.
