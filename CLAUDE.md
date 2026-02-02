@@ -43,6 +43,23 @@ Assume humans are away. Structure output so they can catch up in <30 seconds.
 
 ---
 
+## Owned Infrastructure First
+
+> **Use owned infrastructure before third-party services.**
+
+Before reaching for any external service:
+1. Check if an MCP tool or owned service exists for it
+2. If not, ask user before using third-party services
+3. Never assume convenience justifies bypassing owned tools
+
+| Need | Third-Party (Avoid) | Owned Alternative |
+|------|---------------------|-------------------|
+| Image generation | DALL-E, Midjourney, QuickChart | mcp-image |
+| File hosting | Imgur, Catbox, S3 public | Kiosk |
+| Chart generation | QuickChart, Chart.js CDN | mcp-image with data in prompt |
+
+---
+
 ## Coordinator Protocol
 
 This CLAUDE.md is the **Tier 1 Coordinator** for this project. Workers in `.claude/agents/` handle specialized tasks and return structured results.
@@ -148,6 +165,16 @@ yahboom/
 ---
 
 ## Development Notes
+
+### Documentation with Diagrams
+
+When creating or updating markdown documentation, use the `/visualize` skill to generate inline Mermaid diagrams. This applies to:
+- Architecture documentation
+- Workflow explanations
+- Data flow documentation
+- Process documentation
+
+The skill auto-invokes during research and documentation tasks.
 
 ### Image Processing
 
