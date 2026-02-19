@@ -8,15 +8,17 @@
       "Grep(**)",
       "Bash",
       "mcp__*",
+      "mcp__associates-tools__*",
+      "mcp__cloud-associates__*",
       "mcp__plugin_playwright_playwright__*",
       "mcp__n8n-mcp__n8n_create_workflow",
       "mcp__n8n-mcp__n8n_update_partial_workflow",
       "mcp__n8n-mcp__n8n_test_workflow",
       "mcp__n8n-mcp__n8n_autofix_workflow",
-      "Task(*)",
-      "Skill(speckit.*)",
       "mcp__n8n-mcp__n8n_executions",
       "mcp__n8n-mcp__n8n_workflow_versions",
+      "Task(*)",
+      "Skill(*)",
       "WebFetch",
       "WebSearch",
       "TodoWrite",
@@ -30,7 +32,8 @@
       "Bash(rm -rf /:*)",
       "Bash(rm -rf ~:*)",
       "Bash(mkfs:*)",
-      "Bash(dd if=:*)"
+      "Bash(dd if=:*)",
+      "mcp__claude_ai_*"
     ]
   },
   "extraKnownMarketplaces": {
