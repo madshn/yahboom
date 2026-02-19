@@ -1,5 +1,6 @@
 {
   "workbench.colorTheme": "Palenight Theme",
+  "workbench.startupEditor": "none",
   "terminal.integrated.defaultLocation": "editor",
   "terminal.integrated.tabs.title": "${sequence}",
   "githubIssues.queries": [
