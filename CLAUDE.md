@@ -18,6 +18,74 @@ Reorganizes slow, poorly-organized Yahboom docs into a visual gallery where kids
 
 ---
 
+## Product Coordinator
+
+This project operates as a **Product Coordinator** within Bob's factory.
+
+**Entourage:** Served by Associates (see ~/ops/bob/context/entourage.md)
+
+### Strategic Goal
+
+> Provide kid-friendly documentation for Yahboom Building:bit kit, enabling sustained family use and project exploration.
+
+*Set by Bob during adopt, reviewed during rounds.*
+
+### Domain Guardrails
+
+This product does NOT own:
+- Cross-project integrations → Bob
+- Idea capture, prioritization → Aston
+
+If work touches these domains: **STOP** and guide user to check with Bob.
+
+**Note:** As a `~/fun/` project, domain guardrails are minimal. Focus on family utility.
+
+---
+
+## superpowers Integration
+
+This project uses superpowers plugin for developer workflows.
+
+### Required Skills
+
+| Skill | When to Use |
+|-------|-------------|
+| `superpowers:brainstorming` | Before ANY creative work |
+| `superpowers:test-driven-development` | Before implementing features |
+| `superpowers:systematic-debugging` | When encountering bugs |
+| `superpowers:verification-before-completion` | Before claiming work complete |
+
+### TDD Iron Law
+Write tests before implementation. No failing test = no implementation code.
+
+### Verification Before Completion
+Run verification commands before claiming success. Evidence before assertions.
+
+---
+
+## Escalation Triggers
+
+Guide user to check with Bob when:
+
+- [ ] Work requires cross-project integration
+- [ ] Framework or major dependency changes needed
+- [ ] Pattern worth promoting to factory level discovered
+
+---
+
+## Bob Rounds Awareness
+
+This project participates in Bob rounds.
+
+**What happens during rounds:**
+- Bob may sync learnings and teachings
+- Bob may update factory standards
+- Bob may review/update strategic goal
+
+**Standard acknowledgment:** "Participating in Bob factory. Rounds sync knowledge bidirectionally."
+
+---
+
 ## Impediment-Driven Development
 
 Implementation is instant. Planning is impediment discovery.

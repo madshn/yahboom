@@ -19,6 +19,12 @@ This is a baked-in copy of Bob's command interface for use within this project. 
 /bob ux status          — Show constitution status
 ```
 
+### Related Commands
+
+```
+/ux-test [route]        — AI visual review of any page (separate command)
+```
+
 ## Arguments
 
 ```
@@ -186,9 +192,9 @@ Phase 1: SPECIFICATION  — Generate spec.md via /speckit.specify
 Phase 2: UX DESIGN      — Run 6-pass UX pipeline (if UI feature)
 Phase 3: PLANNING       — Generate plan.md via /speckit.plan
 Phase 4: TASKS          — Generate tasks.md via /speckit.tasks
-Phase 5: SETUP          — Generate Ralph Loop prompt, initialize state
-   ─── CHECKPOINT ───   — Human chooses: start now | overnight | review | abort
-Phase 6: EXECUTION      — Ralph Loop until completion promise
+Phase 5: TASK REGISTRATION — Register tasks into native Task system with dependencies
+   ─── CHECKPOINT ───   — Human chooses: start now | review | abort
+Phase 6: EXECUTION      — Work through TaskList (tasks persist through /compact)
 Phase 7: VERIFICATION   — Full test suite, UX review, factory validation
 Phase 8: HANDOFF        — PR ready for human review
 ```
@@ -217,10 +223,10 @@ Progress tracked in `.claude/.bigfeature-state.json` (relative to worktree root)
 
 **Resume capability:** `/bob bigfeature --resume` picks up from last completed phase. Must be run from same directory as original session.
 
-**Completion Promise:**
+**Completion Criteria:**
 
-Ralph Loop outputs `<promise>BIGFEATURE COMPLETE</promise>` only when:
-- All tasks marked `[x]` in tasks.md
+Execution is complete when ALL conditions met:
+- All tasks in TaskList show `completed`
 - Unit tests pass (0 failures)
 - E2E tests pass (0 failures)
 - Lint + type check pass
@@ -229,7 +235,7 @@ Ralph Loop outputs `<promise>BIGFEATURE COMPLETE</promise>` only when:
 **Full Documentation:** `~/ops/bob/patterns/bigfeature/`
 - `README.md` — Complete flow details
 - `preflight-checklist.md` — All blocker checks
-- `ralph-prompt-template.md` — Execution template
+- `task-execution-protocol.md` — Task-driven execution protocol
 - `state-schema.json` — State file schema
 
 ---
