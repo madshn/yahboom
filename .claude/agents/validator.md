@@ -47,7 +47,7 @@ When invoked with a list of changed files (from `git diff --name-only`):
 ```
 Task(
   subagent_type="bob/validator",
-  prompt="Validate project at ~/dev/mdm.
+  prompt="Validate project at ~/builds/mdm.
          Mode: focused
          Changed files:
          - src/components/Dashboard.tsx
@@ -63,8 +63,9 @@ Task(
 **Detect classification from path:**
 
 ```
-~/ops/**  → Internal (ops)
-~/dev/**  → Production (dev)
+~/team/**  → Team
+~/ops/**    → Ops
+~/builds/** → Builds
 ~/fun/**  → Experimental (fun)
 other     → Default to dev (most rigorous)
 ```
@@ -93,7 +94,7 @@ other     → Default to dev (most rigorous)
 
 2. DETECT CLASSIFICATION (sequential, fast)
    - If --strict: classification = "dev" (force full rigor)
-   - Else: derive from path (~/ops/, ~/dev/, ~/fun/, or default to dev)
+   - Else: derive from path (~/team/, ~/ops/, ~/builds/, ~/crafts/, ~/oss/, ~/fun/)
 
 3. DETERMINE CHECKS TO RUN
 
@@ -145,7 +146,7 @@ other     → Default to dev (most rigorous)
    - Note: "Full project score unchanged from last visit"
 
 6. CHECK REGISTRY
-   Read ~/ops/bob/context/project-registry.md
+   Read ~/team/bob/context/project-registry.md
    - Is this project already registered?
    - If yes: note last_visit, last_sha, check for drift
    - If no: flag for adoption prompt
@@ -293,7 +294,7 @@ This project exceeds typical ~/fun/ expectations:
 ✓ Comprehensive documentation
 ✓ Test coverage
 
-Consider graduating to ~/dev/ if this becomes more than a hobby.
+Consider graduating to ~/builds/ if this becomes more than a hobby.
 Run: /bob validate [path] --strict for full assessment.
 ```
 

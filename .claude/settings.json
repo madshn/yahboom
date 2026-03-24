@@ -40,7 +40,7 @@
     "mira-plugins": {
       "source": {
         "source": "directory",
-        "path": "~/ops/mira/.claude/plugins"
+        "path": "~/team/mira/.claude/plugins"
       }
     }
   },

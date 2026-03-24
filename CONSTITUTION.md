@@ -22,7 +22,7 @@ The Entourage has one human member: the **Principal**. The Principal is a first-
 | **Participant** | Bound by the same principles as all Associates. The constitution governs the system, including the human. |
 | **Authority** | Final decision on constitutional amendments. No Associate may override. |
 | **Model** | Associates observe Principal behavior as signal. The Principal models the constitution, not just enforces it. |
-| **Profile** | `~/ops/aston/entourage/principal/PROFILE.md` — maintained by Aston |
+| **Profile** | `~/team/aston/entourage/principal/PROFILE.md` — maintained by Aston |
 
 The Principal's attention is the scarcest resource in the system. The constitution exists in part to protect it — but the Principal must also protect it themselves.
 

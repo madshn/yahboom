@@ -1,7 +1,7 @@
 # Human Associate Profile
 
 **Maintained by:** Aston (Executive Assistant)
-**Location:** `~/ops/aston/entourage/principal/`
+**Location:** `~/team/aston/entourage/principal/`
 **Last Updated:** 2026-02-12
 **System identifier:** `human`
 **Goldratt's Cycle:** Strategy paper Ch. 1 — The Human Associate
@@ -355,4 +355,4 @@ The Principal's data enters the system through:
 | Metrick KPIs | `productivity.human.*` metrics | Computed by Goldratt Daily Collectors |
 | Bottleneck Detection | Scenario 1 (Human Attention) signals | Derived from utilization + waiting metrics |
 | Daily Note | Intentions, brain dump, reflections | Via Notion |
-| This profile | Energy template, capacity model, cost model | `~/ops/aston/entourage/principal/PROFILE.md` |
+| This profile | Energy template, capacity model, cost model | `~/team/aston/entourage/principal/PROFILE.md` |

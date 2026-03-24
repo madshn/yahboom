@@ -49,4 +49,4 @@ Each learning entry follows this format:
 
 ## Pulled by Bob
 
-During `/bob rounds`, Bob checks this folder for new learnings since his last visit. Approved learnings are promoted to the factory knowledge base at `~/ops/bob/learnings/`.
+During `/bob rounds`, Bob checks this folder for new learnings since his last visit. Approved learnings are promoted to the factory knowledge base at `~/team/bob/learnings/`.

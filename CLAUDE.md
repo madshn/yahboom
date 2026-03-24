@@ -22,7 +22,7 @@ Reorganizes slow, poorly-organized Yahboom docs into a visual gallery where kids
 
 This project operates as a **Product Coordinator** within Bob's factory.
 
-**Entourage:** Served by Associates (see ~/ops/bob/context/entourage.md)
+**Entourage:** Served by Associates (see ~/team/bob/context/entourage.md)
 
 ### Strategic Goal
 
@@ -256,16 +256,6 @@ yahboom/
 
 ## Development Notes
 
-### Documentation with Diagrams
-
-When creating or updating markdown documentation, use the `/visualize` skill to generate inline Mermaid diagrams. This applies to:
-- Architecture documentation
-- Workflow explanations
-- Data flow documentation
-- Process documentation
-
-The skill auto-invokes during research and documentation tasks.
-
 ### Image Processing
 
 Assembly images from Yahboom show 3-panel views (different angles). We crop the rightmost 33% for a clean single-view thumbnail. Some builds have vertically stacked views requiring additional bottom-crop logic.
@@ -284,7 +274,7 @@ Mapping between assembly builds and coding courses is maintained in scraper file
 
 ## Factory Parent
 
-**Bob:** `~/ops/bob/`
+**Bob:** `~/team/bob/`
 **Adopted:** 2026-01-15
 **Phase:** 1 (Validation)
 

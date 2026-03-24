@@ -4,7 +4,7 @@ description: Software Factory Manager. Validates projects against factory standa
 
 # /bob — Software Factory Manager (Child Copy)
 
-This is a baked-in copy of Bob's command interface for use within this project. The master version lives at `~/ops/bob/bob.md`.
+This is a baked-in copy of Bob's command interface for use within this project. The master version lives at `~/team/bob/bob.md`.
 
 ## Usage
 
@@ -232,7 +232,7 @@ Execution is complete when ALL conditions met:
 - Lint + type check pass
 - Build succeeds
 
-**Full Documentation:** `~/ops/bob/patterns/bigfeature/`
+**Full Documentation:** `~/team/bob/patterns/bigfeature/`
 - `README.md` — Complete flow details
 - `preflight-checklist.md` — All blocker checks
 - `task-execution-protocol.md` — Task-driven execution protocol
@@ -245,7 +245,7 @@ Execution is complete when ALL conditions met:
 For create, adopt, rounds, and other factory operations, use Bob master:
 
 ```bash
-cd ~/ops/bob
+cd ~/team/bob
 # Then run /bob commands from there
 ```
 
@@ -257,5 +257,5 @@ cd ~/ops/bob
 
 | Error | Response |
 |-------|----------|
-| Unknown subcommand | "This child copy supports: validate, status, learn, bigfeature, ux. For full access, use ~/ops/bob/" |
+| Unknown subcommand | "This child copy supports: validate, status, learn, bigfeature, ux. For full access, use ~/team/bob/" |
 | Path not found | "Path not found: [path]" |
