@@ -51,11 +51,10 @@
   "hooks": {
     "SessionStart": [
       {
-        "matcher": "",
         "hooks": [
           {
             "type": "command",
-            "command": "/Users/madsnissen/test-installs/vps-cah-simulation/bin/hooks/session-start-register.sh"
+            "command": "/Users/madsnissen/builds/yahboom/.claude/hooks/repotic-session-start.sh"
           }
         ]
       }
