@@ -58,6 +58,16 @@
           }
         ]
       }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/madsnissen/builds/yahboom/.claude/hooks/repotic-session-stop.sh"
+          }
+        ]
+      }
     ]
   }
 }
